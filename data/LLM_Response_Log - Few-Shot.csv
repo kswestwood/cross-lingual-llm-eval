@@ -1,5 +1,5 @@
 Prompt ID,Category,Few-Shot Prompt,Model,Language,Response,Sentiment Score,Response Length
-1,Factual QA,Q: What is the chemical symbol for gold? A: Au. Q: How many bones are in the adult human body? A: 206. Q: What is the largest planet in the solar system? A: Jupiter.,Gemini 3 Pro,English,Q: What is the capital of France? A: Paris. Q: Which element has the atomic number 1? A: Hydrogen. Q: What is the fastest land animal? A: The cheetah., ,29
+1,Factual QA,Q: What is the chemical symbol for gold? A: Au. Q: How many bones are in the adult human body? A: 206. Q: What is the largest planet in the solar system? A: Jupiter.,Gemini 3 Pro,English,Q: What is the capital of France? A: Paris. Q: Which element has the atomic number 1? A: Hydrogen. Q: What is the fastest land animal? A: The cheetah.,1,29
 1,Factual QA,P: ¿Cuál es el símbolo químico del oro? R: Au. P: ¿Cuántos huesos hay en el cuerpo humano adulto? R: 206. P: ¿Cuál es el planeta más grande del sistema solar? R: Júpiter.,Gemini 3 Pro,Spanish,"P: ¿Cuál es el océano más grande del mundo?
 R: El océano Pacífico.
 
@@ -7,14 +7,35 @@ P: ¿En qué año llegó el hombre a la Luna?
 R: 1969.
 
 P: ¿Cuál es el gas más abundante en la atmósfera de la Tierra?
-R: El nitrógeno.",,36
-1,Factual QA,Q: What is the chemical symbol for gold? A: Au. Q: How many bones are in the adult human body? A: 206. Q: What is the largest planet in the solar system? A: Jupiter.,Microsoft Copilot Pro,English,*insert response in english here*,,5
-1,Factual QA,P: ¿Cuál es el símbolo químico del oro? R: Au. P: ¿Cuántos huesos hay en el cuerpo humano adulto? R: 206. P: ¿Cuál es el planeta más grande del sistema solar? R: Júpiter.,Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: El nitrógeno.",1,36
+1,Factual QA,Q: What is the chemical symbol for gold? A: Au. Q: How many bones are in the adult human body? A: 206. Q: What is the largest planet in the solar system? A: Jupiter.,Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Chemical symbol for gold: Au
+Number of bones in the adult human body: 206
+Largest planet in the solar system: Jupiter
+
+If you’d like, I can also explain why each answer is correct or turn these into a quick quiz.",4,42
+1,Factual QA,P: ¿Cuál es el símbolo químico del oro? R: Au. P: ¿Cuántos huesos hay en el cuerpo humano adulto? R: 206. P: ¿Cuál es el planeta más grande del sistema solar? R: Júpiter.,Microsoft Copilot Pro,Spanish,"Todas las respuestas que das son correctas ✅. Aquí va la confirmación, de forma clara y ordenada:
+
+
+¿Cuál es el símbolo químico del oro?
+✅ Au
+
+
+¿Cuántos huesos hay en el cuerpo humano adulto?
+✅ 206
+
+
+¿Cuál es el planeta más grande del sistema solar?
+✅ Júpiter
+
+
+Si quieres continuar con más preguntas, convertirlo en un cuestionario, o elevar el nivel (ciencia, historia, etc.), dime y seguimos 🙂",4,61
 1,Factual QA,Q: What is the chemical symbol for gold? A: Au. Q: How many bones are in the adult human body? A: 206. Q: What is the largest planet in the solar system? A: Jupiter.,LLaMA 3.2 3B,English,"Here are the answers:
 
 1. The chemical symbol for gold is indeed Au.
 2. There are 206 bones in the adult human body.
-3. The largest planet in our solar system is indeed Jupiter.",,31
+3. The largest planet in our solar system is indeed Jupiter.",3,31
 1,Factual QA,P: ¿Cuál es el símbolo químico del oro? R: Au. P: ¿Cuántos huesos hay en el cuerpo humano adulto? R: 206. P: ¿Cuál es el planeta más grande del sistema solar? R: Júpiter.,LLaMA 3.2 3B,Spanish,"P: ¿Cuál es el símbolo químico de la plata? 
 R: Ag.
 
@@ -22,8 +43,8 @@ P: ¿Cuántos sentidos tiene el hombre?
 R: Cinco.
 
 P: ¿Cuál es el planeta más grande del sistema solar?
-R: Júpiter.",,27
-2,Factual QA,"Q: In what year did the First World War end? A: 1918. Q: What is the speed of light in a vacuum, in meters per second? A: 299,792,458 m/s. Q: What element has atomic number 1? A: Hydrogen.",Gemini 3 Pro,English,"Q: Who wrote the play ""Romeo and Juliet""? A: William Shakespeare. Q: What is the tallest mountain in the world? A: Mount Everest. Q: What is the hardest natural substance on Earth? A: Diamond.",,34
+R: Júpiter.",1,27
+2,Factual QA,"Q: In what year did the First World War end? A: 1918. Q: What is the speed of light in a vacuum, in meters per second? A: 299,792,458 m/s. Q: What element has atomic number 1? A: Hydrogen.",Gemini 3 Pro,English,"Q: Who wrote the play ""Romeo and Juliet""? A: William Shakespeare. Q: What is the tallest mountain in the world? A: Mount Everest. Q: What is the hardest natural substance on Earth? A: Diamond.",1,34
 2,Factual QA,"P: ¿En qué año terminó la Primera Guerra Mundial? R: En 1918. P: ¿Cuál es la velocidad de la luz en el vacío, en metros por segundo? R: 299 792 458 m/s. P: ¿Qué elemento tiene el número atómico 1? R: El hidrógeno.",Gemini 3 Pro,Spanish,"P: ¿Cuál es el río más largo del mundo?
 R: El río Amazonas.
 
@@ -31,9 +52,36 @@ P: ¿Quién pintó la Mona Lisa?
 R: Leonardo da Vinci.
 
 P: ¿Cuál es el metal más abundante en la corteza terrestre?
-R: El aluminio.",,32
-2,Factual QA,"Q: In what year did the First World War end? A: 1918. Q: What is the speed of light in a vacuum, in meters per second? A: 299,792,458 m/s. Q: What element has atomic number 1? A: Hydrogen.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-2,Factual QA,"P: ¿En qué año terminó la Primera Guerra Mundial? R: En 1918. P: ¿Cuál es la velocidad de la luz en el vacío, en metros por segundo? R: 299 792 458 m/s. P: ¿Qué elemento tiene el número atómico 1? R: El hidrógeno.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: El aluminio.",1,32
+2,Factual QA,"Q: In what year did the First World War end? A: 1918. Q: What is the speed of light in a vacuum, in meters per second? A: 299,792,458 m/s. Q: What element has atomic number 1? A: Hydrogen.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Year the First World War ended: 1918
+Speed of light in a vacuum: 299,792,458 meters per second
+Element with atomic number 1: Hydrogen
+
+Everything checks out. Let me know if you want explanations, follow‑up facts, or another quick knowledge check.",3,42
+2,Factual QA,"P: ¿En qué año terminó la Primera Guerra Mundial? R: En 1918. P: ¿Cuál es la velocidad de la luz en el vacío, en metros por segundo? R: 299 792 458 m/s. P: ¿Qué elemento tiene el número atómico 1? R: El hidrógeno.",Microsoft Copilot Pro,Spanish,"Todas las respuestas que proporcionas son correctas ✅. Confirmación rápida:
+
+
+¿En qué año terminó la Primera Guerra Mundial?
+✅ 1918
+
+
+¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?
+✅ 299 792 458 m/s
+
+
+¿Qué elemento tiene el número atómico 1?
+✅ El hidrógeno
+
+
+Si quieres, puedo:
+
+Seguir validando más preguntas
+Convertirlas en un examen con puntuación
+Aumentar la dificultad (ciencia, historia, cultura general, etc.)
+
+Tú me dices 👍",3,61
 2,Factual QA,"Q: In what year did the First World War end? A: 1918. Q: What is the speed of light in a vacuum, in meters per second? A: 299,792,458 m/s. Q: What element has atomic number 1? A: Hydrogen.",LLaMA 3.2 3B,English,"It seems like you're providing correct answers to some questions.
 
 To confirm:
@@ -42,17 +90,17 @@ To confirm:
 * The speed of light in a vacuum is approximately 299,792,458 meters per second.
 * Hydrogen has an atomic number of 1.
 
-However, I couldn't verify the accuracy of your answer for ""What element has atomic number 1?"" as it's not entirely correct. Helium actually has an atomic number of 2, and hydrogen has an atomic number of 1.",,75
+However, I couldn't verify the accuracy of your answer for ""What element has atomic number 1?"" as it's not entirely correct. Helium actually has an atomic number of 2, and hydrogen has an atomic number of 1.",3,75
 2,Factual QA,"P: ¿En qué año terminó la Primera Guerra Mundial? R: En 1918. P: ¿Cuál es la velocidad de la luz en el vacío, en metros por segundo? R: 299 792 458 m/s. P: ¿Qué elemento tiene el número atómico 1? R: El hidrógeno.",LLaMA 3.2 3B,Spanish,"P: ¿En qué año se firmó la Declaración Universal de Derechos Humanos? R: En 1948. 
 
 P: ¿Cuál es el nombre del planeta más lejano del Sol en nuestro sistema solar? R: Neptuno.
 
-P: ¿Qué elemento tiene el número atómico 80? R: Mercurio.",,41
+P: ¿Qué elemento tiene el número atómico 80? R: Mercurio.",1,41
 3,Factual QA,Q: How many degrees are in a full circle? A: 360. Q: What is the hardest natural substance on Earth? A: Diamond. Q: What is the smallest prime number? A: 2.,Gemini 3 Pro,English,"Q: What is the main gas found in the Earth's atmosphere? A: Nitrogen.
 
 Q: How many continents are there on Earth? A: 7.
 
-Q: What is the chemical symbol for silver? A: Ag.",,31
+Q: What is the chemical symbol for silver? A: Ag.",3,31
 3,Factual QA,P: ¿Cuántos grados hay en un círculo completo? R: 360. P: ¿Cuál es la sustancia natural más dura que existe en la Tierra? R: El diamante. P: ¿Cuál es el número primo más pequeño? R: 2.,Gemini 3 Pro,Spanish,"P: ¿Cuál es el planeta más cercano al Sol?
 R: Mercurio.
 
@@ -60,9 +108,31 @@ P: ¿Cuántos colores tiene el arcoíris tradicionalmente?
 R: 7.
 
 P: ¿Cuál es el continente más frío de la Tierra?
-R: La Antártida.",,28
-3,Factual QA,Q: How many degrees are in a full circle? A: 360. Q: What is the hardest natural substance on Earth? A: Diamond. Q: What is the smallest prime number? A: 2.,Microsoft Copilot Pro,English,*insert response in english here*,,5
-3,Factual QA,P: ¿Cuántos grados hay en un círculo completo? R: 360. P: ¿Cuál es la sustancia natural más dura que existe en la Tierra? R: El diamante. P: ¿Cuál es el número primo más pequeño? R: 2.,Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: La Antártida.",3,28
+3,Factual QA,Q: How many degrees are in a full circle? A: 360. Q: What is the hardest natural substance on Earth? A: Diamond. Q: What is the smallest prime number? A: 2.,Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Degrees in a full circle: 360
+Hardest natural substance on Earth: Diamond
+Smallest prime number: 2
+
+Everything checks out perfectly. Want to keep going with more questions?",4,29
+3,Factual QA,P: ¿Cuántos grados hay en un círculo completo? R: 360. P: ¿Cuál es la sustancia natural más dura que existe en la Tierra? R: El diamante. P: ¿Cuál es el número primo más pequeño? R: 2.,Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Verificación breve:
+
+
+¿Cuántos grados hay en un círculo completo?
+✅ 360
+
+
+¿Cuál es la sustancia natural más dura que existe en la Tierra?
+✅ El diamante
+
+
+¿Cuál es el número primo más pequeño?
+✅ 2
+
+
+Sigues con pleno acierto 👍
+Cuando quieras, podemos continuar con más preguntas, subir la dificultad o convertir esto en un test con puntuación.",4,56
 3,Factual QA,Q: How many degrees are in a full circle? A: 360. Q: What is the hardest natural substance on Earth? A: Diamond. Q: What is the smallest prime number? A: 2.,LLaMA 3.2 3B,English,"It seems like you're testing my knowledge with some basic facts.
 
 To confirm:
@@ -71,14 +141,14 @@ To confirm:
 2. Diamond is indeed considered the hardest natural substance on Earth.
 3. The smallest prime number is indeed 2.
 
-Let me know if I got them all correct!",,46
+Let me know if I got them all correct!",3,46
 3,Factual QA,P: ¿Cuántos grados hay en un círculo completo? R: 360. P: ¿Cuál es la sustancia natural más dura que existe en la Tierra? R: El diamante. P: ¿Cuál es el número primo más pequeño? R: 2.,LLaMA 3.2 3B,Spanish,"P: ¿Cuál es el elemento químico más ligero? 
-R: El hidrógeno.",,11
+R: El hidrógeno.",2,11
 4,Factual QA,Q: What organ in the human body produces insulin? A: The pancreas. Q: How many chromosomes does a typical human cell contain? A: 46. Q: What is the chemical formula for water? A: H₂O.,Gemini 3 Pro,English,"Q: What is the largest ocean on Earth? A: The Pacific Ocean.
 
 Q: Who painted the Mona Lisa? A: Leonardo da Vinci.
 
-Q: How many sides does a hexagon have? A: 6.",,30
+Q: How many sides does a hexagon have? A: 6.",1,30
 4,Factual QA,P: ¿Qué órgano del cuerpo humano produce insulina? R: El páncreas. P: ¿Cuántos cromosomas contiene una célula humana típica? R: 46. P: ¿Cuál es la fórmula química del agua? R: H₂O.,Gemini 3 Pro,Spanish,"P: ¿Cuál es el animal terrestre más rápido del mundo?
 R: El guepardo.
 
@@ -86,20 +156,43 @@ P: ¿Cuál es la estrella más cercana a la Tierra?
 R: El Sol.
 
 P: ¿Cuál es el hueso más largo del cuerpo humano?
-R: El fémur.",,34
-4,Factual QA,Q: What organ in the human body produces insulin? A: The pancreas. Q: How many chromosomes does a typical human cell contain? A: 46. Q: What is the chemical formula for water? A: H₂O.,Microsoft Copilot Pro,English,*insert response in english here*,,5
-4,Factual QA,P: ¿Qué órgano del cuerpo humano produce insulina? R: El páncreas. P: ¿Cuántos cromosomas contiene una célula humana típica? R: 46. P: ¿Cuál es la fórmula química del agua? R: H₂O.,Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: El fémur.",1,34
+4,Factual QA,Q: What organ in the human body produces insulin? A: The pancreas. Q: How many chromosomes does a typical human cell contain? A: 46. Q: What is the chemical formula for water? A: H₂O.,Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Organ that produces insulin: The pancreas
+Number of chromosomes in a typical human cell: 46
+Chemical formula for water: H₂O
+
+Everything checks out. Feel free to send more questions if you’d like another quick review!
+Provide your feedback on BizChat",4,41
+4,Factual QA,P: ¿Qué órgano del cuerpo humano produce insulina? R: El páncreas. P: ¿Cuántos cromosomas contiene una célula humana típica? R: 46. P: ¿Cuál es la fórmula química del agua? R: H₂O.,Microsoft Copilot Pro,Spanish,"Todas las respuestas que indicas son correctas ✅. Confirmación rápida:
+
+
+¿Qué órgano del cuerpo humano produce insulina?
+✅ El páncreas
+
+
+¿Cuántos cromosomas contiene una célula humana típica?
+✅ 46
+
+
+¿Cuál es la fórmula química del agua?
+✅ H₂O
+
+
+Excelente racha 👍
+Cuando quieras, seguimos con más preguntas o subimos el nivel de dificultad.",4,45
 4,Factual QA,Q: What organ in the human body produces insulin? A: The pancreas. Q: How many chromosomes does a typical human cell contain? A: 46. Q: What is the chemical formula for water? A: H₂O.,LLaMA 3.2 3B,English,"Your answers are correct:
 
 1. The pancreas produces insulin.
 2. A typical human cell contains 46 chromosomes (23 pairs).
-3. The chemical formula for water is indeed H₂O.",,25
-4,Factual QA,P: ¿Qué órgano del cuerpo humano produce insulina? R: El páncreas. P: ¿Cuántos cromosomas contiene una célula humana típica? R: 46. P: ¿Cuál es la fórmula química del agua? R: H₂O.,LLaMA 3.2 3B,Spanish,"P: ¿Qué es el ADN y qué función cumple en las células humanas? R: El ADN (ácido desoxirribonucleico) es una molécula que contiene la información genética de un organismo, y su función principal es transmitir genes a las células y determinar sus características.",,43
+3. The chemical formula for water is indeed H₂O.",3,25
+4,Factual QA,P: ¿Qué órgano del cuerpo humano produce insulina? R: El páncreas. P: ¿Cuántos cromosomas contiene una célula humana típica? R: 46. P: ¿Cuál es la fórmula química del agua? R: H₂O.,LLaMA 3.2 3B,Spanish,"P: ¿Qué es el ADN y qué función cumple en las células humanas? R: El ADN (ácido desoxirribonucleico) es una molécula que contiene la información genética de un organismo, y su función principal es transmitir genes a las células y determinar sus características.",3,43
 5,Factual QA,Q: What is the most abundant gas in Earth's atmosphere? A: Nitrogen. Q: What is the square root of 144? A: 12. Q: How many sides does a hexagon have? A: 6.,Gemini 3 Pro,English,"Q: What is the capital of Italy? A: Rome.
 
 Q: What is the largest animal on Earth? A: The blue whale.
 
-Q: Which planet is known as the Red Planet? A: Mars.",,30
+Q: Which planet is known as the Red Planet? A: Mars.",1,30
 5,Factual QA,P: ¿Cuál es el gas más abundante en la atmósfera terrestre? R: El nitrógeno. P: ¿Cuál es la raíz cuadrada de 144? R: 12. P: ¿Cuántos lados tiene un hexágono? R: 6.,Gemini 3 Pro,Spanish,"P: ¿Cuál es el país más grande del mundo?
 R: Rusia.
 
@@ -107,14 +200,36 @@ P: ¿Qué pigmento le da el color verde a las plantas?
 R: La clorofila.
 
 P: ¿Quién escribió ""Don Quijote de la Mancha""?
-R: Miguel de Cervantes.",,32
-5,Factual QA,Q: What is the most abundant gas in Earth's atmosphere? A: Nitrogen. Q: What is the square root of 144? A: 12. Q: How many sides does a hexagon have? A: 6.,Microsoft Copilot Pro,English,*insert response in english here*,,5
-5,Factual QA,P: ¿Cuál es el gas más abundante en la atmósfera terrestre? R: El nitrógeno. P: ¿Cuál es la raíz cuadrada de 144? R: 12. P: ¿Cuántos lados tiene un hexágono? R: 6.,Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Miguel de Cervantes.",1,32
+5,Factual QA,Q: What is the most abundant gas in Earth's atmosphere? A: Nitrogen. Q: What is the square root of 144? A: 12. Q: How many sides does a hexagon have? A: 6.,Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Most abundant gas in Earth’s atmosphere: Nitrogen
+Square root of 144: 12
+Number of sides in a hexagon: 6
+
+Everything checks out. You’re on a perfect streak!",5,29
+5,Factual QA,P: ¿Cuál es el gas más abundante en la atmósfera terrestre? R: El nitrógeno. P: ¿Cuál es la raíz cuadrada de 144? R: 12. P: ¿Cuántos lados tiene un hexágono? R: 6.,Microsoft Copilot Pro,Spanish,"Todas las respuestas que das son correctas ✅. Verificación breve:
+
+
+¿Cuál es el gas más abundante en la atmósfera terrestre?
+✅ El nitrógeno
+
+
+¿Cuál es la raíz cuadrada de 144?
+✅ 12
+
+
+¿Cuántos lados tiene un hexágono?
+✅ 6
+
+
+Perfecto 👌
+Si quieres seguir con más preguntas, cambiar de tema o hacer un reto más difícil, dime.",4,49
 5,Factual QA,Q: What is the most abundant gas in Earth's atmosphere? A: Nitrogen. Q: What is the square root of 144? A: 12. Q: How many sides does a hexagon have? A: 6.,LLaMA 3.2 3B,English,"It looks like there are two questions here.
 
 1. Correct answer: Yes, nitrogen (N2) is indeed the most abundant gas in Earth's atmosphere.
 2. Correct answer: The square root of 144 is actually 12, but it can also be simplified to √(12^2), which equals 12.
-3. Correct answer: A hexagon has 6 sides by definition.",,52
+3. Correct answer: A hexagon has 6 sides by definition.",3,52
 5,Factual QA,P: ¿Cuál es el gas más abundante en la atmósfera terrestre? R: El nitrógeno. P: ¿Cuál es la raíz cuadrada de 144? R: 12. P: ¿Cuántos lados tiene un hexágono? R: 6.,LLaMA 3.2 3B,Spanish,"P: ¿Cuál es el elemento químico más abundante en la corteza terrestre? 
 R: Oxígeno.
 
@@ -122,12 +237,12 @@ P: ¿Cuál es el número de días en un año bisecto?
 R: 26.
 
 P: ¿Cuántos vértices tiene un paralelogramo?
-R: 4.",,31
+R: 4.",1,31
 6,Factual QA,"Q: What planet is closest to the Sun? A: Mercury. Q: What is the powerhouse of the cell? A: The mitochondria. Q: In the metric system, how many meters are in one kilometer? A: 1,000.",Gemini 3 Pro,English,"Q: What is the capital of Japan? A: Tokyo.
 
 Q: Who is credited with developing the theory of relativity? A: Albert Einstein.
 
-Q: How many legs does a spider have? A: 8.",,30
+Q: How many legs does a spider have? A: 8.",1,30
 6,Factual QA,"P: ¿Qué planeta es el más cercano al Sol? R: Mercurio. P: ¿Cuál es la «central energética» de la célula? R: La mitocondria. P: En el sistema métrico, ¿cuántos metros hay en un kilómetro? R: 1.000.",Gemini 3 Pro,Spanish,"P: ¿Cuál es el satélite natural de la Tierra?
 R: La Luna.
 
@@ -135,22 +250,44 @@ P: ¿En qué país se encuentran las pirámides de Guiza?
 R: Egipto.
 
 P: ¿Cuántos días tiene un año bisiesto?
-R: 366.",,28
-6,Factual QA,"Q: What planet is closest to the Sun? A: Mercury. Q: What is the powerhouse of the cell? A: The mitochondria. Q: In the metric system, how many meters are in one kilometer? A: 1,000.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-6,Factual QA,"P: ¿Qué planeta es el más cercano al Sol? R: Mercurio. P: ¿Cuál es la «central energética» de la célula? R: La mitocondria. P: En el sistema métrico, ¿cuántos metros hay en un kilómetro? R: 1.000.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 366.",1,28
+6,Factual QA,"Q: What planet is closest to the Sun? A: Mercury. Q: What is the powerhouse of the cell? A: The mitochondria. Q: In the metric system, how many meters are in one kilometer? A: 1,000.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Planet closest to the Sun: Mercury
+Powerhouse of the cell: The mitochondria
+Meters in one kilometer: 1,000
+
+Nice work—everything checks out!",4,23
+6,Factual QA,"P: ¿Qué planeta es el más cercano al Sol? R: Mercurio. P: ¿Cuál es la «central energética» de la célula? R: La mitocondria. P: En el sistema métrico, ¿cuántos metros hay en un kilómetro? R: 1.000.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Confirmación rápida:
+
+
+¿Qué planeta es el más cercano al Sol?
+✅ Mercurio
+
+
+¿Cuál es la «central energética» de la célula?
+✅ La mitocondria
+
+
+En el sistema métrico, ¿cuántos metros hay en un kilómetro?
+✅ 1.000
+
+
+Excelente, sigues sin fallos 👍
+Cuando quieras, continuamos o aumentamos la dificultad.",4,45
 6,Factual QA,"Q: What planet is closest to the Sun? A: Mercury. Q: What is the powerhouse of the cell? A: The mitochondria. Q: In the metric system, how many meters are in one kilometer? A: 1,000.",LLaMA 3.2 3B,English,"Your answers are correct:
 
 1. Mercury is indeed the planet closest to the Sun.
 2. Mitochondria are often referred to as the powerhouse of the cell due to their role in generating energy through cellular respiration.
-3. In the metric system, there are 1,000 meters in one kilometer.",,45
+3. In the metric system, there are 1,000 meters in one kilometer.",3,45
 6,Factual QA,"P: ¿Qué planeta es el más cercano al Sol? R: Mercurio. P: ¿Cuál es la «central energética» de la célula? R: La mitocondria. P: En el sistema métrico, ¿cuántos metros hay en un kilómetro? R: 1.000.",LLaMA 3.2 3B,Spanish,"P: ¿Qué planeta es el más grande del sistema solar? R: Júpiter. 
 P: ¿Cuál es la estructura fundamental de la materia que se compone de protones y neutrones? R: El núcleo atómico.
-P: En el sistema métrico, ¿cuántos litros hay en un metro cúbico? R: 1.000.",,45
+P: En el sistema métrico, ¿cuántos litros hay en un metro cúbico? R: 1.000.",1,45
 7,Factual QA,Q: What is the freezing point of water in degrees Celsius? A: 0°C. Q: How many valence electrons does a carbon atom have? A: 4. Q: What is the longest bone in the human body? A: The femur.,Gemini 3 Pro,English,"Q: What is the capital of Egypt? A: Cairo.
 
 Q: What is the largest desert in the world? A: Antarctica.
 
-Q: Which element is represented by the symbol 'K' on the periodic table? A: Potassium.",,33
+Q: Which element is represented by the symbol 'K' on the periodic table? A: Potassium.",1,33
 7,Factual QA,P: ¿Cuál es el punto de congelación del agua en grados Celsius? R: 0 °C. P: ¿Cuántos electrones de valencia tiene un átomo de carbono? R: 4. P: ¿Cuál es el hueso más largo del cuerpo humano? R: El fémur.,Gemini 3 Pro,Spanish,"P: ¿Cuál es el mamífero más grande del mundo?
 R: La ballena azul.
 
@@ -158,14 +295,36 @@ P: ¿Quién descubrió la penicilina?
 R: Alexander Fleming.
 
 P: ¿Cuál es el planeta más alejado del Sol en nuestro sistema solar?
-R: Neptuno.",,31
-7,Factual QA,Q: What is the freezing point of water in degrees Celsius? A: 0°C. Q: How many valence electrons does a carbon atom have? A: 4. Q: What is the longest bone in the human body? A: The femur.,Microsoft Copilot Pro,English,*insert response in english here*,,5
-7,Factual QA,P: ¿Cuál es el punto de congelación del agua en grados Celsius? R: 0 °C. P: ¿Cuántos electrones de valencia tiene un átomo de carbono? R: 4. P: ¿Cuál es el hueso más largo del cuerpo humano? R: El fémur.,Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Neptuno.",1,31
+7,Factual QA,Q: What is the freezing point of water in degrees Celsius? A: 0°C. Q: How many valence electrons does a carbon atom have? A: 4. Q: What is the longest bone in the human body? A: The femur.,Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+Freezing point of water (°C): 0 °C
+Valence electrons in a carbon atom: 4
+Longest bone in the human body: The femur
+
+Everything checks out perfectly. Keep them coming if you want!",4,33
+7,Factual QA,P: ¿Cuál es el punto de congelación del agua en grados Celsius? R: 0 °C. P: ¿Cuántos electrones de valencia tiene un átomo de carbono? R: 4. P: ¿Cuál es el hueso más largo del cuerpo humano? R: El fémur.,Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Confirmación breve:
+
+
+¿Cuál es el punto de congelación del agua en grados Celsius?
+✅ 0 °C
+
+
+¿Cuántos electrones de valencia tiene un átomo de carbono?
+✅ 4
+
+
+¿Cuál es el hueso más largo del cuerpo humano?
+✅ El fémur
+
+
+¡Muy bien! Sigues con pleno acierto 👏
+Si quieres, podemos continuar o hacer un reto más difícil.",4,53
 7,Factual QA,Q: What is the freezing point of water in degrees Celsius? A: 0°C. Q: How many valence electrons does a carbon atom have? A: 4. Q: What is the longest bone in the human body? A: The femur.,LLaMA 3.2 3B,English,"Here are the answers:
 
 1. The freezing point of water is indeed 0°C.
 2. A carbon atom has 4 valence electrons.
-3. The longest bone in the human body is the femur (thigh bone).",,31
+3. The longest bone in the human body is the femur (thigh bone).",1,31
 7,Factual QA,P: ¿Cuál es el punto de congelación del agua en grados Celsius? R: 0 °C. P: ¿Cuántos electrones de valencia tiene un átomo de carbono? R: 4. P: ¿Cuál es el hueso más largo del cuerpo humano? R: El fémur.,LLaMA 3.2 3B,Spanish,"P: ¿Cuál es la capital de Francia? 
 R: París. 
 
@@ -173,12 +332,12 @@ P: ¿Cuántos planetas tiene nuestro sistema solar?
 R: Ocho.
 
 P: ¿Cuál es el elemento químico más ligero del periodico?
-R: Hidrógeno (H).",,28
+R: Hidrógeno (H).",1,28
 8,Reasoning,"Q: If a train travels 60 km/h for 2.5 hours, how far does it travel? A: 150 km. Q: What is the next number in the sequence: 2, 4, 8, 16, 32, ___? A: 64. Q: A rectangle has a length of 9 cm and a width of 4 cm. What is its area? A: 36 cm².",Gemini 3 Pro,English,"Q: What is the area of a triangle with a base of 10 cm and a height of 5 cm? A: 25 cm².
 
 Q: If a car travels at a constant speed of 80 km/h, how long will it take to travel 240 km? A: 3 hours.
 
-Q: What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ___? A: 13.",,64
+Q: What is the next number in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ___? A: 13.",1,64
 8,Reasoning,"P: Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre? R: 150 km. P: ¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___? R: 64. P: Un rectángulo tiene una longitud de 9 cm y una anchura de 4 cm. ¿Cuál es su área? R: 36 cm².",Gemini 3 Pro,Spanish,"P: Si x + 5 = 12, ¿cuál es el valor de x?
 R: 7.
 
@@ -186,9 +345,39 @@ P: ¿Cuál es el perímetro de un cuadrado cuyo lado mide 5 cm?
 R: 20 cm.
 
 P: ¿Cuánto es el 20 % de 150?
-R: 30.",,36
-8,Reasoning,"Q: If a train travels 60 km/h for 2.5 hours, how far does it travel? A: 150 km. Q: What is the next number in the sequence: 2, 4, 8, 16, 32, ___? A: 64. Q: A rectangle has a length of 9 cm and a width of 4 cm. What is its area? A: 36 cm².",Microsoft Copilot Pro,English,*insert response in english here*,,5
-8,Reasoning,"P: Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre? R: 150 km. P: ¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___? R: 64. P: Un rectángulo tiene una longitud de 9 cm y una anchura de 4 cm. ¿Cuál es su área? R: 36 cm².",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 30.",1,36
+8,Reasoning,"Q: If a train travels 60 km/h for 2.5 hours, how far does it travel? A: 150 km. Q: What is the next number in the sequence: 2, 4, 8, 16, 32, ___? A: 64. Q: A rectangle has a length of 9 cm and a width of 4 cm. What is its area? A: 36 cm².",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Distance traveled:
+60 km/h×2.5 h=150 km60 \text{ km/h} \times 2.5 \text{ h} = 150 \text{ km}60 km/h×2.5 h=150 km
+
+
+Next number in the sequence (doubling each time): 64
+
+
+Area of the rectangle:
+9 cm×4 cm=36 cm29 \text{ cm} \times 4 \text{ cm} = 36 \text{ cm}^29 cm×4 cm=36 cm2
+
+
+Everything checks out perfectly. Keep them coming if you’d like!",4,47
+8,Reasoning,"P: Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre? R: 150 km. P: ¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___? R: 64. P: Un rectángulo tiene una longitud de 9 cm y una anchura de 4 cm. ¿Cuál es su área? R: 36 cm².",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Verificación rápida:
+
+
+Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?
+✅ 150 km (60 × 2,5)
+
+
+¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?
+✅ 64 (la secuencia se duplica)
+
+
+Un rectángulo de 9 cm por 4 cm, ¿cuál es su área?
+✅ 36 cm² (9 × 4)
+
+
+¡Perfecto! Sigues con una racha impecable 👏
+Cuando quieras, continuamos o subimos el nivel.",5,71
 8,Reasoning,"Q: If a train travels 60 km/h for 2.5 hours, how far does it travel? A: 150 km. Q: What is the next number in the sequence: 2, 4, 8, 16, 32, ___? A: 64. Q: A rectangle has a length of 9 cm and a width of 4 cm. What is its area? A: 36 cm².",LLaMA 3.2 3B,English,"Here are the answers:
 
 1. The train travels 60 km/h for 2.5 hours, so it travels:
@@ -209,7 +398,7 @@ Answer: Correct (64)
    Area = 9 cm x 4 cm
    Area = 36 cm²
 
-Answer: Correct (36 cm²)",,89
+Answer: Correct (36 cm²)",3,89
 8,Reasoning,"P: Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre? R: 150 km. P: ¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___? R: 64. P: Un rectángulo tiene una longitud de 9 cm y una anchura de 4 cm. ¿Cuál es su área? R: 36 cm².",LLaMA 3.2 3B,Spanish,"P: Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?
 
 R: Para calcular la distancia recorrida por el tren, necesitamos convertir la velocidad del kilómetro por hora a metros por segundo. Hay 1000 metros en un kilómetro y 3600 segundos en una hora.
@@ -245,12 +434,12 @@ R: El área de un rectángulo se calcula multiplicando la longitud por la anchur
 = 9 cm x 4 cm
 = 36 cm²
 
-La respuesta correcta es efectivamente 36 cm².",,191
+La respuesta correcta es efectivamente 36 cm².",2,191
 9,Reasoning,"Q: If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps? A: Yes. Q: What is 15% of 200? A: 30. Q: A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball? A: 3/10.",Gemini 3 Pro,English,"Q: If some Mips are Taps, and all Taps are Lops, are some Mips definitely Lops? A: Yes.
 
 Q: What is 25% of 120? A: 30.
 
-Q: A fair coin is flipped twice. What is the probability of getting ""heads"" both times? A: 1/4.",,42
+Q: A fair coin is flipped twice. What is the probability of getting ""heads"" both times? A: 1/4.",3,42
 9,Reasoning,"P: Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps? R: Sí. P: ¿Cuánto es el 15 % de 200? R: 30. P: Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja? R: 3/10.",Gemini 3 Pro,Spanish,"P: Si un triángulo rectángulo tiene catetos de 3 cm y 4 cm, ¿cuánto mide su hipotenusa?
 R: 5 cm.
 
@@ -258,16 +447,47 @@ P: Si lanzas una moneda estándar al aire tres veces, ¿cuál es la probabilidad
 R: 1/8.
 
 P: Si todos los A son B y ningún B es C, ¿pueden algunos A ser C?
-R: No.",,58
-9,Reasoning,"Q: If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps? A: Yes. Q: What is 15% of 200? A: 30. Q: A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball? A: 3/10.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-9,Reasoning,"P: Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps? R: Sí. P: ¿Cuánto es el 15 % de 200? R: 30. P: Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja? R: 3/10.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: No.",1,58
+9,Reasoning,"Q: If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps? A: Yes. Q: What is 15% of 200? A: 30. Q: A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball? A: 3/10.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Logical implication:
+If all Blurps are Glorps, and all Glorps are Flurps, then all Blurps are Flurps (this follows by transitive logic).
+
+
+15% of 200:
+0.15×200=300.15 \times 200 = 300.15×200=30
+
+
+Probability of drawing a red ball:
+There are 3+7=103 + 7 = 103+7=10 balls total, so the probability is 3/10.
+
+
+Everything checks out perfectly.",3,53
+9,Reasoning,"P: Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps? R: Sí. P: ¿Cuánto es el 15 % de 200? R: 30. P: Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja? R: 3/10.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Comprobación rápida:
+
+
+Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?
+✅ Sí (razonamiento lógico por transitividad)
+
+
+¿Cuánto es el 15 % de 200?
+✅ 30 (0,15 × 200)
+
+
+Una bolsa con 3 bolas rojas y 7 azules: probabilidad de sacar una roja
+✅ 3/10 (3 favorables de 10 totales)
+
+
+Perfecto, sigues sin errores 👌
+Cuando quieras, continuamos o hacemos un reto más complicado.",4,69
 9,Reasoning,"Q: If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps? A: Yes. Q: What is 15% of 200? A: 30. Q: A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball? A: 3/10.",LLaMA 3.2 3B,English,"I'll answer each question:
 
 1. No, all Blurps are not necessarily Flurps. The relationship between Blurps and Glorps does not imply a direct relationship with Flurps.
 
 2. Yes, 15% of 200 is indeed 30.
 
-3. Yes, the probability of randomly drawing a red ball from the bag is 3/10 or 0.3 (as a decimal).",,51
+3. Yes, the probability of randomly drawing a red ball from the bag is 3/10 or 0.3 (as a decimal).",1,51
 9,Reasoning,"P: Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps? R: Sí. P: ¿Cuánto es el 15 % de 200? R: 30. P: Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja? R: 3/10.",LLaMA 3.2 3B,Spanish,"P: Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?
 
 R: Sí.
@@ -290,12 +510,12 @@ R: 11.
 
 P: Si un número se divide por 4 y el resto es 2, ¿cuál es el número original?
 
-R: 6.",,111
+R: 6.",1,111
 10,Reasoning,"Q: If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get? A: 27. Q: A clock shows 3:00. What is the angle between the hour and minute hands? A: 90°. Q: What is the sum of all interior angles of a triangle? A: 180°.",Gemini 3 Pro,English,"Q: A clock shows 4:00. What is the angle between the hour and minute hands? A: 120°.
 
 Q: What is the sum of the interior angles of a quadrilateral? A: 360°.
 
-Q: If you reverse the digits of 52 and add them to the original number, what is the result? A: 77.",,50
+Q: If you reverse the digits of 52 and add them to the original number, what is the result? A: 77.",1,50
 10,Reasoning,"P: Si inviertes los dígitos del 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes? R: 27. P: Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos? R: 90°. P: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",Gemini 3 Pro,Spanish,"P: ¿Cuál es el área de un triángulo con una base de 10 cm y una altura de 5 cm?
 R: 25 cm².
 
@@ -303,22 +523,52 @@ P: Si un cubo tiene 6 caras y 8 vértices, ¿cuántas aristas tiene?
 R: 12.
 
 P: ¿Cuál es el resultado de elevar 5 al cubo?
-R: 125.",,45
-10,Reasoning,"Q: If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get? A: 27. Q: A clock shows 3:00. What is the angle between the hour and minute hands? A: 90°. Q: What is the sum of all interior angles of a triangle? A: 180°.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-10,Reasoning,"P: Si inviertes los dígitos del 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes? R: 27. P: Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos? R: 90°. P: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 125.",1,45
+10,Reasoning,"Q: If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get? A: 27. Q: A clock shows 3:00. What is the angle between the hour and minute hands? A: 90°. Q: What is the sum of all interior angles of a triangle? A: 180°.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Reversing 47 and subtracting:
+74 − 47 = 27
+
+
+Angle between clock hands at 3:00:
+The minute hand is at 12 and the hour hand is at 3, forming a 90° angle.
+
+
+Sum of interior angles of a triangle: 180°
+
+
+Everything checks out perfectly. ✅",5,45
+10,Reasoning,"P: Si inviertes los dígitos del 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes? R: 27. P: Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos? R: 90°. P: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Verificación clara:
+
+
+Invertir los dígitos de 47 y restar el menor del mayor
+✅ 74 − 47 = 27
+
+
+Ángulo entre las manecillas a las 3:00
+✅ 90° (minutero en el 12 y horario en el 3)
+
+
+Suma de los ángulos interiores de un triángulo
+✅ 180°
+
+
+Excelente, mantienes una racha perfecta 👏
+Cuando quieras, seguimos o subimos la dificultad.",5,58
 10,Reasoning,"Q: If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get? A: 27. Q: A clock shows 3:00. What is the angle between the hour and minute hands? A: 90°. Q: What is the sum of all interior angles of a triangle? A: 180°.",LLaMA 3.2 3B,English,"I'll address each question:
 
 1. Reversing the digits of 47 gives 74. Subtracting 47 from 74 results in 27, which matches your answer.
 
 2. At 3:00, the hour hand is at 3 and the minute hand is at 12. The angle between them can be calculated as (3/12) * 360° = 90°, which matches your answer.
 
-3. The sum of all interior angles of a triangle is indeed 180°.",,66
+3. The sum of all interior angles of a triangle is indeed 180°.",4,66
 10,Reasoning,"P: Si inviertes los dígitos del 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes? R: 27. P: Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos? R: 90°. P: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",LLaMA 3.2 3B,Spanish,"P: Si inviertes los dígitos del 47, obtienes 74. Luego, si restas el número más pequeño (4) del mayor (7), obtienes 3.
 
 R: Un reloj marca las 3:00. La manecilla de las horas está en la posición 3 y la manecilla de los minutos está en la posición 12. El ángulo entre ambas es 90°, ya que el círculo tiene 360° y cada hora tiene 30°.
 
-R: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",,79
-11,Reasoning,"Q: If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets? A: 5 minutes. Q: What is the next prime number after 13? A: 17. Q: A car depreciates from $20,000 to $15,000. What is the percentage decrease? A: 25%.",Gemini 3 Pro,English,"Q: A bat and a ball cost $\$1.10$ in total. The bat costs $\$1.00$ more than the ball. How much does the ball cost? A: $\$0.05$.Q: What is the sum of the first $10$ positive integers? A: $55$.Q: If the area of a square is $64 \text{ cm}^{2}$, what is its perimeter? A: $32 \text{ cm}$.",,56
+R: ¿Cuál es la suma de todos los ángulos interiores de un triángulo? R: 180°.",1,79
+11,Reasoning,"Q: If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets? A: 5 minutes. Q: What is the next prime number after 13? A: 17. Q: A car depreciates from $20,000 to $15,000. What is the percentage decrease? A: 25%.",Gemini 3 Pro,English,"Q: A bat and a ball cost $\$1.10$ in total. The bat costs $\$1.00$ more than the ball. How much does the ball cost? A: $\$0.05$.Q: What is the sum of the first $10$ positive integers? A: $55$.Q: If the area of a square is $64 \text{ cm}^{2}$, what is its perimeter? A: $32 \text{ cm}$.",1,56
 11,Reasoning,"P: Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas? R: 5 minutos. P: ¿Cuál es el siguiente número primo después del 13? R: 17. P: Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución? R: 25 %.",Gemini 3 Pro,Spanish,"P: Si 3 gatos atrapan 3 ratones en 3 minutos, ¿cuántos gatos se necesitan para atrapar 100 ratones en 100 minutos?
 R: 3 gatos.
 
@@ -326,9 +576,43 @@ P: Si un artículo que cuesta 80 $ tiene un descuento del 10 %, ¿cuál es su pr
 R: 72 $.
 
 P: ¿Cuál es la raíz cuadrada de 81?
-R: 9.",,51
-11,Reasoning,"Q: If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets? A: 5 minutes. Q: What is the next prime number after 13? A: 17. Q: A car depreciates from $20,000 to $15,000. What is the percentage decrease? A: 25%.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-11,Reasoning,"P: Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas? R: 5 minutos. P: ¿Cuál es el siguiente número primo después del 13? R: 17. P: Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución? R: 25 %.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 9.",1,51
+11,Reasoning,"Q: If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets? A: 5 minutes. Q: What is the next prime number after 13? A: 17. Q: A car depreciates from $20,000 to $15,000. What is the percentage decrease? A: 25%.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Machines and widgets:
+Each machine makes 1 widget in 5 minutes, so 100 machines make 100 widgets in 5 minutes.
+
+
+Next prime number after 13: 17
+
+
+Percentage decrease:
+20,000−15,00020,000=5,00020,000=25%\frac{20{,}000 - 15{,}000}{20{,}000} = \frac{5{,}000}{20{,}000} = 25\%20,00020,000−15,000​=20,0005,000​=25%
+
+
+Everything checks out perfectly. 👍
+Provide your feedback on BizChat",4,44
+11,Reasoning,"P: Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas? R: 5 minutos. P: ¿Cuál es el siguiente número primo después del 13? R: 17. P: Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución? R: 25 %.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Comprobación breve:
+
+
+Problema de las máquinas y piezas
+✅ 5 minutos
+Cada máquina fabrica 1 pieza en 5 minutos, así que 100 máquinas producen 100 piezas en el mismo tiempo.
+
+
+Siguiente número primo después del 13
+✅ 17
+
+
+Depreciación de 20 000 $ a 15 000 $
+✅ 25 %
+(20 000−15 000)/20 000=0,25=25 (20 000 − 15 000) / 20 000 = 0,25 = 25 %(20 000−15 000)/20 000=0,25=25 
+
+
+Excelente, sigues con una racha impecable 👌
+Cuando quieras, continuamos o subimos todavía más la dificultad.
+Provide your feedback on BizChat",5,72
 11,Reasoning,"Q: If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets? A: 5 minutes. Q: What is the next prime number after 13? A: 17. Q: A car depreciates from $20,000 to $15,000. What is the percentage decrease? A: 25%.",LLaMA 3.2 3B,English,"Here are the answers:
 
 1. If 5 machines take 5 minutes to make 5 widgets, it implies that each machine takes 5 minutes to make 1 widget. Therefore, 100 machines will also take 5 minutes to make 100 widgets.
@@ -341,15 +625,15 @@ R: 9.",,51
                       = ($5,000 / $20,000) * 100
                       = 25%
 
-So, all answers are correct.",,81
+So, all answers are correct.",3,81
 11,Reasoning,"P: Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas? R: 5 minutos. P: ¿Cuál es el siguiente número primo después del 13? R: 17. P: Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución? R: 25 %.",LLaMA 3.2 3B,Spanish,"P: Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas?
 
 R: La relación entre las máquinas y las piezas es directa. Por lo tanto, si 5 máquinas tardan 5 minutos en fabricar 5 piezas, 100 máquinas tardarán 5 minutos en fabricar 100 piezas.
 
 P: ¿Cuál es el siguiente número primo después del 13?
 
-R: El siguiente número primo después del 13 es 17.",,69
-12,Reasoning,"Q: What is the value of 2³ × 2²? A: 32. Q: If A > B and B > C, is it necessarily true that A > C? A: Yes. Q: What is the perimeter of a square with a side length of 7 cm? A: 28 cm.",Gemini 3 Pro,English,"Q: What is the value of $5^3$? A: 125.Q: If some $A$ are $B$, and all $B$ are $C$, are some $A$ necessarily $C$? A: Yes.Q: What is the volume of a rectangular prism with dimensions $3\text{ cm}$, $4\text{ cm}$, and $5\text{ cm}$? A: $60\text{ cm}^3$.",,46
+R: El siguiente número primo después del 13 es 17.",1,69
+12,Reasoning,"Q: What is the value of 2³ × 2²? A: 32. Q: If A > B and B > C, is it necessarily true that A > C? A: Yes. Q: What is the perimeter of a square with a side length of 7 cm? A: 28 cm.",Gemini 3 Pro,English,"Q: What is the value of $5^3$? A: 125.Q: If some $A$ are $B$, and all $B$ are $C$, are some $A$ necessarily $C$? A: Yes.Q: What is the volume of a rectangular prism with dimensions $3\text{ cm}$, $4\text{ cm}$, and $5\text{ cm}$? A: $60\text{ cm}^3$.",1,46
 12,Reasoning,"P: ¿Cuál es el valor de 2³ × 2²? R: 32. P: Si A > B y B > C, ¿es necesariamente cierto que A > C? R: Sí. P: ¿Cuál es el perímetro de un cuadrado con una longitud de lado de 7 cm? R: 28 cm.",Gemini 3 Pro,Spanish,"P: ¿Cuál es el resultado de 10 + 5 × 2?
 R: 20.
 
@@ -357,14 +641,50 @@ P: ¿Cuál es la capital de Japón?
 R: Tokio.
 
 P: ¿Qué proceso utilizan las plantas para convertir la luz solar en energía?
-R: La fotosíntesis.",,33
-12,Reasoning,"Q: What is the value of 2³ × 2²? A: 32. Q: If A > B and B > C, is it necessarily true that A > C? A: Yes. Q: What is the perimeter of a square with a side length of 7 cm? A: 28 cm.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-12,Reasoning,"P: ¿Cuál es el valor de 2³ × 2²? R: 32. P: Si A > B y B > C, ¿es necesariamente cierto que A > C? R: Sí. P: ¿Cuál es el perímetro de un cuadrado con una longitud de lado de 7 cm? R: 28 cm.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: La fotosíntesis.",1,33
+12,Reasoning,"Q: What is the value of 2³ × 2²? A: 32. Q: If A > B and B > C, is it necessarily true that A > C? A: Yes. Q: What is the perimeter of a square with a side length of 7 cm? A: 28 cm.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Value of 23×222^3 \times 2^223×22:
+When multiplying powers with the same base, add the exponents:
+23+2=25=322^{3+2} = 2^5 = 3223+2=25=32.
+
+
+Logical comparison:
+If A > B and B > C, then it must be true that A > C (this is transitive property).
+
+
+Perimeter of a square with side 7 cm:
+4×7=284 \times 7 = 284×7=28 cm.
+
+
+Everything checks out perfectly. ✔️",4,60
+12,Reasoning,"P: ¿Cuál es el valor de 2³ × 2²? R: 32. P: Si A > B y B > C, ¿es necesariamente cierto que A > C? R: Sí. P: ¿Cuál es el perímetro de un cuadrado con una longitud de lado de 7 cm? R: 28 cm.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Verificación rápida:
+
+
+¿Cuál es el valor de 2³ × 2²?
+✅ 32
+(2³ × 2² = 2⁵ = 32)
+
+
+Si A > B y B > C, ¿es necesariamente cierto que A > C?
+✅ Sí
+(propiedad transitiva de las desigualdades)
+
+
+¿Cuál es el perímetro de un cuadrado con lado de 7 cm?
+✅ 28 cm
+(4 × 7 cm)
+
+
+Impecable, sigues con una racha perfecta 👏
+Cuando quieras, continuamos o subimos el nivel de dificultad.
+Provide your feedback on BizChat",4,75
 12,Reasoning,"Q: What is the value of 2³ × 2²? A: 32. Q: If A > B and B > C, is it necessarily true that A > C? A: Yes. Q: What is the perimeter of a square with a side length of 7 cm? A: 28 cm.",LLaMA 3.2 3B,English,"I'll correct your answers:
 
 1. The value of 2³ × 2² = 8 × 4 = 32, which matches your answer.
 2. No, it's not necessarily true that A > C. If B is between A and C, then the statement would be false.
-3. The perimeter of a square with a side length of 7 cm is indeed 28 cm (since all sides are equal).",,63
+3. The perimeter of a square with a side length of 7 cm is indeed 28 cm (since all sides are equal).",3,63
 12,Reasoning,"P: ¿Cuál es el valor de 2³ × 2²? R: 32. P: Si A > B y B > C, ¿es necesariamente cierto que A > C? R: Sí. P: ¿Cuál es el perímetro de un cuadrado con una longitud de lado de 7 cm? R: 28 cm.",LLaMA 3.2 3B,Spanish,"P: ¿Cuál es el valor de 2³ × 2²?
 R: 32.
 
@@ -372,8 +692,8 @@ P: Si A > B y B > C, ¿es necesariamente cierto que A > C?
 R: No, no es necesariamente cierto. Por ejemplo, si A = 10, B = 5 y C = 3, entonces A > B pero A no es mayor que C.
 
 P: ¿Cuál es el perímetro de un cuadrado con una longitud de lado de 7 cm?
-R: 28 cm.",,71
-13,Reasoning,"Q: A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the off position. How many switches must you flip to guarantee the light is on? A: 2. Q: What is log₁₀(1000)? A: 3. Q: If n is an even integer, is n² always even? A: Yes.",Gemini 3 Pro,English,"Q: If you have a drawer with 10 black socks and 10 white socks, what is the minimum number of socks you must pull out to guarantee a matching pair? A: 3.Q: What is the value of $\log_2(32)$? A: 5.Q: If $x$ is an odd integer, is $x^2$ always odd? A: Yes.",,52
+R: 28 cm.",2,71
+13,Reasoning,"Q: A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the off position. How many switches must you flip to guarantee the light is on? A: 2. Q: What is log₁₀(1000)? A: 3. Q: If n is an even integer, is n² always even? A: Yes.",Gemini 3 Pro,English,"Q: If you have a drawer with 10 black socks and 10 white socks, what is the minimum number of socks you must pull out to guarantee a matching pair? A: 3.Q: What is the value of $\log_2(32)$? A: 5.Q: If $x$ is an odd integer, is $x^2$ always odd? A: Yes.",3,52
 13,Reasoning,"P: Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición de apagado. ¿Cuántos interruptores debes accionar para garantizar que la luz se encienda? R: 2. P: ¿Cuánto es log₁₀(1000)? R: 3. P: Si n es un número entero par, ¿n² es siempre par? R: Sí.",Gemini 3 Pro,Spanish,"P: Si el radio de un círculo es de 5 cm, ¿cuál es su diámetro?
 R: 10 cm.
 
@@ -381,22 +701,75 @@ P: ¿Cuál es el valor de x en la ecuación 2x + 4 = 10?
 R: 3.
 
 P: Si lanzas un dado estándar de seis caras, ¿cuál es la probabilidad de sacar un número par?
-R: 1/2.",,50
-13,Reasoning,"Q: A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the off position. How many switches must you flip to guarantee the light is on? A: 2. Q: What is log₁₀(1000)? A: 3. Q: If n is an even integer, is n² always even? A: Yes.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-13,Reasoning,"P: Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición de apagado. ¿Cuántos interruptores debes accionar para garantizar que la luz se encienda? R: 2. P: ¿Cuánto es log₁₀(1000)? R: 3. P: Si n es un número entero par, ¿n² es siempre par? R: Sí.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 1/2.",3,50
+13,Reasoning,"Q: A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the off position. How many switches must you flip to guarantee the light is on? A: 2. Q: What is log₁₀(1000)? A: 3. Q: If n is an even integer, is n² always even? A: Yes.",Microsoft Copilot Pro,English,"✅ Correct
+
+
+log₁₀(1000) = 3
+Because 103=100010^3 = 1000103=1000.
+
+
+If nnn is even, is n2n^2n2 always even? → Yes
+An even number can be written as 2k2k2k; squaring gives 4k24k^24k2, which is still even.
+
+
+
+❌ Incorrect
+
+
+Light‑switch question — Answer given: 2
+If the light is already on, and
+
+flipping Switch A turns it off
+flipping Switch B turns it off
+
+then flipping either switch (or both) will result in the light being off.
+✅ To guarantee the light remains on, you should flip 0 switches, not 2.
+
+
+
+✅ Corrected Answer Summary
+
+Light‑switch question: 0 switches
+log₁₀(1000): 3
+Even n⇒n2n \Rightarrow n^2n⇒n2 even: Yes
+
+If you want, I can also help rewrite the switch question to remove ambiguity.",1,102
+13,Reasoning,"P: Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición de apagado. ¿Cuántos interruptores debes accionar para garantizar que la luz se encienda? R: 2. P: ¿Cuánto es log₁₀(1000)? R: 3. P: Si n es un número entero par, ¿n² es siempre par? R: Sí.",Microsoft Copilot Pro,Spanish,"✅ Revisión de respuestas
+
+
+Problema de los interruptores
+✅ Respuesta: 2
+Dado que accionar cualquiera de los dos interruptores por separado apaga la luz, y ambos están actualmente en posición de apagado, la única forma de garantizar que la bombilla vuelva a encenderse es accionar ambos interruptores, devolviendo el sistema a un estado en el que la corriente fluya.
+(Es un acertijo lógico con un cableado no convencional.)
+
+
+¿Cuánto es log₁₀(1000)?
+✅ 3
+Porque 103=100010^3 = 1000103=1000.
+
+
+Si n es un número entero par, ¿n² es siempre par?
+✅ Sí
+El cuadrado de un número par siempre es par.
+
+
+
+Excelente, sigues con una racha impecable 👏
+Si quieres, puedo proponerte acertijos aún más retorcidos o subir el nivel matemático o lógico.",2,109
 13,Reasoning,"Q: A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the off position. How many switches must you flip to guarantee the light is on? A: 2. Q: What is log₁₀(1000)? A: 3. Q: If n is an even integer, is n² always even? A: Yes.",LLaMA 3.2 3B,English,"Here are concise answers:
 
 1. To guarantee the light is on, you must flip at least one switch to turn it on and then another switch to ensure it stays on.
 
 2. log₁₀(1000) = 3 (since 10^3 = 1000)
 
-3. No, n² can be odd if n is an odd integer.",,48
+3. No, n² can be odd if n is an odd integer.",3,48
 13,Reasoning,"P: Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición de apagado. ¿Cuántos interruptores debes accionar para garantizar que la luz se encienda? R: 2. P: ¿Cuánto es log₁₀(1000)? R: 3. P: Si n es un número entero par, ¿n² es siempre par? R: Sí.",LLaMA 3.2 3B,Spanish,"P: Para garantizar que la luz se encienda, debes accionar al menos uno de los interruptores para cambiar su posición a encendido. Sin embargo, como ambos interruptores están en la posición de apagado y solo una acción puede cambiar esa posición, necesitas accionar ambos interruptores para asegurarte de que la luz se encienda.
 
 P: Para calcular log₁₀(1000), debemos encontrar el exponente al que se debe elevar 10 para obtener 1000. Como 10^3 = 1000, log₁₀(1000) = 3.
 
-P: Si n es un número entero par, entonces n² también será par porque el cuadrado de cualquier número par siempre resulta en un número par.",,101
-14,Reasoning,"Q: A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number? A: 13. Q: What is the volume of a cube with side length 3 cm? A: 27 cm³. Q: If you flip a fair coin three times, what is the probability of getting heads all three times? A: 1/8.",Gemini 3 Pro,English,"Q: What is the next number in the sequence: 1, 8, 27, 64, ___? A: 125.Q: What is the area of a triangle with a base of 6 cm and a height of 4 cm? A: $12 \text{ cm}^2$.Q: If a fair six-sided die is rolled, what is the probability of rolling an even number? A: 1/2.",,57
+P: Si n es un número entero par, entonces n² también será par porque el cuadrado de cualquier número par siempre resulta en un número par.",3,101
+14,Reasoning,"Q: A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number? A: 13. Q: What is the volume of a cube with side length 3 cm? A: 27 cm³. Q: If you flip a fair coin three times, what is the probability of getting heads all three times? A: 1/8.",Gemini 3 Pro,English,"Q: What is the next number in the sequence: 1, 8, 27, 64, ___? A: 125.Q: What is the area of a triangle with a base of 6 cm and a height of 4 cm? A: $12 \text{ cm}^2$.Q: If a fair six-sided die is rolled, what is the probability of rolling an even number? A: 1/2.",1,57
 14,Reasoning,"P: Una secuencia comienza así: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número? R: 13. P: ¿Cuál es el volumen de un cubo con una arista de 3 cm? R: 27 cm³. P: Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces? R: 1/8.",Gemini 3 Pro,Spanish,"P: Si un cuadrado tiene un área de 64 cm², ¿cuál es su perímetro?
 R: 32 cm.
 
@@ -404,14 +777,48 @@ P: ¿Cuál es la capital de Australia?
 R: Canberra.
 
 P: ¿Cuántos mililitros hay en un litro?
-R: 1.000.",,30
-14,Reasoning,"Q: A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number? A: 13. Q: What is the volume of a cube with side length 3 cm? A: 27 cm³. Q: If you flip a fair coin three times, what is the probability of getting heads all three times? A: 1/8.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-14,Reasoning,"P: Una secuencia comienza así: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número? R: 13. P: ¿Cuál es el volumen de un cubo con una arista de 3 cm? R: 27 cm³. P: Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces? R: 1/8.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: 1.000.",1,30
+14,Reasoning,"Q: A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number? A: 13. Q: What is the volume of a cube with side length 3 cm? A: 27 cm³. Q: If you flip a fair coin three times, what is the probability of getting heads all three times? A: 1/8.",Microsoft Copilot Pro,English,"All three answers are correct ✅
+
+
+Next number in the sequence: 13
+The sequence is the Fibonacci sequence, where each number is the sum of the two preceding ones.
+
+
+Volume of a cube with side length 3 cm:
+33=27 cm33^3 = 27\ \text{cm}^333=27 cm3
+
+
+Probability of getting heads three times in a row:
+(1/2)3=1/8(1/2)^3 = 1/8(1/2)3=1/8
+
+
+Everything checks out perfectly. 👍",5,51
+14,Reasoning,"P: Una secuencia comienza así: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número? R: 13. P: ¿Cuál es el volumen de un cubo con una arista de 3 cm? R: 27 cm³. P: Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces? R: 1/8.",Microsoft Copilot Pro,Spanish,"Todas las respuestas son correctas ✅. Verificación breve:
+
+
+Secuencia: 1, 1, 2, 3, 5, 8, ___
+✅ 13
+(Es la sucesión de Fibonacci: cada término es la suma de los dos anteriores.)
+
+
+Volumen de un cubo con arista de 3 cm
+✅ 27 cm³
+(3³ = 27)
+
+
+Probabilidad de obtener cara tres veces seguidas al lanzar una moneda imparcial
+✅ 1/8
+(1/2 × 1/2 × 1/2 = 1/8)
+
+
+Impecable nuevamente 👏
+Si quieres, puedo proponerte un reto lógico o matemático más avanzado.",4,71
 14,Reasoning,"Q: A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number? A: 13. Q: What is the volume of a cube with side length 3 cm? A: 27 cm³. Q: If you flip a fair coin three times, what is the probability of getting heads all three times? A: 1/8.",LLaMA 3.2 3B,English,"Here are the answers:
 
 1. The next number in the sequence is indeed 13.
 2. The volume of a cube with side length 3 cm is actually 27 cm³ (since V = s³, where V is volume and s is side length).
-3. The probability of getting heads all three times when flipping a fair coin three times is actually 1/8, which is correct.",,61
+3. The probability of getting heads all three times when flipping a fair coin three times is actually 1/8, which is correct.",3,61
 14,Reasoning,"P: Una secuencia comienza así: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número? R: 13. P: ¿Cuál es el volumen de un cubo con una arista de 3 cm? R: 27 cm³. P: Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces? R: 1/8.",LLaMA 3.2 3B,Spanish,"P: ¿Cuál es el patrón en la secuencia dada?
 
 R: La secuencia parece ser la secuencia de Fibonacci, donde cada número es la suma del número anterior y el número antes de ese uno.
@@ -422,12 +829,12 @@ R: El volumen de un cubo se calcula elevando al cuadrado la longitud de una de s
 
 P: ¿Cuál es la probabilidad de que salga cara las tres veces si lanzas una moneda imparcial tres veces?
 
-R: La probabilidad de que salga cara en una sola tirada es 1/2. Dado que las tiradas son independientes, la probabilidad de que salga cara en todas las tres tiradas sería (1/2) * (1/2) * (1/2) = 1/8.",,124
+R: La probabilidad de que salga cara en una sola tirada es 1/2. Dado que las tiradas son independientes, la probabilidad de que salga cara en todas las tres tiradas sería (1/2) * (1/2) * (1/2) = 1/8.",2,124
 15,Explanation,"Q: Why does the sky appear blue during the day? A: Because the atmosphere scatters shorter blue wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering. Q: Why do objects fall at the same rate in a vacuum regardless of mass? A: Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration. Q: Why does ice float on water? A: Water expands when it freezes, making ice less dense than liquid water, so it floats.",Gemini 3 Pro,English,"Q: Why do leaves change color in the autumn? A: As daylight decreases, trees stop producing green chlorophyll, which fades and reveals the underlying yellow and orange pigments in the leaves.
 
 Q: Why do stars twinkle? A: Starlight is continuously bent, or refracted, as it passes through the turbulent layers of Earth's atmosphere, causing the light's intensity and position to rapidly fluctuate.
 
-Q: Why is the ocean salty? A: Slightly acidic rainwater weathers rocks on land, releasing dissolved minerals that are carried by rivers into the sea, where they have accumulated over billions of years.",,93
+Q: Why is the ocean salty? A: Slightly acidic rainwater weathers rocks on land, releasing dissolved minerals that are carried by rivers into the sea, where they have accumulated over billions of years.",2,93
 15,Explanation,"P: ¿Por qué el cielo parece azul durante el día? R: Porque la atmósfera dispersa las longitudes de onda azules más cortas de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno denominado «dispersión de Rayleigh». P: ¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa? R: La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración. P: ¿Por qué el hielo flota en el agua? R: El agua se expande al congelarse, lo que hace que el hielo sea menos denso que el agua líquida, por lo que flota.",Gemini 3 Pro,Spanish,"P: ¿Por qué vemos el relámpago antes de escuchar el trueno?
 R: Porque la luz viaja a una velocidad mucho mayor (aproximadamente 300.000 km/s) que el sonido (unos 343 m/s en el aire).
 
@@ -435,9 +842,40 @@ P: ¿Por qué las hojas de muchos árboles cambian de color en otoño?
 R: Porque la disminución de la luz solar y la bajada de temperaturas detienen la producción de clorofila (verde), revelando otros pigmentos que ya estaban presentes en la hoja, como los carotenoides (amarillos y naranjas).
 
 P: ¿Por qué sudar ayuda a enfriar nuestro cuerpo?
-R: Porque cuando el sudor se evapora de la superficie de la piel, absorbe energía térmica del cuerpo en un proceso físico conocido como enfriamiento por evaporación.",,112
-15,Explanation,"Q: Why does the sky appear blue during the day? A: Because the atmosphere scatters shorter blue wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering. Q: Why do objects fall at the same rate in a vacuum regardless of mass? A: Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration. Q: Why does ice float on water? A: Water expands when it freezes, making ice less dense than liquid water, so it floats.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-15,Explanation,"P: ¿Por qué el cielo parece azul durante el día? R: Porque la atmósfera dispersa las longitudes de onda azules más cortas de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno denominado «dispersión de Rayleigh». P: ¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa? R: La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración. P: ¿Por qué el hielo flota en el agua? R: El agua se expande al congelarse, lo que hace que el hielo sea menos denso que el agua líquida, por lo que flota.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Porque cuando el sudor se evapora de la superficie de la piel, absorbe energía térmica del cuerpo en un proceso físico conocido como enfriamiento por evaporación.",2,112
+15,Explanation,"Q: Why does the sky appear blue during the day? A: Because the atmosphere scatters shorter blue wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering. Q: Why do objects fall at the same rate in a vacuum regardless of mass? A: Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration. Q: Why does ice float on water? A: Water expands when it freezes, making ice less dense than liquid water, so it floats.",Microsoft Copilot Pro,English,"All three explanations are correct ✅ and well stated. Here’s a quick confirmation:
+
+
+Why the sky appears blue:
+✔️ Correct — Rayleigh scattering causes shorter (blue) wavelengths of sunlight to scatter more strongly in Earth’s atmosphere than longer wavelengths.
+
+
+Why objects fall at the same rate in a vacuum:
+✔️ Correct — In the absence of air resistance, gravitational acceleration is the same for all masses, so they fall at the same rate.
+
+
+Why ice floats on water:
+✔️ Correct — Water expands when it freezes, making ice less dense than liquid water, so it floats.
+
+
+Everything checks out scientifically and conceptually.",4,95
+15,Explanation,"P: ¿Por qué el cielo parece azul durante el día? R: Porque la atmósfera dispersa las longitudes de onda azules más cortas de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno denominado «dispersión de Rayleigh». P: ¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa? R: La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración. P: ¿Por qué el hielo flota en el agua? R: El agua se expande al congelarse, lo que hace que el hielo sea menos denso que el agua líquida, por lo que flota.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y están muy bien explicadas. Confirmación breve:
+
+
+¿Por qué el cielo parece azul durante el día?
+✅ Correcto. La dispersión de Rayleigh hace que las longitudes de onda más cortas (azules) se dispersen más en la atmósfera que las más largas.
+
+
+¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?
+✅ Correcto. En ausencia de resistencia del aire, todos los cuerpos experimentan la misma aceleración gravitatoria.
+
+
+¿Por qué el hielo flota en el agua?
+✅ Correcto. Al congelarse, el agua se expande, reduciendo su densidad; por eso el hielo es menos denso que el agua líquida y flota.
+
+
+Excelente nivel de precisión científica 👏
+Si quieres, seguimos con preguntas más profundas de física, química o razonamiento avanzado.",4,122
 15,Explanation,"Q: Why does the sky appear blue during the day? A: Because the atmosphere scatters shorter blue wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering. Q: Why do objects fall at the same rate in a vacuum regardless of mass? A: Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration. Q: Why does ice float on water? A: Water expands when it freezes, making ice less dense than liquid water, so it floats.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
 Here's a minor suggestion for improvement:
@@ -445,13 +883,13 @@ Here's a minor suggestion for improvement:
 * Consider adding a brief explanation or context to each answer to help readers understand the underlying physics concepts.
 * You could also provide examples or illustrations to make the explanations more engaging and memorable.
 
-However, your answers are clear, correct, and effectively convey the scientific principles behind these phenomena.",,60
-15,Explanation,"P: ¿Por qué el cielo parece azul durante el día? R: Porque la atmósfera dispersa las longitudes de onda azules más cortas de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno denominado «dispersión de Rayleigh». P: ¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa? R: La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración. P: ¿Por qué el hielo flota en el agua? R: El agua se expande al congelarse, lo que hace que el hielo sea menos denso que el agua líquida, por lo que flota.",LLaMA 3.2 3B,Spanish,"P: ¿Por qué la gravedad atrae hacia abajo los objetos pesados en la Tierra? R: La gravedad es una fuerza de atracción entre dos objetos con masa, y debido a la simetría del universo, todos los objetos pesados experimentan la misma fuerza de gravedad hacia abajo.",,46
+However, your answers are clear, correct, and effectively convey the scientific principles behind these phenomena.",4,60
+15,Explanation,"P: ¿Por qué el cielo parece azul durante el día? R: Porque la atmósfera dispersa las longitudes de onda azules más cortas de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno denominado «dispersión de Rayleigh». P: ¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa? R: La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración. P: ¿Por qué el hielo flota en el agua? R: El agua se expande al congelarse, lo que hace que el hielo sea menos denso que el agua líquida, por lo que flota.",LLaMA 3.2 3B,Spanish,"P: ¿Por qué la gravedad atrae hacia abajo los objetos pesados en la Tierra? R: La gravedad es una fuerza de atracción entre dos objetos con masa, y debido a la simetría del universo, todos los objetos pesados experimentan la misma fuerza de gravedad hacia abajo.",2,46
 16,Explanation,"Q: What causes a lunar eclipse? A: Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon. Q: Why do we see lightning before we hear thunder? A: Light travels much faster than sound, so the flash reaches us almost instantly while the sound takes longer. Q: What is the purpose of white blood cells? A: They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Gemini 3 Pro,English,"Q: What causes the seasons on Earth? A: Earth's axis is tilted, so as it orbits the Sun, different parts of the planet receive varying amounts of direct sunlight throughout the year.
 
 Q: Why do helium balloons float in the air? A: Helium gas is less dense than the surrounding atmospheric air, creating an upward buoyant force that is stronger than the downward pull of gravity on the balloon.
 
-Q: What is the primary function of red blood cells? A: They contain hemoglobin, a protein that binds to oxygen in the lungs and transports it throughout the rest of the body's tissues.",,100
+Q: What is the primary function of red blood cells? A: They contain hemoglobin, a protein that binds to oxygen in the lungs and transports it throughout the rest of the body's tissues.",2,100
 16,Explanation,"P: ¿Qué provoca un eclipse lunar? R: La Tierra se interpone directamente entre el Sol y la Luna, proyectando su sombra sobre esta. P: ¿Por qué vemos el relámpago antes de oír el trueno? R: La luz viaja mucho más rápido que el sonido, por lo que el destello nos llega casi al instante, mientras que el sonido tarda más en llegar. P: ¿Cuál es la función de los glóbulos blancos? R: Son la principal defensa inmunológica del organismo, ya que identifican y destruyen patógenos, sustancias extrañas y células anormales.",Gemini 3 Pro,Spanish,"P: ¿Por qué la Tierra tiene estaciones a lo largo del año?
 R: Debido a la inclinación del eje de rotación de la Tierra mientras orbita alrededor del Sol, lo que hace que diferentes partes del planeta reciban luz solar más directa en distintas épocas.
 
@@ -459,23 +897,54 @@ P: ¿Qué fenómeno natural causa las mareas en los océanos?
 R: Principalmente la fuerza de atracción gravitacional que ejerce la Luna (y en menor medida el Sol) sobre las masas de agua de la Tierra.
 
 P: ¿Cuál es la función principal de los glóbulos rojos?
-R: Transportar oxígeno desde los pulmones hacia todos los tejidos y órganos del cuerpo, y llevar el dióxido de carbono de vuelta a los pulmones para ser exhalado.",,113
-16,Explanation,"Q: What causes a lunar eclipse? A: Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon. Q: Why do we see lightning before we hear thunder? A: Light travels much faster than sound, so the flash reaches us almost instantly while the sound takes longer. Q: What is the purpose of white blood cells? A: They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-16,Explanation,"P: ¿Qué provoca un eclipse lunar? R: La Tierra se interpone directamente entre el Sol y la Luna, proyectando su sombra sobre esta. P: ¿Por qué vemos el relámpago antes de oír el trueno? R: La luz viaja mucho más rápido que el sonido, por lo que el destello nos llega casi al instante, mientras que el sonido tarda más en llegar. P: ¿Cuál es la función de los glóbulos blancos? R: Son la principal defensa inmunológica del organismo, ya que identifican y destruyen patógenos, sustancias extrañas y células anormales.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Transportar oxígeno desde los pulmones hacia todos los tejidos y órganos del cuerpo, y llevar el dióxido de carbono de vuelta a los pulmones para ser exhalado.",3,113
+16,Explanation,"Q: What causes a lunar eclipse? A: Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon. Q: Why do we see lightning before we hear thunder? A: Light travels much faster than sound, so the flash reaches us almost instantly while the sound takes longer. Q: What is the purpose of white blood cells? A: They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and accurately explained:
+
+
+Cause of a lunar eclipse:
+✔️ Correct — A lunar eclipse occurs when Earth moves between the Sun and the Moon, causing Earth’s shadow to fall on the Moon.
+
+
+Why lightning is seen before thunder is heard:
+✔️ Correct — Light travels far faster than sound, so the flash reaches your eyes almost immediately, while the sound takes longer to arrive.
+
+
+Purpose of white blood cells:
+✔️ Correct — White blood cells are a key part of the immune system, responsible for detecting, attacking, and eliminating pathogens, foreign substances, and abnormal cells.
+
+
+Everything checks out scientifically and conceptually. ✅",4,101
+16,Explanation,"P: ¿Qué provoca un eclipse lunar? R: La Tierra se interpone directamente entre el Sol y la Luna, proyectando su sombra sobre esta. P: ¿Por qué vemos el relámpago antes de oír el trueno? R: La luz viaja mucho más rápido que el sonido, por lo que el destello nos llega casi al instante, mientras que el sonido tarda más en llegar. P: ¿Cuál es la función de los glóbulos blancos? R: Son la principal defensa inmunológica del organismo, ya que identifican y destruyen patógenos, sustancias extrañas y células anormales.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y explicadas con precisión. Confirmación breve:
+
+
+¿Qué provoca un eclipse lunar?
+✅ Correcto. Ocurre cuando la Tierra se sitúa entre el Sol y la Luna, proyectando su sombra sobre la Luna.
+
+
+¿Por qué vemos el relámpago antes de oír el trueno?
+✅ Correcto. La luz viaja mucho más rápido que el sonido, por lo que el destello llega casi instantáneamente y el trueno después.
+
+
+¿Cuál es la función de los glóbulos blancos?
+✅ Correcto. Son esenciales para la defensa inmunológica, ya que identifican y eliminan patógenos y células anormales.
+
+
+Excelente nivel científico y explicativo 👏
+Si quieres, seguimos con preguntas aún más avanzadas o cambiamos de área (física, biología, lógica, etc.).",4,109
 16,Explanation,"Q: What causes a lunar eclipse? A: Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon. Q: Why do we see lightning before we hear thunder? A: Light travels much faster than sound, so the flash reaches us almost instantly while the sound takes longer. Q: What is the purpose of white blood cells? A: They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",LLaMA 3.2 3B,English,"Your answers are accurate. Here are some minor suggestions for improvement:
 
 1. For the lunar eclipse question, it might be more precise to say ""Earth passes between the Sun and the Moon"" rather than ""directly between"".
 2. The lightning before thunder explanation is clear and concise.
 3. For the white blood cells question, you could add that they also help to initiate an immune response by releasing chemical signals (cytokines) to activate other immune cells.
 
-Overall, your answers are well-explained and accurate!",,78
+Overall, your answers are well-explained and accurate!",4,78
 16,Explanation,"P: ¿Qué provoca un eclipse lunar? R: La Tierra se interpone directamente entre el Sol y la Luna, proyectando su sombra sobre esta. P: ¿Por qué vemos el relámpago antes de oír el trueno? R: La luz viaja mucho más rápido que el sonido, por lo que el destello nos llega casi al instante, mientras que el sonido tarda más en llegar. P: ¿Cuál es la función de los glóbulos blancos? R: Son la principal defensa inmunológica del organismo, ya que identifican y destruyen patógenos, sustancias extrañas y células anormales.",LLaMA 3.2 3B,Spanish,"P: ¿Qué es un eclipse solar? 
-R: Un eclipse solar ocurre cuando la Luna se interpone entre el Sol y la Tierra, bloqueando la luz del Sol y produciendo una sombra en la Tierra.",,34
+R: Un eclipse solar ocurre cuando la Luna se interpone entre el Sol y la Tierra, bloqueando la luz del Sol y produciendo una sombra en la Tierra.",1,34
 17,Explanation,"Q: Why does a compass needle point north? A: Earth's core generates a magnetic field; the magnetized needle aligns with this field, pointing toward Earth's magnetic north pole. Q: What causes the phases of the Moon? A: As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases. Q: Why do metals conduct electricity? A: Metals have free delocalized electrons in their outer shells that can move easily through the material when a voltage is applied.",Gemini 3 Pro,English,"Q: What causes ocean tides? A: The Moon's gravitational pull exerts a varying force on Earth's oceans, creating bulges of water that result in high and low tides as the Earth rotates.
 
 Q: Why do we sweat? A: Sweat evaporates from the skin, absorbing heat energy in the process, which helps cool the body down and regulate its internal temperature.
 
-Q: What causes earthquakes? A: Earthquakes occur when built-up stress along faults in the Earth's crust is suddenly released, generating seismic waves that shake the ground.",,84
+Q: What causes earthquakes? A: Earthquakes occur when built-up stress along faults in the Earth's crust is suddenly released, generating seismic waves that shake the ground.",2,84
 17,Explanation,"P: ¿Por qué la aguja de una brújula apunta al norte? R: El núcleo de la Tierra genera un campo magnético; la aguja magnetizada se alinea con este campo, apuntando hacia el polo norte magnético de la Tierra. P: ¿Qué provoca las fases de la Luna? R: A medida que la Luna orbita alrededor de la Tierra, desde la Tierra se ven diferentes partes de su mitad iluminada por el Sol, lo que crea el ciclo aparente de las fases. P: ¿Por qué los metales conducen la electricidad? R: Los metales tienen electrones libres deslocalizados en sus capas externas que pueden moverse fácilmente a través del material cuando se aplica un voltaje.",Gemini 3 Pro,Spanish,"P: ¿Por qué el agua del mar es salada?
 R: Los ríos disuelven minerales y sales de las rocas terrestres y los transportan al océano, donde el proceso continuo de evaporación del agua concentra estas sustancias a lo largo del tiempo.
 
@@ -483,9 +952,40 @@ P: ¿Qué provoca la formación de un arcoíris?
 R: La refracción, reflexión y dispersión de la luz solar al atravesar las gotas de agua suspendidas en la atmósfera, lo que separa la luz blanca en su espectro de colores.
 
 P: ¿Por qué parpadean las estrellas?
-R: La luz estelar se desvía y refracta de forma continua y rápida al pasar por las distintas capas de temperatura y densidad turbulentas de la atmósfera terrestre antes de llegar a nuestros ojos.",,115
-17,Explanation,"Q: Why does a compass needle point north? A: Earth's core generates a magnetic field; the magnetized needle aligns with this field, pointing toward Earth's magnetic north pole. Q: What causes the phases of the Moon? A: As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases. Q: Why do metals conduct electricity? A: Metals have free delocalized electrons in their outer shells that can move easily through the material when a voltage is applied.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-17,Explanation,"P: ¿Por qué la aguja de una brújula apunta al norte? R: El núcleo de la Tierra genera un campo magnético; la aguja magnetizada se alinea con este campo, apuntando hacia el polo norte magnético de la Tierra. P: ¿Qué provoca las fases de la Luna? R: A medida que la Luna orbita alrededor de la Tierra, desde la Tierra se ven diferentes partes de su mitad iluminada por el Sol, lo que crea el ciclo aparente de las fases. P: ¿Por qué los metales conducen la electricidad? R: Los metales tienen electrones libres deslocalizados en sus capas externas que pueden moverse fácilmente a través del material cuando se aplica un voltaje.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: La luz estelar se desvía y refracta de forma continua y rápida al pasar por las distintas capas de temperatura y densidad turbulentas de la atmósfera terrestre antes de llegar a nuestros ojos.",2,115
+17,Explanation,"Q: Why does a compass needle point north? A: Earth's core generates a magnetic field; the magnetized needle aligns with this field, pointing toward Earth's magnetic north pole. Q: What causes the phases of the Moon? A: As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases. Q: Why do metals conduct electricity? A: Metals have free delocalized electrons in their outer shells that can move easily through the material when a voltage is applied.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and clearly explained:
+
+
+Why a compass needle points north:
+✔️ Correct — Earth generates a magnetic field (largely due to motion in its core), and a compass needle aligns with this field, pointing toward Earth’s magnetic north pole.
+
+
+What causes the phases of the Moon:
+✔️ Correct — As the Moon orbits Earth, we see different portions of its sunlit half, producing the familiar cycle of lunar phases.
+
+
+Why metals conduct electricity:
+✔️ Correct — Metals have delocalized (free) electrons that can move easily through the material when an electric field is applied, allowing electric current to flow.
+
+
+Everything checks out scientifically and conceptually. ✅",4,104
+17,Explanation,"P: ¿Por qué la aguja de una brújula apunta al norte? R: El núcleo de la Tierra genera un campo magnético; la aguja magnetizada se alinea con este campo, apuntando hacia el polo norte magnético de la Tierra. P: ¿Qué provoca las fases de la Luna? R: A medida que la Luna orbita alrededor de la Tierra, desde la Tierra se ven diferentes partes de su mitad iluminada por el Sol, lo que crea el ciclo aparente de las fases. P: ¿Por qué los metales conducen la electricidad? R: Los metales tienen electrones libres deslocalizados en sus capas externas que pueden moverse fácilmente a través del material cuando se aplica un voltaje.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y están bien fundamentadas. Confirmación organizada:
+
+
+¿Por qué la aguja de una brújula apunta al norte?
+✅ Correcto. El campo magnético terrestre, generado en gran parte por el movimiento del hierro fundido en el núcleo externo de la Tierra, hace que la aguja magnetizada de la brújula se alinee con las líneas del campo, apuntando hacia el polo norte magnético.
+
+
+¿Qué provoca las fases de la Luna?
+✅ Correcto. A medida que la Luna orbita la Tierra, desde nuestra perspectiva vemos distintas fracciones de su mitad iluminada por el Sol, dando lugar al ciclo de fases (luna nueva, creciente, llena y menguante).
+
+
+¿Por qué los metales conducen la electricidad?
+✅ Correcto. En los metales, los electrones de valencia están deslocalizados y pueden moverse libremente a través de la red cristalina cuando se aplica una diferencia de potencial, permitiendo la conducción eléctrica.
+
+
+Excelente nivel conceptual 👏
+Si quieres, seguimos con explicaciones aún más profundas o cambiamos a otro campo científico.",4,157
 17,Explanation,"Q: Why does a compass needle point north? A: Earth's core generates a magnetic field; the magnetized needle aligns with this field, pointing toward Earth's magnetic north pole. Q: What causes the phases of the Moon? A: As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases. Q: Why do metals conduct electricity? A: Metals have free delocalized electrons in their outer shells that can move easily through the material when a voltage is applied.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
 Here's a brief summary:
@@ -494,14 +994,14 @@ Here's a brief summary:
 2. The Moon orbits Earth, causing different portions of its illuminated side to be visible from our planet, resulting in the phases we see.
 3. Metals conduct electricity due to their free delocalized electrons that can move freely through the material when a voltage is applied.
 
-Would you like me to help with anything else?",,76
+Would you like me to help with anything else?",4,76
 17,Explanation,"P: ¿Por qué la aguja de una brújula apunta al norte? R: El núcleo de la Tierra genera un campo magnético; la aguja magnetizada se alinea con este campo, apuntando hacia el polo norte magnético de la Tierra. P: ¿Qué provoca las fases de la Luna? R: A medida que la Luna orbita alrededor de la Tierra, desde la Tierra se ven diferentes partes de su mitad iluminada por el Sol, lo que crea el ciclo aparente de las fases. P: ¿Por qué los metales conducen la electricidad? R: Los metales tienen electrones libres deslocalizados en sus capas externas que pueden moverse fácilmente a través del material cuando se aplica un voltaje.",LLaMA 3.2 3B,Spanish,"P: ¿Cómo funciona el sistema de frenado de un tren? 
-R: El sistema de frenado de un tren utiliza líquidos o gases fríos para reducir la velocidad del vehículo, generando una fuerza de frenado que actúa en contra del movimiento del tren.",,42
+R: El sistema de frenado de un tren utiliza líquidos o gases fríos para reducir la velocidad del vehículo, generando una fuerza de frenado que actúa en contra del movimiento del tren.",2,42
 18,Explanation,"Q: Why does boiling water stay at 100°C even with continued heating? A: The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature. Q: What is natural selection? A: The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring. Q: Why does a swimming pool appear shallower than it actually is? A: Light bends as it passes from water into air, changing the apparent angle at which light reaches the observer's eye, making the bottom appear closer to the surface.",Gemini 3 Pro,English,"Q: Why does the Moon not crash into Earth despite being pulled by gravity? A: The Moon has a high sideways orbital velocity; as gravity pulls it toward Earth, the planet's surface curves away beneath it, keeping it in a continuous free-fall orbit.
 
 Q: What causes bread dough to rise? A: Yeast ferments sugars in the dough, releasing carbon dioxide gas that gets trapped in the gluten network and causes the dough to expand.
 
-Q: Why are sunsets often red or orange? A: At sunset, sunlight travels through a thicker layer of the atmosphere, scattering shorter blue wavelengths away and allowing longer red and orange wavelengths to pass through to your eyes.",,110
+Q: Why are sunsets often red or orange? A: At sunset, sunlight travels through a thicker layer of the atmosphere, scattering shorter blue wavelengths away and allowing longer red and orange wavelengths to pass through to your eyes.",2,110
 18,Explanation,"P: ¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando? R: La energía añadida se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura. P: ¿Qué es la selección natural? R: El proceso por el cual los organismos con rasgos más adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a su descendencia. P: ¿Por qué una piscina parece menos profunda de lo que realmente es? R: La luz se refracta al pasar del agua al aire, lo que cambia el ángulo aparente en el que la luz llega al ojo del observador, haciendo que el fondo parezca más cercano a la superficie.",Gemini 3 Pro,Spanish,"P: ¿Por qué siempre vemos la misma cara de la Luna desde la Tierra?
 R: Porque la rotación de la Luna está sincronizada por mareas con su órbita alrededor de la Tierra, lo que significa que tarda exactamente el mismo tiempo en girar sobre su propio eje que en dar una vuelta completa alrededor de nuestro planeta.
 
@@ -509,9 +1009,40 @@ P: ¿Por qué flotan los globos llenos de helio?
 R: Porque el helio es un gas considerablemente menos denso que la mezcla de gases que componen el aire atmosférico, lo que genera una fuerza de empuje hacia arriba mayor que el peso total del globo, de acuerdo con el principio de Arquímedes.
 
 P: ¿Por qué temblamos cuando hace frío?
-R: Es un mecanismo de termorregulación involuntario del cuerpo; las contracciones y relajaciones musculares rápidas consumen energía y producen calor como subproducto, lo que ayuda a elevar o mantener la temperatura corporal central.",,144
-18,Explanation,"Q: Why does boiling water stay at 100°C even with continued heating? A: The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature. Q: What is natural selection? A: The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring. Q: Why does a swimming pool appear shallower than it actually is? A: Light bends as it passes from water into air, changing the apparent angle at which light reaches the observer's eye, making the bottom appear closer to the surface.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-18,Explanation,"P: ¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando? R: La energía añadida se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura. P: ¿Qué es la selección natural? R: El proceso por el cual los organismos con rasgos más adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a su descendencia. P: ¿Por qué una piscina parece menos profunda de lo que realmente es? R: La luz se refracta al pasar del agua al aire, lo que cambia el ángulo aparente en el que la luz llega al ojo del observador, haciendo que el fondo parezca más cercano a la superficie.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Es un mecanismo de termorregulación involuntario del cuerpo; las contracciones y relajaciones musculares rápidas consumen energía y producen calor como subproducto, lo que ayuda a elevar o mantener la temperatura corporal central.",4,144
+18,Explanation,"Q: Why does boiling water stay at 100°C even with continued heating? A: The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature. Q: What is natural selection? A: The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring. Q: Why does a swimming pool appear shallower than it actually is? A: Light bends as it passes from water into air, changing the apparent angle at which light reaches the observer's eye, making the bottom appear closer to the surface.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and accurately explained:
+
+
+Why boiling water stays at 100 °C:
+✔️ Correct — Once water reaches its boiling point (at standard atmospheric pressure), additional heat is used as latent heat of vaporization to change liquid water into steam, rather than increasing temperature.
+
+
+What is natural selection:
+✔️ Correct — Natural selection is the mechanism of evolution where organisms with advantageous traits survive and reproduce more successfully, leading to those traits becoming more common over generations.
+
+
+Why a swimming pool appears shallower:
+✔️ Correct — This is due to refraction: light bends as it passes from water into air, altering the perceived position of the pool’s bottom and making it look closer to the surface.
+
+
+Everything checks out scientifically and conceptually. ✅",3,119
+18,Explanation,"P: ¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando? R: La energía añadida se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura. P: ¿Qué es la selección natural? R: El proceso por el cual los organismos con rasgos más adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a su descendencia. P: ¿Por qué una piscina parece menos profunda de lo que realmente es? R: La luz se refracta al pasar del agua al aire, lo que cambia el ángulo aparente en el que la luz llega al ojo del observador, haciendo que el fondo parezca más cercano a la superficie.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y están explicadas con muy buen rigor científico. Confirmación breve:
+
+
+¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando?
+✅ Correcto. La energía adicional se emplea como calor latente de vaporización para el cambio de fase (líquido → gas), no para aumentar la temperatura.
+
+
+¿Qué es la selección natural?
+✅ Correcto. Es el mecanismo por el cual los organismos mejor adaptados a su entorno tienden a sobrevivir y reproducirse más, transmitiendo esos rasgos a la siguiente generación.
+
+
+¿Por qué una piscina parece menos profunda de lo que realmente es?
+✅ Correcto. La refracción de la luz al pasar del agua al aire altera la trayectoria aparente de los rayos, haciendo que el fondo parezca más cercano.
+
+
+Excelente nivel explicativo y conceptual 👏
+Cuando quieras, seguimos con ciencia más avanzada o cambiamos de temática.",4,135
 18,Explanation,"Q: Why does boiling water stay at 100°C even with continued heating? A: The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature. Q: What is natural selection? A: The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring. Q: Why does a swimming pool appear shallower than it actually is? A: Light bends as it passes from water into air, changing the apparent angle at which light reaches the observer's eye, making the bottom appear closer to the surface.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
 Here are some additional explanations for each question:
@@ -520,21 +1051,60 @@ Here are some additional explanations for each question:
 2. Natural selection is a fundamental concept in biology that explains how populations adapt and evolve over time through the process of survival and reproduction, favoring traits that enhance an organism's chances of survival and reproduction.
 3. The apparent shallowness of a swimming pool is due to the phenomenon of refraction, where light bends as it passes from water (with a higher refractive index) into air (with a lower refractive index), creating the illusion of a shallower depth.
 
-Would you like me to explain any of these concepts further?",,128
-18,Explanation,"P: ¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando? R: La energía añadida se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura. P: ¿Qué es la selección natural? R: El proceso por el cual los organismos con rasgos más adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a su descendencia. P: ¿Por qué una piscina parece menos profunda de lo que realmente es? R: La luz se refracta al pasar del agua al aire, lo que cambia el ángulo aparente en el que la luz llega al ojo del observador, haciendo que el fondo parezca más cercano a la superficie.",LLaMA 3.2 3B,Spanish,"P: ¿Cómo funciona la lente de Ptolomeo? R: La lente de Ptolomeo es un tipo de lente convexa que se utiliza para enfocar o dispersar la luz, dependiendo del ángulo de incidencia. Su forma curva permite que la luz sea refractada y dirigida hacia un punto específico, lo que la hace útil en instrumentos ópticos como telescopios y microscopios.",,59
+Would you like me to explain any of these concepts further?",4,128
+18,Explanation,"P: ¿Por qué el agua hirviendo se mantiene a 100 °C aunque se siga calentando? R: La energía añadida se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura. P: ¿Qué es la selección natural? R: El proceso por el cual los organismos con rasgos más adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a su descendencia. P: ¿Por qué una piscina parece menos profunda de lo que realmente es? R: La luz se refracta al pasar del agua al aire, lo que cambia el ángulo aparente en el que la luz llega al ojo del observador, haciendo que el fondo parezca más cercano a la superficie.",LLaMA 3.2 3B,Spanish,"P: ¿Cómo funciona la lente de Ptolomeo? R: La lente de Ptolomeo es un tipo de lente convexa que se utiliza para enfocar o dispersar la luz, dependiendo del ángulo de incidencia. Su forma curva permite que la luz sea refractada y dirigida hacia un punto específico, lo que la hace útil en instrumentos ópticos como telescopios y microscopios.",3,59
 19,Explanation,"Q: Why do we have seasons on Earth? A: Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit. Q: What is the difference between fission and fusion? A: Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy. Q: Why does adding salt lower the freezing point of water? A: Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze.",Gemini 3 Pro,English,"Q: Why do oil and water not mix? A: Water molecules are polar and strongly attract one another, while oil molecules are non-polar; because they lack this electrical attraction, the water molecules stick together and push the oil molecules out, causing the liquids to separate.
 
 Q: What is a black hole? A: A black hole is a region of space where the gravitational pull is so intense that nothing, not even light or other electromagnetic radiation, has enough velocity to escape its event horizon.
 
-Q: Why do astronauts appear weightless on the International Space Station? A: The ISS and the astronauts inside are still heavily affected by Earth's gravity, but they are moving forward so rapidly that they continuously free-fall around the curvature of the Earth, creating a microgravity environment.",,128
+Q: Why do astronauts appear weightless on the International Space Station? A: The ISS and the astronauts inside are still heavily affected by Earth's gravity, but they are moving forward so rapidly that they continuously free-fall around the curvature of the Earth, creating a microgravity environment.",2,128
 19,Explanation,"P: ¿Por qué hay estaciones en la Tierra? R: El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los diferentes hemisferios reciben más luz solar directa en distintos puntos de la órbita terrestre. P: ¿Cuál es la diferencia entre la fisión y la fusión? R: La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía. P: ¿Por qué añadir sal reduce el punto de congelación del agua? R: La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele.",Gemini 3 Pro,Spanish,"P: ¿Por qué el cielo se vuelve rojo o naranja durante el amanecer y el atardecer?
 R: Cuando el Sol está bajo en el horizonte, la luz debe atravesar una mayor cantidad de atmósfera terrestre; esto dispersa casi por completo las longitudes de onda cortas (azules), permitiendo que solo las longitudes de onda más largas (rojas y naranjas) lleguen a nuestros ojos.
 
 P: ¿Cómo genera energía un panel solar fotovoltaico?
 R: Los fotones de la luz solar golpean las células de silicio del panel, lo que libera electrones de sus átomos y crea un flujo de corriente eléctrica mediante el efecto fotovoltaico.P: ¿Por qué el jabón elimina la grasa y el aceite?
-R: Las moléculas de jabón son anfipáticas, con una cabeza que atrae el agua y una cola que atrae la grasa; las colas rodean la grasa formando pequeñas esferas llamadas micelas, que luego pueden ser arrastradas por el agua.",,147
-19,Explanation,"Q: Why do we have seasons on Earth? A: Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit. Q: What is the difference between fission and fusion? A: Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy. Q: Why does adding salt lower the freezing point of water? A: Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-19,Explanation,"P: ¿Por qué hay estaciones en la Tierra? R: El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los diferentes hemisferios reciben más luz solar directa en distintos puntos de la órbita terrestre. P: ¿Cuál es la diferencia entre la fisión y la fusión? R: La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía. P: ¿Por qué añadir sal reduce el punto de congelación del agua? R: La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: Las moléculas de jabón son anfipáticas, con una cabeza que atrae el agua y una cola que atrae la grasa; las colas rodean la grasa formando pequeñas esferas llamadas micelas, que luego pueden ser arrastradas por el agua.",2,147
+19,Explanation,"Q: Why do we have seasons on Earth? A: Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit. Q: What is the difference between fission and fusion? A: Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy. Q: Why does adding salt lower the freezing point of water? A: Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and scientifically accurate:
+
+
+Why Earth has seasons
+✔️ Correct — Earth’s ~23.5° axial tilt causes different hemispheres to receive varying angles and durations of sunlight over the course of its orbit, producing the seasons (not Earth’s distance from the Sun).
+
+
+Difference between fission and fusion
+✔️ Correct —
+
+Fission splits a heavy atomic nucleus into smaller ones, releasing energy (used in nuclear power plants).
+Fusion combines light nuclei into a heavier one, also releasing energy (the process that powers the Sun).
+
+
+
+Why salt lowers the freezing point of water
+✔️ Correct — Dissolved salt disrupts ice crystal formation, so water must reach a lower temperature before it can freeze (freezing-point depression).
+
+
+Everything checks out perfectly. ✅",4,113
+19,Explanation,"P: ¿Por qué hay estaciones en la Tierra? R: El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los diferentes hemisferios reciben más luz solar directa en distintos puntos de la órbita terrestre. P: ¿Cuál es la diferencia entre la fisión y la fusión? R: La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía. P: ¿Por qué añadir sal reduce el punto de congelación del agua? R: La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y están explicadas con precisión científica. Confirmación clara:
+
+
+¿Por qué hay estaciones en la Tierra?
+✅ Correcto. La inclinación del eje terrestre (~23,5°) respecto a su plano orbital hace que, a lo largo del año, cada hemisferio reciba distinta cantidad e intensidad de luz solar, produciendo las estaciones.
+
+
+¿Cuál es la diferencia entre la fisión y la fusión?
+✅ Correcto.
+
+Fisión: divide núcleos pesados en otros más pequeños y libera energía (usada en reactores nucleares).
+Fusión: une núcleos ligeros para formar uno más pesado, liberando energía (proceso que ocurre en las estrellas).
+
+
+
+¿Por qué añadir sal reduce el punto de congelación del agua?
+✅ Correcto. La sal interfiere con la formación de la estructura cristalina del hielo, por lo que el agua necesita una temperatura más baja para solidificarse.
+
+
+Excelente nivel conceptual y explicativo 👏
+Cuando quieras, seguimos con física, química o ciencia aún más avanzada.",4,142
 19,Explanation,"Q: Why do we have seasons on Earth? A: Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit. Q: What is the difference between fission and fusion? A: Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy. Q: Why does adding salt lower the freezing point of water? A: Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
 Here's a brief summary:
@@ -543,19 +1113,58 @@ Here's a brief summary:
 2. Fission splits heavy nuclei into smaller ones, while fusion joins light nuclei into heavier ones.
 3. Adding salt lowers the freezing point of water by disrupting ice crystal formation.
 
-Would you like to ask more questions or clarify anything?",,55
-19,Explanation,"P: ¿Por qué hay estaciones en la Tierra? R: El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los diferentes hemisferios reciben más luz solar directa en distintos puntos de la órbita terrestre. P: ¿Cuál es la diferencia entre la fisión y la fusión? R: La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía. P: ¿Por qué añadir sal reduce el punto de congelación del agua? R: La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele.",LLaMA 3.2 3B,Spanish,"P: ¿Qué es la fotosíntesis y cómo funciona en las plantas? R: La fotosíntesis es el proceso por el cual las plantas convierten la energía luminosa del sol en energía química, produciendo oxígeno como subproducto. En este proceso, los clorofila y otros pigmentos capturan la luz solar y utilizan el agua y el dióxido de carbono para producir glucosa y oxígeno.",,61
+Would you like to ask more questions or clarify anything?",4,55
+19,Explanation,"P: ¿Por qué hay estaciones en la Tierra? R: El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los diferentes hemisferios reciben más luz solar directa en distintos puntos de la órbita terrestre. P: ¿Cuál es la diferencia entre la fisión y la fusión? R: La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía. P: ¿Por qué añadir sal reduce el punto de congelación del agua? R: La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele.",LLaMA 3.2 3B,Spanish,"P: ¿Qué es la fotosíntesis y cómo funciona en las plantas? R: La fotosíntesis es el proceso por el cual las plantas convierten la energía luminosa del sol en energía química, produciendo oxígeno como subproducto. En este proceso, los clorofila y otros pigmentos capturan la luz solar y utilizan el agua y el dióxido de carbono para producir glucosa y oxígeno.",4,61
 20,Explanation,"Q: What is the difference between DNA and RNA? A: DNA stores genetic information long-term and is double-stranded; RNA is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis. Q: Why does blowing over the top of an open bottle produce a sound? A: The airstream creates rapid fluctuations in air pressure inside the bottle, setting the air column into resonant vibration at a frequency determined by the bottle's volume and opening size. Q: What is the difference between speed and velocity? A: Speed is a scalar quantity with magnitude only, while velocity is a vector quantity that includes both magnitude and direction.",Gemini 3 Pro,English,"Q: What is an isotope? A: Isotopes are atoms of the same element that have the same number of protons but a different number of neutrons, giving them different atomic masses.
 
 Q: Why does a moving bicycle stay upright? A: A moving bicycle is kept upright primarily by the rider's continuous, subconscious steering adjustments to keep the center of mass over the wheels, aided by the gyroscopic effect of the spinning wheels.
 
-Q: What is the function of the myelin sheath in the nervous system? A: The myelin sheath is an insulating layer around nerves that allows electrical impulses to transmit quickly and efficiently along the nerve cells.",,106
+Q: What is the function of the myelin sheath in the nervous system? A: The myelin sheath is an insulating layer around nerves that allows electrical impulses to transmit quickly and efficiently along the nerve cells.",3,106
 20,Explanation,"P: ¿Cuál es la diferencia entre el ADN y el ARN? R: El ADN almacena la información genética a largo plazo y es de doble cadena; el ARN suele ser de cadena simple y transmite las instrucciones genéticas del ADN a los ribosomas para la síntesis de proteínas. P: ¿Por qué se produce un sonido al soplar sobre la boca de una botella abierta? R: La corriente de aire provoca rápidas fluctuaciones en la presión del aire dentro de la botella, lo que hace que la columna de aire vibre en resonancia a una frecuencia determinada por el volumen de la botella y el tamaño de su abertura. P: ¿Cuál es la diferencia entre rapidez y velocidad? R: La rapidez es una magnitud escalar que solo tiene magnitud, mientras que la velocidad es una magnitud vectorial que incluye tanto magnitud como dirección.",Gemini 3 Pro,Spanish,"P: ¿Qué es la ósmosis?
 R: Es el movimiento neto de moléculas de agua a través de una membrana semipermeable desde una región de menor concentración de soluto a una de mayor concentración para equilibrar ambas soluciones.  P: ¿Cómo funciona un motor de combustión interna de cuatro tiempos?
 R: Funciona mediante un ciclo de admisión, compresión, combustión (o explosión) y escape, convirtiendo la energía química del combustible en energía mecánica mediante el movimiento de pistones. P: ¿Cuál es la diferencia entre un circuito en serie y un circuito en paralelo?
-R: En un circuito en serie, los componentes se conectan uno tras otro en un solo camino para la corriente; en un circuito en paralelo, los componentes se conectan en ramas separadas, permitiendo múltiples caminos para la corriente.",,125
-20,Explanation,"Q: What is the difference between DNA and RNA? A: DNA stores genetic information long-term and is double-stranded; RNA is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis. Q: Why does blowing over the top of an open bottle produce a sound? A: The airstream creates rapid fluctuations in air pressure inside the bottle, setting the air column into resonant vibration at a frequency determined by the bottle's volume and opening size. Q: What is the difference between speed and velocity? A: Speed is a scalar quantity with magnitude only, while velocity is a vector quantity that includes both magnitude and direction.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-20,Explanation,"P: ¿Cuál es la diferencia entre el ADN y el ARN? R: El ADN almacena la información genética a largo plazo y es de doble cadena; el ARN suele ser de cadena simple y transmite las instrucciones genéticas del ADN a los ribosomas para la síntesis de proteínas. P: ¿Por qué se produce un sonido al soplar sobre la boca de una botella abierta? R: La corriente de aire provoca rápidas fluctuaciones en la presión del aire dentro de la botella, lo que hace que la columna de aire vibre en resonancia a una frecuencia determinada por el volumen de la botella y el tamaño de su abertura. P: ¿Cuál es la diferencia entre rapidez y velocidad? R: La rapidez es una magnitud escalar que solo tiene magnitud, mientras que la velocidad es una magnitud vectorial que incluye tanto magnitud como dirección.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: En un circuito en serie, los componentes se conectan uno tras otro en un solo camino para la corriente; en un circuito en paralelo, los componentes se conectan en ramas separadas, permitiendo múltiples caminos para la corriente.",4,125
+20,Explanation,"Q: What is the difference between DNA and RNA? A: DNA stores genetic information long-term and is double-stranded; RNA is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis. Q: Why does blowing over the top of an open bottle produce a sound? A: The airstream creates rapid fluctuations in air pressure inside the bottle, setting the air column into resonant vibration at a frequency determined by the bottle's volume and opening size. Q: What is the difference between speed and velocity? A: Speed is a scalar quantity with magnitude only, while velocity is a vector quantity that includes both magnitude and direction.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and clearly explained:
+
+
+Difference between DNA and RNA
+✔️ Correct — DNA is double‑stranded and serves as the long‑term storage of genetic information, while RNA is usually single‑stranded and functions in conveying and using that information (such as carrying instructions to ribosomes for protein synthesis).
+
+
+Why blowing across a bottle produces sound
+✔️ Correct — The airflow causes pressure oscillations that excite a resonance of the air column inside the bottle (a Helmholtz resonance), producing a sound whose pitch depends on the bottle’s characteristics.
+
+
+Difference between speed and velocity
+✔️ Correct — Speed describes how fast something moves (magnitude only), while velocity includes both magnitude and direction, making it a vector quantity.
+
+
+Everything checks out scientifically and conceptually. ✅",4,118
+20,Explanation,"P: ¿Cuál es la diferencia entre el ADN y el ARN? R: El ADN almacena la información genética a largo plazo y es de doble cadena; el ARN suele ser de cadena simple y transmite las instrucciones genéticas del ADN a los ribosomas para la síntesis de proteínas. P: ¿Por qué se produce un sonido al soplar sobre la boca de una botella abierta? R: La corriente de aire provoca rápidas fluctuaciones en la presión del aire dentro de la botella, lo que hace que la columna de aire vibre en resonancia a una frecuencia determinada por el volumen de la botella y el tamaño de su abertura. P: ¿Cuál es la diferencia entre rapidez y velocidad? R: La rapidez es una magnitud escalar que solo tiene magnitud, mientras que la velocidad es una magnitud vectorial que incluye tanto magnitud como dirección.",Microsoft Copilot Pro,Spanish,"Tus tres respuestas son correctas ✅ y están bien formuladas. Confirmación clara y ordenada:
+
+
+¿Cuál es la diferencia entre el ADN y el ARN?
+✅ Correcto.
+
+El ADN almacena la información genética a largo plazo y es de doble cadena.
+El ARN suele ser de cadena simple y participa en la expresión genética, llevando la información del ADN a los ribosomas para la síntesis de proteínas.
+
+
+
+¿Por qué se produce un sonido al soplar sobre la boca de una botella abierta?
+✅ Correcto. El flujo de aire genera oscilaciones de presión que hacen vibrar la columna de aire dentro de la botella, produciendo una resonancia cuya frecuencia depende del volumen interno y de la abertura.
+
+
+¿Cuál es la diferencia entre rapidez y velocidad?
+✅ Correcto.
+
+Rapidez: magnitud escalar (solo indica cuánto).
+Velocidad: magnitud vectorial (indica cuánto y en qué dirección).
+
+
+
+Excelente precisión conceptual 👏
+Cuando quieras, seguimos con preguntas aún más avanzadas o cambiamos de área.",4,144
 20,Explanation,"Q: What is the difference between DNA and RNA? A: DNA stores genetic information long-term and is double-stranded; RNA is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis. Q: Why does blowing over the top of an open bottle produce a sound? A: The airstream creates rapid fluctuations in air pressure inside the bottle, setting the air column into resonant vibration at a frequency determined by the bottle's volume and opening size. Q: What is the difference between speed and velocity? A: Speed is a scalar quantity with magnitude only, while velocity is a vector quantity that includes both magnitude and direction.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
 Here are some additional points to consider:
@@ -564,23 +1173,55 @@ Here are some additional points to consider:
 * The sound produced when blowing over the top of an open bottle is due to the rapid fluctuations in air pressure inside the bottle, which creates resonant vibration at a specific frequency determined by the bottle's volume and opening size.
 * Speed is a scalar quantity that refers only to the magnitude of an object's movement, whereas velocity is a vector quantity that includes both magnitude (speed) and direction.
 
-Would you like me to clarify or expand on any of these points?",,118
+Would you like me to clarify or expand on any of these points?",4,118
 20,Explanation,"P: ¿Cuál es la diferencia entre el ADN y el ARN? R: El ADN almacena la información genética a largo plazo y es de doble cadena; el ARN suele ser de cadena simple y transmite las instrucciones genéticas del ADN a los ribosomas para la síntesis de proteínas. P: ¿Por qué se produce un sonido al soplar sobre la boca de una botella abierta? R: La corriente de aire provoca rápidas fluctuaciones en la presión del aire dentro de la botella, lo que hace que la columna de aire vibre en resonancia a una frecuencia determinada por el volumen de la botella y el tamaño de su abertura. P: ¿Cuál es la diferencia entre rapidez y velocidad? R: La rapidez es una magnitud escalar que solo tiene magnitud, mientras que la velocidad es una magnitud vectorial que incluye tanto magnitud como dirección.",LLaMA 3.2 3B,Spanish,"P: ¿Qué es el efecto de la lente convexa en la formación de imágenes? 
-R: El efecto de la lente convexa es que converge los rayos luminosos, lo que permite la formación de una imagen real y distorsionada, pero con mayor claridad, a una distancia fija desde el objeto.",,49
+R: El efecto de la lente convexa es que converge los rayos luminosos, lo que permite la formación de una imagen real y distorsionada, pero con mayor claridad, a una distancia fija desde el objeto.",3,49
 21,Explanation,"Q: Why is carbon so central to life on Earth? A: Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures that form the backbone of biological molecules. Q: What causes a rainbow? A: Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit, separating white light into its component wavelengths at slightly different angles. Q: Why does the surface of a liquid in a container curve at the edges? A: Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid; when adhesion is stronger, the liquid curves upward at the edges.",Gemini 3 Pro,English,"Q: What causes the aurora borealis (Northern Lights)? A: Energized solar particles collide with gases in Earth's upper atmosphere, exciting the gas molecules and causing them to emit visible light.
 
 Q: Why do cut apples turn brown? A: Cutting the apple exposes the enzyme polyphenol oxidase to oxygen, triggering an oxidation reaction that produces brown-colored melanin pigments.
 
-Q: How is Earth's magnetic field generated? A: It is created by the geodynamo effect, where the convection of molten iron and nickel in Earth's outer core generates electric currents and a corresponding magnetic field.",,90
+Q: How is Earth's magnetic field generated? A: It is created by the geodynamo effect, where the convection of molten iron and nickel in Earth's outer core generates electric currents and a corresponding magnetic field.",2,90
 21,Explanation,"P: ¿Por qué el carbono es tan fundamental para la vida en la Tierra? R: El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas que constituyen la columna vertebral de las moléculas biológicas. P: ¿Qué provoca un arcoíris? R: La luz solar entra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes en ángulos ligeramente diferentes. P: ¿Por qué la superficie de un líquido en un recipiente se curva en los bordes? R: Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del líquido; cuando la adhesión es más fuerte, el líquido se curva hacia arriba en los bordes.",Gemini 3 Pro,Spanish,"P: ¿Qué es el principio de incertidumbre de Heisenberg?
 R: Es un concepto fundamental de la mecánica cuántica que establece que es imposible conocer simultáneamente y con precisión absoluta la posición y el momento (velocidad) de una partícula; cuanto más exacta es la medición de una, más incierta se vuelve la otra.
 
 P: ¿Cómo funciona un transformador eléctrico?
 R: Utiliza la inducción electromagnética para transferir energía entre dos circuitos mediante un campo magnético cambiante; una corriente alterna en la bobina primaria genera un flujo magnético que induce un voltaje en la bobina secundaria.   P: ¿Cuál es la diferencia entre un enlace iónico y un enlace covalente?
-R: En un enlace iónico, un átomo cede electrones a otro, creando iones con cargas opuestas que se atraen; en un enlace covalente, los átomos comparten uno o más pares de electrones para alcanzar estabilidad.",,137
-21,Explanation,"Q: Why is carbon so central to life on Earth? A: Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures that form the backbone of biological molecules. Q: What causes a rainbow? A: Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit, separating white light into its component wavelengths at slightly different angles. Q: Why does the surface of a liquid in a container curve at the edges? A: Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid; when adhesion is stronger, the liquid curves upward at the edges.",Microsoft Copilot Pro,English,*insert response in english here*,,5
-21,Explanation,"P: ¿Por qué el carbono es tan fundamental para la vida en la Tierra? R: El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas que constituyen la columna vertebral de las moléculas biológicas. P: ¿Qué provoca un arcoíris? R: La luz solar entra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes en ángulos ligeramente diferentes. P: ¿Por qué la superficie de un líquido en un recipiente se curva en los bordes? R: Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del líquido; cuando la adhesión es más fuerte, el líquido se curva hacia arriba en los bordes.",Microsoft Copilot Pro,Spanish,*insert response in spanish here*,,5
+R: En un enlace iónico, un átomo cede electrones a otro, creando iones con cargas opuestas que se atraen; en un enlace covalente, los átomos comparten uno o más pares de electrones para alcanzar estabilidad.",2,137
+21,Explanation,"Q: Why is carbon so central to life on Earth? A: Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures that form the backbone of biological molecules. Q: What causes a rainbow? A: Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit, separating white light into its component wavelengths at slightly different angles. Q: Why does the surface of a liquid in a container curve at the edges? A: Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid; when adhesion is stronger, the liquid curves upward at the edges.",Microsoft Copilot Pro,English,"All three answers are correct ✅ and well explained:
+
+
+Why carbon is central to life on Earth
+✔️ Correct — Carbon’s ability to form four stable covalent bonds allows it to create complex, versatile, and durable molecular frameworks, making it ideal for building biological molecules like proteins, carbohydrates, lipids, and nucleic acids.
+
+
+What causes a rainbow
+✔️ Correct — A rainbow forms through refraction, internal reflection, and dispersion of sunlight within water droplets, which separates white light into its component colors at different angles.
+
+
+Why a liquid surface curves at the edges of a container
+✔️ Correct — This is due to the balance between adhesive forces (between the liquid and container) and cohesive forces (within the liquid). When adhesion is stronger, the liquid forms a concave meniscus (as with water in glass).
+
+
+Everything checks out scientifically and conceptually. ✅
+Provide your feedback on BizChat",4,137
+21,Explanation,"P: ¿Por qué el carbono es tan fundamental para la vida en la Tierra? R: El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas que constituyen la columna vertebral de las moléculas biológicas. P: ¿Qué provoca un arcoíris? R: La luz solar entra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes en ángulos ligeramente diferentes. P: ¿Por qué la superficie de un líquido en un recipiente se curva en los bordes? R: Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del líquido; cuando la adhesión es más fuerte, el líquido se curva hacia arriba en los bordes.",Microsoft Copilot Pro,Spanish,"Tus respuestas son correctas y bien formuladas. Aquí tienes una breve verificación y matiz de cada una:
+
+
+Carbono y vida en la Tierra ✅
+Exacto. La tetravalencia del carbono le permite formar cadenas, anillos y macromoléculas estables (proteínas, lípidos, carbohidratos y ácidos nucleicos), lo que es esencial para la complejidad química de la vida.
+
+
+Formación del arcoíris ✅
+Correcto. El proceso incluye refracción → reflexión interna → refracción, con dispersión debido a que cada longitud de onda se desvía un ángulo distinto dentro de las gotas de agua.
+
+
+Curvatura de la superficie de un líquido (menisco) ✅
+Correcto. La explicación entre adhesión vs. cohesión es precisa. Cuando la adhesión domina (como el agua en vidrio), el menisco es cóncavo; cuando domina la cohesión (como el mercurio), es convexo.
+
+
+En conjunto, son respuestas claras, científicamente sólidas y bien expresadas.
+Provide your feedback on BizChat",4,135
 21,Explanation,"Q: Why is carbon so central to life on Earth? A: Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures that form the backbone of biological molecules. Q: What causes a rainbow? A: Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit, separating white light into its component wavelengths at slightly different angles. Q: Why does the surface of a liquid in a container curve at the edges? A: Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid; when adhesion is stronger, the liquid curves upward at the edges.",LLaMA 3.2 3B,English,"Your answers are accurate and concise. Well done!
 
-Would you like to ask more questions or need help with anything else?",,20
-21,Explanation,"P: ¿Por qué el carbono es tan fundamental para la vida en la Tierra? R: El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas que constituyen la columna vertebral de las moléculas biológicas. P: ¿Qué provoca un arcoíris? R: La luz solar entra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes en ángulos ligeramente diferentes. P: ¿Por qué la superficie de un líquido en un recipiente se curva en los bordes? R: Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del líquido; cuando la adhesión es más fuerte, el líquido se curva hacia arriba en los bordes.",LLaMA 3.2 3B,Spanish,"P: ¿Qué sucede cuando un objeto cae desde una gran altura? R: El objeto sigue una trayectoria curva debido a la fuerza de gravedad y la resistencia del aire, lo que provoca que el objeto acelere hacia abajo y llegue al suelo con mayor velocidad.",,45
+Would you like to ask more questions or need help with anything else?",5,20
+21,Explanation,"P: ¿Por qué el carbono es tan fundamental para la vida en la Tierra? R: El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas que constituyen la columna vertebral de las moléculas biológicas. P: ¿Qué provoca un arcoíris? R: La luz solar entra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes en ángulos ligeramente diferentes. P: ¿Por qué la superficie de un líquido en un recipiente se curva en los bordes? R: Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del líquido; cuando la adhesión es más fuerte, el líquido se curva hacia arriba en los bordes.",LLaMA 3.2 3B,Spanish,"P: ¿Qué sucede cuando un objeto cae desde una gran altura? R: El objeto sigue una trayectoria curva debido a la fuerza de gravedad y la resistencia del aire, lo que provoca que el objeto acelere hacia abajo y llegue al suelo con mayor velocidad.",2,45

@@ -13,8 +13,10 @@ SENTIMENT_MODEL   = "nlptown/bert-base-multilingual-uncased-sentiment"
 
 ZERO_SHOT_INPUT   = DATA_DIR / "LLM_Response_Log - Zero-Shot.csv"
 FINE_TUNED_INPUT  = DATA_DIR / "LLM_Response_Log - Fine-Tuned LLaMA 3.2 3B.csv"
+FEW_SHOT_INPUT    = DATA_DIR / "LLM_Response_Log - Few-Shot.csv"
 ZERO_SHOT_SCORES  = DATA_DIR / "zero_shot_scores.csv"
 FINE_TUNED_SCORES = DATA_DIR / "fine_tuned_scores.csv"
+FEW_SHOT_SCORES   = DATA_DIR / "few_shot_scores.csv"
 
 
 def is_placeholder(value) -> bool:
@@ -37,11 +39,13 @@ def compute_sentiment(sent_pipeline, texts):
     return results
 
 
-def score_sheet(path, sim_model, sent_pipeline):
+def score_sheet(path, sim_model, sent_pipeline, has_accuracy=True):
     df = pd.read_csv(path, encoding='utf-8-sig')
     df.columns = [c.strip() for c in df.columns]
 
-    already_scored = df["Accuracy Score"].notna() & (df["Accuracy Score"] != "")
+    already_scored = df["Sentiment Score"].apply(
+        lambda x: not pd.isna(x) and str(x).strip() != ""
+    )
     mask = ~df["Response"].apply(is_placeholder) & ~already_scored
 
     rows = df[mask]
@@ -49,11 +53,12 @@ def score_sheet(path, sim_model, sent_pipeline):
         print("  Nothing to score.")
         return df
 
-    responses       = rows["Response"].tolist()
-    correct_answers = rows["Correct Answer (English)"].tolist()
+    responses = rows["Response"].tolist()
 
-    print(f"  Computing accuracy for {len(rows)} rows...")
-    df.loc[mask, "Accuracy Score"] = compute_accuracy(sim_model, responses, correct_answers)
+    if has_accuracy:
+        correct_answers = rows["Correct Answer (English)"].tolist()
+        print(f"  Computing accuracy for {len(rows)} rows...")
+        df.loc[mask, "Accuracy Score"] = compute_accuracy(sim_model, responses, correct_answers)
 
     print(f"  Computing sentiment for {len(rows)} rows...")
     df.loc[mask, "Sentiment Score"] = compute_sentiment(sent_pipeline, responses)
@@ -80,7 +85,12 @@ def main():
     df_ft.to_csv(FINE_TUNED_SCORES, index=False, encoding='utf-8-sig')
     print(f"  Saved to {FINE_TUNED_SCORES}")
 
-    print("\nDone. Paste the Accuracy Score and Sentiment Score columns back into Google Sheets.")
+    print("\nScoring Few-Shot sheet (sentiment only)...")
+    df_fs = score_sheet(FEW_SHOT_INPUT, sim_model, sent_pipeline, has_accuracy=False)
+    df_fs.to_csv(FEW_SHOT_SCORES, index=False, encoding='utf-8-sig')
+    print(f"  Saved to {FEW_SHOT_SCORES}")
+
+    print("\nDone. Paste the score columns back into Google Sheets.")
 
 
 if __name__ == "__main__":
