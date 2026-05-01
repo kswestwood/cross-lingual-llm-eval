@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+# generated response and score files
+data/zero_shot_responses.csv
+data/few_shot_responses.csv
+data/fine_tuned_responses.csv
+data/zero_shot_scores.csv
+data/few_shot_scores.csv
+data/fine_tuned_scores.csv
+
+# saved LoRA adapter from fine-tuning (large)
+fine_tuning/fine_tuned_adapter/

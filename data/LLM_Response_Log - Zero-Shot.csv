@@ -1,0 +1,878 @@
+ ,Category,Prompt,Correct Answer (English),Model,Language,Response,Accuracy Score,Sentiment Score,Response Length
+1,Factual QA,What is the chemical symbol for gold?,Au,Gemini 3 Pro,English,The chemical symbol for gold is Au.,0.3598,3,7
+1,Factual QA,¿Cuál es el símbolo químico del oro?,Au,Gemini 3 Pro,Spanish,El símbolo químico del oro es Au.,0.3607,3,7
+1,Factual QA,What is the chemical symbol for gold?,Au,Microsoft Copilot Pro,English,"The chemical symbol for gold is Au.
+This symbol comes from the Latin word aurum, meaning “shining dawn” or “gold.”",0.3278,3,19
+1,Factual QA,¿Cuál es el símbolo químico del oro?,Au,Microsoft Copilot Pro,Spanish,El símbolo químico del oro es Au.,0.3607,3,7
+1,Factual QA,What is the chemical symbol for gold?,Au,LLaMA 3.2 3B,English,The chemical symbol for gold is Au.,0.3598,3,7
+1,Factual QA,¿Cuál es el símbolo químico del oro?,Au,LLaMA 3.2 3B,Spanish,"El símbolo químico del oro es Au.
+",0.3607,3,7
+2,Factual QA,How many bones are in the adult human body?,206,Gemini 3 Pro,English,An adult human body typically has 206 bones.,0.371,3,8
+2,Factual QA,¿Cuántos huesos hay en el cuerpo humano adulto?,206,Gemini 3 Pro,Spanish,"Un cuerpo humano adulto tiene, por lo general, 206 huesos.",0.3735,3,10
+2,Factual QA,How many bones are in the adult human body?,206,Microsoft Copilot Pro,English,An adult human body typically has 206 bones.,0.371,3,8
+2,Factual QA,¿Cuántos huesos hay en el cuerpo humano adulto?,206,Microsoft Copilot Pro,Spanish,En el cuerpo humano adulto hay 206 huesos.,0.3764,2,8
+2,Factual QA,How many bones are in the adult human body?,206,LLaMA 3.2 3B,English,There are 206 bones in the adult human body.,0.3753,2,9
+2,Factual QA,¿Cuántos huesos hay en el cuerpo humano adulto?,206,LLaMA 3.2 3B,Spanish,"En el cuerpo humano adulto, hay 206 huesos. Estos huesos forman la estructura ósea del cuerpo y proporcionan apoyo, movilidad y protección a los órganos internos.",0.244,4,26
+3,Factual QA,What is the largest planet in the solar system?,Jupiter,Gemini 3 Pro,English,The largest planet in our solar system is Jupiter.,0.7039,1,9
+3,Factual QA,¿Cuál es el planeta más grande del sistema solar?,Jupiter,Gemini 3 Pro,Spanish,El planeta más grande de nuestro sistema solar es Júpiter.,0.703,5,10
+3,Factual QA,What is the largest planet in the solar system?,Jupiter,Microsoft Copilot Pro,English,The largest planet in the solar system is Jupiter.,0.7021,1,9
+3,Factual QA,¿Cuál es el planeta más grande del sistema solar?,Jupiter,Microsoft Copilot Pro,Spanish,El planeta más grande del sistema solar es Júpiter.,0.7024,5,9
+3,Factual QA,What is the largest planet in the solar system?,Jupiter,LLaMA 3.2 3B,English,"The largest planet in our solar system is Jupiter, with a diameter of approximately 142,984 kilometers (88,846 miles).",0.5782,1,18
+3,Factual QA,¿Cuál es el planeta más grande del sistema solar?,Jupiter,LLaMA 3.2 3B,Spanish,"El planeta más grande del sistema solar es Júpiter, con un diámetro aproximado de 142.984 kilómetros. Su masa también es la mayor entre todos los planetas, lo que le permite soportar una presión atmosférica extremadamente alta en su núcleo.",0.5734,5,39
+4,Factual QA,In what year did the First World War end?,1918,Gemini 3 Pro,English,The First World War ended in 1918.,0.5364,1,7
+4,Factual QA,¿En qué año terminó la Primera Guerra Mundial?,1918,Gemini 3 Pro,Spanish,La Primera Guerra Mundial terminó oficialmente el 11 de noviembre de 1918.,0.4246,1,12
+4,Factual QA,In what year did the First World War end?,1918,Microsoft Copilot Pro,English,The First World War ended in 1918.,0.5364,1,7
+4,Factual QA,¿En qué año terminó la Primera Guerra Mundial?,1918,Microsoft Copilot Pro,Spanish,La Primera Guerra Mundial terminó en el año 1918.,0.5677,1,9
+4,Factual QA,In what year did the First World War end?,1918,LLaMA 3.2 3B,English,"The First World War ended in 1918, with the Armistice of November 11, 1918, marking its official conclusion. The Treaty of Versailles was signed on June 28, 1919, formally ending the war.",0.4506,5,32
+4,Factual QA,¿En qué año terminó la Primera Guerra Mundial?,1918,LLaMA 3.2 3B,Spanish,"La Primera Guerra Mundial terminó en 1918, específicamente el 11 de noviembre del mismo año.",0.4919,1,15
+5,Factual QA,"What is the speed of light in a vacuum, in meters per second?","299,792,458 m/s",Gemini 3 Pro,English,"The speed of light in a vacuum is exactly 299,792,458 meters per second.",0.5011,1,13
+5,Factual QA,"¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?","299,792,458 m/s",Gemini 3 Pro,Spanish,"La velocidad de la luz en el vacío es exactamente 299,792,458 metros por segundo.",0.576,1,14
+5,Factual QA,"What is the speed of light in a vacuum, in meters per second?","299,792,458 m/s",Microsoft Copilot Pro,English,"299,792,458 meters per second",0.7834,1,4
+5,Factual QA,"¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?","299,792,458 m/s",Microsoft Copilot Pro,Spanish,299 792 458 metros por segundo (m/s),0.8084,1,7
+5,Factual QA,"What is the speed of light in a vacuum, in meters per second?","299,792,458 m/s",LLaMA 3.2 3B,English,"The speed of light in a vacuum is approximately 299,792,458 meters per second (m/s).",0.5583,1,14
+5,Factual QA,"¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?","299,792,458 m/s",LLaMA 3.2 3B,Spanish,"La velocidad de la luz en el vacío es aproximadamente 299.792 kilómetros por segundo (km/s). Para convertir a metros por segundo, multiplicamos por 1000:
+
+299.792 km/s x 1000 m/km = 299.792.000 m/s",0.5424,1,31
+6,Factual QA,What element has atomic number 1?,Hydrogen,Gemini 3 Pro,English,The element with atomic number 1 is Hydrogen (chemical symbol H).,0.7412,1,11
+6,Factual QA,¿Qué elemento tiene el número atómico 1?,Hydrogen,Gemini 3 Pro,Spanish,El elemento que tiene el número atómico 1 es el Hidrógeno (símbolo: H).,0.4967,1,13
+6,Factual QA,What element has atomic number 1?,Hydrogen,Microsoft Copilot Pro,English,The element with atomic number 1 is hydrogen.,0.7457,1,8
+6,Factual QA,¿Qué elemento tiene el número atómico 1?,Hydrogen,Microsoft Copilot Pro,Spanish,El elemento con número atómico 1 es el hidrógeno (H).,0.7525,1,10
+6,Factual QA,What element has atomic number 1?,Hydrogen,LLaMA 3.2 3B,English,Hydrogen (H) has an atomic number of 1.,0.7622,5,8
+6,Factual QA,¿Qué elemento tiene el número atómico 1?,Hydrogen,LLaMA 3.2 3B,Spanish,El elemento con el número atómico 1 es Hidrógeno (H).,0.5153,1,10
+7,Factual QA,How many degrees are in a full circle?,360,Gemini 3 Pro,English,There are 360 degrees in a full circle.,0.6049,5,8
+7,Factual QA,¿Cuántos grados hay en un círculo completo?,360,Gemini 3 Pro,Spanish,Un círculo completo tiene exactamente 360 grados.,0.5297,1,7
+7,Factual QA,How many degrees are in a full circle?,360,Microsoft Copilot Pro,English,A full circle contains 360 degrees (360°).,0.5427,5,7
+7,Factual QA,¿Cuántos grados hay en un círculo completo?,360,Microsoft Copilot Pro,Spanish,Un círculo completo tiene 360 grados (360°).,0.5495,3,7
+7,Factual QA,How many degrees are in a full circle?,360,LLaMA 3.2 3B,English,There are 360 degrees in a full circle.,0.6049,5,8
+7,Factual QA,¿Cuántos grados hay en un círculo completo?,360,LLaMA 3.2 3B,Spanish,Un círculo completo tiene 360 grados.,0.5867,1,6
+8,Factual QA,What is the hardest natural substance on Earth?,Diamond,Gemini 3 Pro,English,The hardest known natural substance on Earth is diamond.,0.5887,1,9
+8,Factual QA,¿Cuál es la sustancia natural más dura que existe en la Tierra?,Diamond,Gemini 3 Pro,Spanish,La sustancia natural más dura que se encuentra en la Tierra es el diamante.,0.615,2,14
+8,Factual QA,What is the hardest natural substance on Earth?,Diamond,Microsoft Copilot Pro,English,The hardest natural substance on Earth is diamond.,0.5885,5,8
+8,Factual QA,¿Cuál es la sustancia natural más dura que existe en la Tierra?,Diamond,Microsoft Copilot Pro,Spanish,La sustancia natural más dura que existe en la Tierra es el diamante.,0.6127,2,13
+8,Factual QA,What is the hardest natural substance on Earth?,Diamond,LLaMA 3.2 3B,English,"Diamond is generally considered the hardest natural substance on Earth, with a Mohs hardness of 10 (the highest rating).",0.514,5,19
+8,Factual QA,¿Cuál es la sustancia natural más dura que existe en la Tierra?,Diamond,LLaMA 3.2 3B,Spanish,"La sustancia natural más dura que existe en la Tierra es el diamante. Es un mineral compuesto por carbono cristalizado en una estructura hexagonal, lo que le da su gran resistencia y durabilidad. El diamante se forma a partir de procesos geológicos que involucran altas presiones y temperaturas, lo que le permite desarrollar sus propias propiedades únicas.",0.5596,5,57
+9,Factual QA,What is the smallest prime number?,2,Gemini 3 Pro,English,The smallest prime number is 2.,0.3828,2,6
+9,Factual QA,¿Cuál es el número primo más pequeño?,2,Gemini 3 Pro,Spanish,El número primo más pequeño es el 2.,0.4907,3,8
+9,Factual QA,What is the smallest prime number?,2,Microsoft Copilot Pro,English,The smallest prime number is 2.,0.3828,2,6
+9,Factual QA,¿Cuál es el número primo más pequeño?,2,Microsoft Copilot Pro,Spanish,El número primo más pequeño es 2.,0.5087,3,7
+9,Factual QA,What is the smallest prime number?,2,LLaMA 3.2 3B,English,The smallest prime number is 2.,0.3828,2,6
+9,Factual QA,¿Cuál es el número primo más pequeño?,2,LLaMA 3.2 3B,Spanish,El número primo más pequeño es 2.,0.5087,3,7
+10,Factual QA,What organ in the human body produces insulin?,The pancreas,Gemini 3 Pro,English,The organ in the human body that produces insulin is the pancreas.,0.7892,3,12
+10,Factual QA,¿Qué órgano del cuerpo humano produce insulina?,The pancreas,Gemini 3 Pro,Spanish,El órgano encargado de producir insulina es el páncreas.,0.7934,3,9
+10,Factual QA,What organ in the human body produces insulin?,The pancreas,Microsoft Copilot Pro,English,The organ in the human body that produces insulin is the pancreas.,0.7892,3,12
+10,Factual QA,¿Qué órgano del cuerpo humano produce insulina?,The pancreas,Microsoft Copilot Pro,Spanish,El órgano del cuerpo humano que produce insulina es el páncreas.,0.7735,2,11
+10,Factual QA,What organ in the human body produces insulin?,The pancreas,LLaMA 3.2 3B,English,"The pancreas is the organ that produces insulin, a hormone that regulates blood sugar levels.",0.766,4,15
+10,Factual QA,¿Qué órgano del cuerpo humano produce insulina?,The pancreas,LLaMA 3.2 3B,Spanish,"La glándula pituitaria no es el órgano que produce insulina, sino la glándula endocrina pancreática, específicamente las células beta de la isleta de Langerhans. Estas células producen y secretan insulina para regular los niveles de azúcar en sangre.",0.5663,3,38
+11,Factual QA,How many chromosomes does a typical human cell contain?,46,Gemini 3 Pro,English,A typical human cell contains 46 chromosomes.,0.3838,3,7
+11,Factual QA,¿Cuántos cromosomas contiene una célula humana típica?,46,Gemini 3 Pro,Spanish,"Una célula humana típica (conocida como célula somática) contiene 46 cromosomas, organizados en 23 pares.",0.3025,3,15
+11,Factual QA,How many chromosomes does a typical human cell contain?,46,Microsoft Copilot Pro,English,A typical human somatic (body) cell contains 46 chromosomes.,0.3216,3,9
+11,Factual QA,¿Cuántos cromosomas contiene una célula humana típica?,46,Microsoft Copilot Pro,Spanish,"Una célula humana típica (una célula somática) contiene 46 cromosomas, organizados en 23 pares:",0.3074,3,14
+11,Factual QA,How many chromosomes does a typical human cell contain?,46,LLaMA 3.2 3B,English,"A typical human cell contains 46 chromosomes, arranged into 23 pairs of autosomes (non-sex chromosomes) and one pair of sex chromosomes (XX for females or XY for males).",0.2578,3,28
+11,Factual QA,¿Cuántos cromosomas contiene una célula humana típica?,46,LLaMA 3.2 3B,Spanish,"Una célula humana típica contiene 46 cromosomas, que se organizan en 23 pares de cromosomas.",0.3196,2,15
+12,Factual QA,What is the chemical formula for water?,H₂O,Gemini 3 Pro,English,The chemical formula for water is H₂O.,0.7282,3,7
+12,Factual QA,¿Cuál es la fórmula química del agua?,H₂O,Gemini 3 Pro,Spanish,La fórmula química del agua es H_2O.,0.7145,3,7
+12,Factual QA,What is the chemical formula for water?,H₂O,Microsoft Copilot Pro,English,H₂O,1,4,1
+12,Factual QA,¿Cuál es la fórmula química del agua?,H₂O,Microsoft Copilot Pro,Spanish,H₂O,1,4,1
+12,Factual QA,What is the chemical formula for water?,H₂O,LLaMA 3.2 3B,English,"The chemical formula for water is H2O, indicating two hydrogen atoms (H) bonded to one oxygen atom (O).",0.6955,3,18
+12,Factual QA,¿Cuál es la fórmula química del agua?,H₂O,LLaMA 3.2 3B,Spanish,"La fórmula química del agua es H2O, donde:
+
+- H representa el hidrógeno
+- O representa el oxígeno
+
+Estos dos elementos forman una molécula única y fundamental para la vida en la Tierra.",0.6715,5,30
+13,Factual QA,What is the most abundant gas in Earth's atmosphere?,Nitrogen,Gemini 3 Pro,English,The most abundant gas in Earth's atmosphere is Nitrogen (N₂).,0.6393,2,10
+13,Factual QA,¿Cuál es el gas más abundante en la atmósfera terrestre?,Nitrogen,Gemini 3 Pro,Spanish,El gas más abundante en la atmósfera de la Tierra es el nitrógeno (N_2).,0.6685,2,14
+13,Factual QA,What is the most abundant gas in Earth's atmosphere?,Nitrogen,Microsoft Copilot Pro,English,The most abundant gas in Earth’s atmosphere is nitrogen.,0.6187,1,9
+13,Factual QA,¿Cuál es el gas más abundante en la atmósfera terrestre?,Nitrogen,Microsoft Copilot Pro,Spanish,El gas más abundante en la atmósfera terrestre es el nitrógeno (N₂).,0.6687,2,12
+13,Factual QA,What is the most abundant gas in Earth's atmosphere?,Nitrogen,LLaMA 3.2 3B,English,"The most abundant gas in Earth's atmosphere is nitrogen (N2), making up approximately 78% of the atmosphere.",0.5585,2,17
+13,Factual QA,¿Cuál es el gas más abundante en la atmósfera terrestre?,Nitrogen,LLaMA 3.2 3B,Spanish,"El gas más abundante en la atmósfera terrestre es el nitrógeno (N2), que representa aproximadamente un 78% de su composición.",0.6315,2,20
+14,Factual QA,What is the square root of 144?,12,Gemini 3 Pro,English,The square root of 144 is 12.,0.4773,3,7
+14,Factual QA,¿Cuál es la raíz cuadrada de 144?,12,Gemini 3 Pro,Spanish,La raíz cuadrada de 144 es 12.,0.5001,2,7
+14,Factual QA,What is the square root of 144?,12,Microsoft Copilot Pro,English,The square root of 144 is 12.,0.4773,3,7
+14,Factual QA,¿Cuál es la raíz cuadrada de 144?,12,Microsoft Copilot Pro,Spanish,12,1,5,1
+14,Factual QA,What is the square root of 144?,12,LLaMA 3.2 3B,English,The square root of 144 is 12.,0.4773,3,7
+14,Factual QA,¿Cuál es la raíz cuadrada de 144?,12,LLaMA 3.2 3B,Spanish,"La raíz cuadrada de 144 es 12, ya que 12*12 = 144.",0.4647,1,12
+15,Factual QA,How many sides does a hexagon have?,6,Gemini 3 Pro,English,A hexagon has 6 sides.,0.3389,3,5
+15,Factual QA,¿Cuántos lados tiene un hexágono?,6,Gemini 3 Pro,Spanish,Un hexágono tiene 6 lados.,0.4093,3,5
+15,Factual QA,How many sides does a hexagon have?,6,Microsoft Copilot Pro,English,A hexagon has 6 sides.,0.3389,3,5
+15,Factual QA,¿Cuántos lados tiene un hexágono?,6,Microsoft Copilot Pro,Spanish,Un hexágono tiene 6 lados.,0.4093,3,5
+15,Factual QA,How many sides does a hexagon have?,6,LLaMA 3.2 3B,English,A hexagon has 6 sides.,0.3389,3,5
+15,Factual QA,¿Cuántos lados tiene un hexágono?,6,LLaMA 3.2 3B,Spanish,Un hexágono tiene 6 lados.,0.4093,3,5
+16,Factual QA,What planet is closest to the Sun?,Mercury,Gemini 3 Pro,English,The planet closest to the Sun is Mercury.,0.6888,3,8
+16,Factual QA,¿Qué planeta es el más cercano al Sol?,Mercury,Gemini 3 Pro,Spanish,El planeta más cercano al Sol es Mercurio.,0.6571,3,8
+16,Factual QA,What planet is closest to the Sun?,Mercury,Microsoft Copilot Pro,English,The planet closest to the Sun is Mercury.,0.6888,3,8
+16,Factual QA,¿Qué planeta es el más cercano al Sol?,Mercury,Microsoft Copilot Pro,Spanish,El planeta más cercano al Sol es Mercurio.,0.6571,3,8
+16,Factual QA,What planet is closest to the Sun?,Mercury,LLaMA 3.2 3B,English,"Mercury is the planet closest to the Sun, with an average distance of about 58 million kilometers (36 million miles).",0.4598,4,20
+16,Factual QA,¿Qué planeta es el más cercano al Sol?,Mercury,LLaMA 3.2 3B,Spanish,"Mercurio es el planeta más cercano al Sol, con una distancia promedio de aproximadamente 58 millones de kilómetros.",0.4863,3,18
+17,Factual QA,What is the powerhouse of the cell?,The mitochondria,Gemini 3 Pro,English,"The ""powerhouse"" of the cell is the mitochondrion (plural: mitochondria).",0.8652,4,10
+17,Factual QA,¿Cuál es la central energética de la célula?,The mitochondria,Gemini 3 Pro,Spanish,"La conocida como ""central energética"" de la célula es la mitocondria.",0.743,3,11
+17,Factual QA,What is the powerhouse of the cell?,The mitochondria,Microsoft Copilot Pro,English,The powerhouse of the cell is the mitochondrion (plural: mitochondria).,0.8743,4,10
+17,Factual QA,¿Cuál es la central energética de la célula?,The mitochondria,Microsoft Copilot Pro,Spanish,La central energética de la célula es la mitocondria.,0.7752,3,9
+17,Factual QA,What is the powerhouse of the cell?,The mitochondria,LLaMA 3.2 3B,English,"The mitochondria is often referred to as the ""powerhouse"" of the cell, as it generates most of the energy that the cell needs through a process called cellular respiration.",0.6187,5,29
+17,Factual QA,¿Cuál es la central energética de la célula?,The mitochondria,LLaMA 3.2 3B,Spanish,"La central energética de una célula es el citosol, donde se encuentran las reacciones metabólicas que producen ATP (adenosín trifosfato), la molécula energética fundamental para las funciones celulares.",0.3823,4,28
+18,Factual QA,"In the metric system, how many meters are in one kilometer?","1,000",Gemini 3 Pro,English,"There are 1,000 meters in one kilometer.",0.6004,1,7
+18,Factual QA,"En el sistema métrico, ¿cuántos metros hay en un kilómetro?","1,000",Gemini 3 Pro,Spanish,"En el sistema métrico, un kilómetro tiene exactamente 1,000 metros.",0.4703,3,10
+18,Factual QA,"In the metric system, how many meters are in one kilometer?","1,000",Microsoft Copilot Pro,English,"In the metric system, 1 kilometer equals 1,000 meters.",0.5387,3,9
+18,Factual QA,"En el sistema métrico, ¿cuántos metros hay en un kilómetro?","1,000",Microsoft Copilot Pro,Spanish,"En el sistema métrico, 1 kilómetro equivale a 1 000 metros.",0.5181,3,10
+18,Factual QA,"In the metric system, how many meters are in one kilometer?","1,000",LLaMA 3.2 3B,English,"There are 1,000 meters in one kilometer.",0.6004,1,7
+18,Factual QA,"En el sistema métrico, ¿cuántos metros hay en un kilómetro?","1,000",LLaMA 3.2 3B,Spanish,"En el sistema métrico, hay 1000 metros en un kilómetro.",0.477,3,10
+19,Factual QA,What is the freezing point of water in degrees Celsius?,0°C,Gemini 3 Pro,English,The freezing point of water is 0°C under standard atmospheric pressure.,0.6885,3,11
+19,Factual QA,¿Cuál es el punto de congelación del agua en grados Celsius?,0°C,Gemini 3 Pro,Spanish,El punto de congelación del agua pura a presión atmosférica estándar (1 atmósfera) es de exactamente 0 °C.,0.6433,1,18
+19,Factual QA,What is the freezing point of water in degrees Celsius?,0°C,Microsoft Copilot Pro,English,The freezing point of water is 0 degrees Celsius (0 °C).,0.7518,1,10
+19,Factual QA,¿Cuál es el punto de congelación del agua en grados Celsius?,0°C,Microsoft Copilot Pro,Spanish,"El punto de congelación del agua es 0 grados Celsius (0 °C), a presión atmosférica normal (1 atmósfera).",0.6867,2,17
+19,Factual QA,What is the freezing point of water in degrees Celsius?,0°C,LLaMA 3.2 3B,English,The freezing point of water is 0°C (0 degrees Celsius).,0.759,3,10
+19,Factual QA,¿Cuál es el punto de congelación del agua en grados Celsius?,0°C,LLaMA 3.2 3B,Spanish,El punto de congelación del agua es 0°C.,0.7451,2,8
+20,Factual QA,How many valence electrons does a carbon atom have?,4,Gemini 3 Pro,English,A carbon atom has 4 valence electrons.,0.2752,3,7
+20,Factual QA,¿Cuántos electrones de valencia tiene un átomo de carbono?,4,Gemini 3 Pro,Spanish,Un átomo de carbono tiene 4 electrones de valencia.,0.2656,1,9
+20,Factual QA,How many valence electrons does a carbon atom have?,4,Microsoft Copilot Pro,English,A carbon atom has 4 valence electrons.,0.2752,3,7
+20,Factual QA,¿Cuántos electrones de valencia tiene un átomo de carbono?,4,Microsoft Copilot Pro,Spanish,Un átomo de carbono tiene 4 electrones de valencia.,0.2656,1,9
+20,Factual QA,How many valence electrons does a carbon atom have?,4,LLaMA 3.2 3B,English,A carbon atom has 4 valence electrons.,0.2752,3,7
+20,Factual QA,¿Cuántos electrones de valencia tiene un átomo de carbono?,4,LLaMA 3.2 3B,Spanish,Un átomo de carbono tiene 4 electrones de valencia.,0.2656,1,9
+21,Factual QA,What is the longest bone in the human body?,The femur,Gemini 3 Pro,English,"The longest bone in the human body is the femur, commonly known as the thigh bone.",0.4382,2,16
+21,Factual QA,¿Cuál es el hueso más largo del cuerpo humano?,The femur,Gemini 3 Pro,Spanish,El hueso más largo del cuerpo humano es el fémur.,0.3488,2,10
+21,Factual QA,What is the longest bone in the human body?,The femur,Microsoft Copilot Pro,English,The longest bone in the human body is the femur.,0.5289,2,10
+21,Factual QA,¿Cuál es el hueso más largo del cuerpo humano?,The femur,Microsoft Copilot Pro,Spanish,El hueso más largo del cuerpo humano es el fémur.,0.3488,2,10
+21,Factual QA,What is the longest bone in the human body?,The femur,LLaMA 3.2 3B,English,"The longest bone in the human body is the femur (thigh bone), which measures approximately 43-45 cm (17-18 inches) in length.",0.354,2,21
+21,Factual QA,¿Cuál es el hueso más largo del cuerpo humano?,The femur,LLaMA 3.2 3B,Spanish,"El hueso más largo del cuerpo humano es la columna vertebral, que puede medir hasta 1,8 metros de longitud en adultos. Sin embargo, si se considera solo los huesos individuales, el hueso más largo es el fémur (pierna), que puede alcanzar una longitud de aproximadamente 43-45 cm en adultos.",0.1984,3,49
+22,Reasoning,"If a train travels 60 km/h for 2.5 hours, how far does it travel?",150 km,Gemini 3 Pro,English,The train travels a distance of 150 kilometers.,0.6017,5,8
+22,Reasoning,"Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?",150 km,Gemini 3 Pro,Spanish,El tren recorre una distancia total de 150 kilómetros.,0.6088,1,9
+22,Reasoning,"If a train travels 60 km/h for 2.5 hours, how far does it travel?",150 km,Microsoft Copilot Pro,English,Answer: The train travels 150 kilometers.,0.6894,1,6
+22,Reasoning,"Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?",150 km,Microsoft Copilot Pro,Spanish,"La distancia recorrida se calcula con la fórmula:
+distancia = velocidad × tiempo
+
+Sustituyendo los valores:
+60 km/h × 2,5 h = 150 km",0.7107,4,21
+22,Reasoning,"If a train travels 60 km/h for 2.5 hours, how far does it travel?",150 km,LLaMA 3.2 3B,English,"To find the distance traveled, multiply the speed (60 km/h) by the time (2.5 hours):
+
+Distance = Speed x Time
+= 60 km/h x 2.5 h
+= 150 km",0.6138,4,26
+22,Reasoning,"Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?",150 km,LLaMA 3.2 3B,Spanish,"Para calcular la distancia recorrida, debemos convertir la velocidad del tren de kilómetros por hora (km/h) a metros por segundo (m/s).
+
+1 km = 1000 m
+1 hora = 3600 segundos
+
+60 km/h = 60.000 m/3600 s ≈ 16,67 m/s
+
+Ahora podemos calcular la distancia:
+
+Distancia = velocidad × tiempo
+= 16,67 m/s × 2,5 h
+= 16,67 m/s × 2,5 h × (1000 m / 1 km)
+= 41.675 m",0.6513,4,63
+23,Reasoning,"What is the next number in the sequence: 2, 4, 8, 16, 32, ___?",64,Gemini 3 Pro,English,The next number in the sequence is 64.,0.6795,3,8
+23,Reasoning,"¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?",64,Gemini 3 Pro,Spanish,El siguiente número de la secuencia es 64.,0.7028,1,8
+23,Reasoning,"What is the next number in the sequence: 2, 4, 8, 16, 32, ___?",64,Microsoft Copilot Pro,English,"So, the missing number is 64.",0.6936,3,6
+23,Reasoning,"¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?",64,Microsoft Copilot Pro,Spanish,Respuesta: 64,0.9196,1,2
+23,Reasoning,"What is the next number in the sequence: 2, 4, 8, 16, 32, ___?",64,LLaMA 3.2 3B,English,"The pattern of the sequence appears to be doubling each time (2 × 2 = 4, 4 × 2 = 8, etc.). 
+
+Therefore, the next number in the sequence would be: 64.",0.4469,3,32
+23,Reasoning,"¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?",64,LLaMA 3.2 3B,Spanish,"El patrón de la secuencia es el doble del número anterior. 
+
+Para encontrar el siguiente número, multiplicamos el último número por 2:
+
+32 x 2 = 64
+
+Entonces, el siguiente número de la secuencia es: 64.",0.4755,2,34
+24,Reasoning,A rectangle has a length of 9 cm and a width of 4 cm. What is its area?,36 cm²,Gemini 3 Pro,English,The area of the rectangle is 36 cm².,0.6911,3,8
+24,Reasoning,Un rectángulo mide 9 cm de largo y 4 cm de ancho. ¿Cuál es su área?,36 cm²,Gemini 3 Pro,Spanish,El área del rectángulo es de 36 centímetros cuadrados.,0.6326,2,9
+24,Reasoning,A rectangle has a length of 9 cm and a width of 4 cm. What is its area?,36 cm²,Microsoft Copilot Pro,English,Answer: The area of the rectangle is 36 square centimeters (cm²).,0.6629,1,11
+24,Reasoning,Un rectángulo mide 9 cm de largo y 4 cm de ancho. ¿Cuál es su área?,36 cm²,Microsoft Copilot Pro,Spanish,El área del rectángulo es 36 centímetros cuadrados (36 cm²).,0.7031,2,10
+24,Reasoning,A rectangle has a length of 9 cm and a width of 4 cm. What is its area?,36 cm²,LLaMA 3.2 3B,English,"To find the area, multiply the length by the width:
+
+Area = Length x Width
+= 9 cm x 4 cm
+= 36 square centimeters (or cm²)",0.5479,3,24
+24,Reasoning,Un rectángulo mide 9 cm de largo y 4 cm de ancho. ¿Cuál es su área?,36 cm²,LLaMA 3.2 3B,Spanish,"Para encontrar el área, se multiplica el largo por el ancho:
+
+Área = Largo x Ancho
+= 9 cm x 4 cm
+= 36 cm²",0.538,3,22
+25,Reasoning,"If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps?",Yes,Gemini 3 Pro,English,"Yes, all Blurps are Flurps. This is a classic example of deductive logic using the transitive property.",0.1278,3,17
+25,Reasoning,"Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?",Yes,Gemini 3 Pro,Spanish,"Sí, todos los Blurps son Flurps.",0.1727,2,6
+25,Reasoning,"If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps?",Yes,Microsoft Copilot Pro,English,"es, all Blurps are Flurps.
+✅ Explanation (Using Logical Reasoning)
+You’re given two statements:
+
+All Blurps are Glorps.
+All Glorps are Flurps.
+
+This forms a classic logical chain (a syllogism):
+
+If every Blurp belongs to the group Glorp,
+and every Glorp belongs to the group Flurp,
+then every Blurp must also belong to the group Flurp.
+
+🧠 In logic terms:
+This is an example of transitivity:
+
+If A ⊆ B and B ⊆ C, then A ⊆ C.
+
+So the conclusion necessarily follows from the premises.
+✅ Answer: Yes, all Blurps are Flurps.",0.1241,1,80
+25,Reasoning,"Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?",Yes,Microsoft Copilot Pro,Spanish,"Sí, todos los Blurps son Flurps.",0.1727,2,6
+25,Reasoning,"If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps?",Yes,LLaMA 3.2 3B,English,"Yes, if all Blurps are Glorps and all Glorps are Flurps, then it logically follows that all Blurps are also Flurps.",0.2074,3,21
+25,Reasoning,"Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?",Yes,LLaMA 3.2 3B,Spanish,"Sí, si todos los Blurps son Glorps y todos los Glorps son Flurps, entonces todos los Blurps también son Flurps. La relación de inclusión permite concluirlo.",0.2187,3,26
+26,Reasoning,What is 15% of 200?,30,Gemini 3 Pro,English,15% of 200 is 30.,0.6273,2,5
+26,Reasoning,¿Cuánto es el 15 % de 200?,30,Gemini 3 Pro,Spanish,El 15 % de 200 es 30.,0.6191,2,7
+26,Reasoning,What is 15% of 200?,30,Microsoft Copilot Pro,English,Answer: 15% of 200 is 30.,0.6549,1,6
+26,Reasoning,¿Cuánto es el 15 % de 200?,30,Microsoft Copilot Pro,Spanish,Respuesta final: 30,0.7881,1,3
+26,Reasoning,What is 15% of 200?,30,LLaMA 3.2 3B,English,15% of 200 = 0.15 x 200 = 30.,0.5734,1,9
+26,Reasoning,¿Cuánto es el 15 % de 200?,30,LLaMA 3.2 3B,Spanish,"El 15% de 200 es:
+
+200 x 0,15 = 30
+
+Entonces, el resultado es 30.",0.6121,1,13
+27,Reasoning,A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball?,3/10,Gemini 3 Pro,English,The probability of drawing a red ball is 3/10,0.4457,3,9
+27,Reasoning,Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja?,3/10,Gemini 3 Pro,Spanish,La probabilidad de sacar una bola roja es del 30% (o 3/10).,0.4163,2,12
+27,Reasoning,A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball?,3/10,Microsoft Copilot Pro,English," So, the probability of randomly drawing a red ball is 3/10 (30%).",0.3768,3,12
+27,Reasoning,Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja?,3/10,Microsoft Copilot Pro,Spanish,"La probabilidad es 3/10, equivalente a 0,3 o 30 %.",0.5369,2,9
+27,Reasoning,A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball?,3/10,LLaMA 3.2 3B,English,"To find the probability, divide the number of red balls by the total number of balls.
+
+Number of red balls: 3
+Total number of balls: 10 (3 + 7)
+
+Probability = Number of red balls / Total number of balls
+= 3/10
+= 0.3 or 30%",0.2786,3,41
+27,Reasoning,Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja?,3/10,LLaMA 3.2 3B,Spanish,"Para encontrar la probabilidad, dividimos el número de bolas rojas por el total de bolas.
+
+Número de bolas rojas: 3
+Número total de bolas: 10 (3 + 7)
+
+Probabilidad = Número de bolas rojas / Número total de bolas
+= 3/10
+= 0,3",0.369,3,38
+28,Reasoning,"If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get?",27,Gemini 3 Pro,English,The result is 27.,0.6968,3,4
+28,Reasoning,"Si inviertes los dígitos de 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes?",27,Gemini 3 Pro,Spanish,El resultado obtenido es 27.,0.6466,3,5
+28,Reasoning,"If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get?",27,Microsoft Copilot Pro,English,Answer: 27,0.8864,1,2
+28,Reasoning,"Si inviertes los dígitos de 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes?",27,Microsoft Copilot Pro,Spanish,El resultado es 27.,0.7114,3,4
+28,Reasoning,"If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get?",27,LLaMA 3.2 3B,English,"The reversed number of 47 is 74.
+
+Subtracting 74 from 47 gives: 
+47 - 74 = -27",0.464,1,16
+28,Reasoning,"Si inviertes los dígitos de 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes?",27,LLaMA 3.2 3B,Spanish,"Para resolver este problema, primero invertiré los dígitos de 47 para obtener 74.
+
+Luego, compararé los números: 74 (mayor) y 47 (menor).
+
+El número más pequeño es 47 y el mayor es 74. Restando 47 de 74 se obtiene:
+
+74 - 47 = 27
+
+La respuesta final es 27.",0.4668,3,45
+29,Reasoning,A clock shows 3:00. What is the angle between the hour and minute hands?,90°,Gemini 3 Pro,English,"At 3:00, the angle between the hour and minute hands is 90°",0.618,1,12
+29,Reasoning,Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos?,90°,Gemini 3 Pro,Spanish,"A las 3:00, el ángulo entre la manecilla de las horas y la de los minutos es de exactamente 90°",0.6799,1,20
+29,Reasoning,A clock shows 3:00. What is the angle between the hour and minute hands?,90°,Microsoft Copilot Pro,English,Answer: The angle between the hour and minute hands is 90 degrees.,0.6904,1,12
+29,Reasoning,Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos?,90°,Microsoft Copilot Pro,Spanish,"El ángulo entre ambas manecillas es de 90 grados, es decir, un ángulo recto.",0.6551,2,14
+29,Reasoning,A clock shows 3:00. What is the angle between the hour and minute hands?,90°,LLaMA 3.2 3B,English,"At 3:00, the hour hand points directly at the 3 on the clock face. The minute hand points to the 12.
+
+The angle between the 3 and the 12 is 90 degrees (or π/2 radians). Since the hour hand also moves towards the 4 as time passes, but we're only considering the initial position of 3:00, the answer remains 90 degrees.",0.5132,1,60
+29,Reasoning,Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos?,90°,LLaMA 3.2 3B,Spanish,"Para encontrar el ángulo, debemos calcular la posición de cada manecilla.
+
+La manecilla de las horas está en la posición 3, lo que equivale a 90 grados (3 x 30 grados por hora).
+
+La manecilla de los minutos está en la posición 12, lo que equivale a 0 grados (12 x 30 grados por hora).
+
+El ángulo entre ambas manecillas es:
+
+90 - 0 = 90 grados
+
+Por tanto, el ángulo entre la manecilla de las horas y la de los minutos es de 90 grados.",0.5286,3,81
+30,Reasoning,What is the sum of all interior angles of a triangle?,180°,Gemini 3 Pro,English,The sum of all interior angles of a triangle is always 180°.,0.5322,3,12
+30,Reasoning,¿Cuál es la suma de todos los ángulos internos de un triángulo?,180°,Gemini 3 Pro,Spanish,"La suma de todos los ángulos internos de cualquier triángulo, sin importar su forma o tamaño, es siempre exactamente 180°",0.4938,5,20
+30,Reasoning,What is the sum of all interior angles of a triangle?,180°,Microsoft Copilot Pro,English,Answer: 180°,0.9405,1,2
+30,Reasoning,¿Cuál es la suma de todos los ángulos internos de un triángulo?,180°,Microsoft Copilot Pro,Spanish,Respuesta: 180°,0.9476,1,2
+30,Reasoning,What is the sum of all interior angles of a triangle?,180°,LLaMA 3.2 3B,English,The sum of all interior angles of a triangle is always 180 degrees.,0.5271,1,13
+30,Reasoning,¿Cuál es la suma de todos los ángulos internos de un triángulo?,180°,LLaMA 3.2 3B,Spanish,La suma de todos los ángulos internos de un triángulo es 180 grados.,0.6024,3,13
+31,Reasoning,"If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?",5 minutes,Gemini 3 Pro,English,"Since all 100 machines are working in parallel, they will all finish their 100 widgets at the exact same time—which is the 5 minutes it takes for one machine to complete one widget.",0.3109,5,33
+31,Reasoning,"Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas?",5 minutes,Gemini 3 Pro,Spanish,Tardan exactamente 5 minutos.,0.6954,1,4
+31,Reasoning,"If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?",5 minutes,Microsoft Copilot Pro,English,"100 machines take the same 5 minutes to make 100 widgets.
+This works because the machines operate in parallel, not sequentially.",0.3467,3,20
+31,Reasoning,"Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas?",5 minutes,Microsoft Copilot Pro,Spanish,Respuesta: 5 minutos.,0.9253,1,3
+31,Reasoning,"If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?",5 minutes,LLaMA 3.2 3B,English,"Since the number of machines is proportional to the number of widgets, we can assume that each machine makes one widget per minute.
+
+So, if 5 machines take 5 minutes to make 5 widgets, it means each machine takes 1 minute to make 1 widget.
+
+If there are 100 machines, they will all work simultaneously. Therefore, it will still take 1 minute for 100 machines to make 100 widgets.",0.4263,3,67
+31,Reasoning,"Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas?",5 minutes,LLaMA 3.2 3B,Spanish,"La relación entre el número de máquinas y las piezas es directa. Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, entonces cada máquina tarda 5 minutos en fabricar 1 pieza.
+
+Si hay 100 máquinas, tardarán 5 minutos en fabricar 100 piezas.",0.4468,3,42
+32,Reasoning,What is the next prime number after 13?,17,Gemini 3 Pro,English,The next prime number after 13 is 17.,0.4543,3,8
+32,Reasoning,¿Cuál es el siguiente número primo después del 13?,17,Gemini 3 Pro,Spanish,El siguiente número primo después del 13 es el 17.,0.5229,3,10
+32,Reasoning,What is the next prime number after 13?,17,Microsoft Copilot Pro,English,The next prime number after 13 is 17.,0.4543,3,8
+32,Reasoning,¿Cuál es el siguiente número primo después del 13?,17,Microsoft Copilot Pro,Spanish,El siguiente número primo después del 13 es 17.,0.5199,3,9
+32,Reasoning,What is the next prime number after 13?,17,LLaMA 3.2 3B,English,The next prime number after 13 is 17.,0.4543,3,8
+32,Reasoning,¿Cuál es el siguiente número primo después del 13?,17,LLaMA 3.2 3B,Spanish,El siguiente número primo después del 13 es 17.,0.5199,3,9
+33,Reasoning,"A car depreciates from $20,000 to $15,000. What is the percentage decrease?",25%,Gemini 3 Pro,English,The car's value decreased by 25%.,0.4414,2,6
+33,Reasoning,Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución?,25%,Gemini 3 Pro,Spanish,El porcentaje de disminución es del 25 %.,0.6958,2,8
+33,Reasoning,"A car depreciates from $20,000 to $15,000. What is the percentage decrease?",25%,Microsoft Copilot Pro,English,Answer: The car’s value decreased by 25%.,0.4969,1,7
+33,Reasoning,Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución?,25%,Microsoft Copilot Pro,Spanish, El coche se depreció un 25 %.,0.5733,2,6
+33,Reasoning,"A car depreciates from $20,000 to $15,000. What is the percentage decrease?",25%,LLaMA 3.2 3B,English,"To find the percentage decrease:
+
+Decrease = Original price - New price
+= $20,000 - $15,000
+= $5,000
+
+Percentage decrease = (Decrease / Original price) * 100
+= ($5,000 / $20,000) * 100
+= 25%
+
+The car depreciated by 25%.",0.4983,2,33
+33,Reasoning,Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución?,25%,LLaMA 3.2 3B,Spanish,"Para calcular el porcentaje de disminución, necesitamos saber la cantidad de disminución y dividirla entre el valor inicial.
+
+La disminución es: 20.000 - 15.000 = 5.000 dólares.
+
+El porcentaje de disminución es: (5.000 / 20.000) x 100% ≈ 25%.
+
+Entonces, la depreciación del coche fue del 25%.",0.5201,2,44
+34,Reasoning,What is the value of 2³ × 2²?,32,Gemini 3 Pro,English,Both methods lead to the same result: 32.,0.5784,2,8
+34,Reasoning,¿Cuál es el valor de 2³ × 2²?,32,Gemini 3 Pro,Spanish,El valor de $2^3 \times 2^2$ es 32.,0.505,1,8
+34,Reasoning,What is the value of 2³ × 2²?,32,Microsoft Copilot Pro,English,Answer: 32,0.9095,1,2
+34,Reasoning,¿Cuál es el valor de 2³ × 2²?,32,Microsoft Copilot Pro,Spanish, El valor es 32.,0.8391,1,4
+34,Reasoning,What is the value of 2³ × 2²?,32,LLaMA 3.2 3B,English,"To calculate this, we need to follow the order of operations (PEMDAS):
+
+1. Calculate exponents:
+   - 2³ = 8
+   - 2² = 4
+
+2. Multiply the results:
+   - 8 × 4 = 32
+
+The value of 2³ × 2² is 32.",0.2925,3,38
+34,Reasoning,¿Cuál es el valor de 2³ × 2²?,32,LLaMA 3.2 3B,Spanish,"Para calcular este valor, primero debemos evaluar las potencias:
+
+- 2³ significa 2 multiplicado por sí mismo 3 veces: 2 × 2 × 2 = 8
+- 2² significa 2 multiplicado por sí mismo 2 veces: 2 × 2 = 4
+
+Luego, multiplicamos estos resultados entre sí:
+
+8 × 4 = 32
+
+Entonces el valor de 2³ × 2² es 32.",0.3394,3,56
+35,Reasoning,"If A > B and B > C, is it necessarily true that A > C?",Yes,Gemini 3 Pro,English,"Yes, it is necessarily true that A > C.",0.5503,3,9
+35,Reasoning,"Si A > B y B > C, ¿es necesariamente cierto que A > C?",Yes,Gemini 3 Pro,Spanish,"Sí, es necesariamente cierto que $A > C$.",0.5151,3,8
+35,Reasoning,"If A > B and B > C, is it necessarily true that A > C?",Yes,Microsoft Copilot Pro,English,"Yes, it is necessarily true that A>C",0.5095,3,7
+35,Reasoning,"Si A > B y B > C, ¿es necesariamente cierto que A > C?",Yes,Microsoft Copilot Pro,Spanish,"Sí, es necesariamente cierto que A > C.",0.5852,3,8
+35,Reasoning,"If A > B and B > C, is it necessarily true that A > C?",Yes,LLaMA 3.2 3B,English,"No, it's not necessarily true that A > C. The given statements only establish the order between A and B (A > B), and between B and C (B > C), but do not provide any information about the relationship between A and C directly.",0.1582,2,45
+35,Reasoning,"Si A > B y B > C, ¿es necesariamente cierto que A > C?",Yes,LLaMA 3.2 3B,Spanish,"No, no es necesariamente cierto. La relación entre A y C depende de la relación entre A y B. Si A > B y B > C, entonces A > C, pero si A < B o B < A, entonces A < C.",0.2907,2,44
+36,Reasoning,What is the perimeter of a square with a side length of 7 cm?,28 cm,Gemini 3 Pro,English,The perimeter of the square is 28 cm.,0.5221,3,8
+36,Reasoning,¿Cuál es el perímetro de un cuadrado cuya longitud de lado es de 7 cm?,28 cm,Gemini 3 Pro,Spanish,El perímetro de un cuadrado cuya longitud de lado es de 7 cm es 28 cm.,0.7362,2,16
+36,Reasoning,What is the perimeter of a square with a side length of 7 cm?,28 cm,Microsoft Copilot Pro,English,Answer: The perimeter of the square is 28 cm.,0.6024,1,9
+36,Reasoning,¿Cuál es el perímetro de un cuadrado cuya longitud de lado es de 7 cm?,28 cm,Microsoft Copilot Pro,Spanish,El perímetro del cuadrado es 28 cm.,0.7108,2,7
+36,Reasoning,What is the perimeter of a square with a side length of 7 cm?,28 cm,LLaMA 3.2 3B,English,"To find the perimeter, multiply the side length by 4.
+
+Perimeter = side length × 4
+= 7 cm × 4
+= 28 cm",0.4898,4,21
+36,Reasoning,¿Cuál es el perímetro de un cuadrado cuya longitud de lado es de 7 cm?,28 cm,LLaMA 3.2 3B,Spanish,"Para encontrar el perímetro de un cuadrado, debemos multiplicar la longitud del lado por 4.
+
+Perímetro = 4 × longitud del lado
+= 4 × 7 cm
+= 28 cm
+
+El perímetro del cuadrado es de 28 cm.",0.6108,3,34
+37,Reasoning,"A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the ""off"" position. How many switches must you flip to guarantee the light is on?",2,Gemini 3 Pro,English,"Based on the logic of the scenario, you must flip two switches to guarantee the light is on.",0.3419,4,18
+37,Reasoning,"Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición «apagado». ¿Cuántos interruptores debes accionar para asegurarte de que la luz se encienda?",2,Gemini 3 Pro,Spanish,Debes accionar 0 interruptores (ninguno).,0.1863,1,5
+37,Reasoning,"A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the ""off"" position. How many switches must you flip to guarantee the light is on?",2,Microsoft Copilot Pro,English,"Therefore, you must flip zero switches to guarantee the light is on.",0.0945,3,12
+37,Reasoning,"Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición «apagado». ¿Cuántos interruptores debes accionar para asegurarte de que la luz se encienda?",2,Microsoft Copilot Pro,Spanish,Respuesta final: 0 interruptores.,0.2992,1,4
+37,Reasoning,"A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the ""off"" position. How many switches must you flip to guarantee the light is on?",2,LLaMA 3.2 3B,English,"You need to flip at least 3 switches:
+
+1. Flip both Switch A and Switch B.
+2. Flip one of them back (e.g., Switch A).
+3. Flip the other one back as well (e.g., Switch B).
+
+This sequence guarantees that the light will be on, because flipping a switch in either position will turn it on.",0.1604,4,52
+37,Reasoning,"Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición «apagado». ¿Cuántos interruptores debes accionar para asegurarte de que la luz se encienda?",2,LLaMA 3.2 3B,Spanish,"Para asegurarte de que la luz se encienda, debes accionar ambos interruptores A y B.",0.3182,3,15
+38,Reasoning,What is log₁₀(1000)?,3,Gemini 3 Pro,English,The value of $\log_{10}(1000)$ is 3.,0.3161,3,6
+38,Reasoning,¿Cuánto es log₁₀(1000)?,3,Gemini 3 Pro,Spanish,El valor de $\log_{10}(1000)$ es 3.,0.3376,3,6
+38,Reasoning,What is log₁₀(1000)?,3,Microsoft Copilot Pro,English,log10​(1000)=3.,0.3582,3,1
+38,Reasoning,¿Cuánto es log₁₀(1000)?,3,Microsoft Copilot Pro,Spanish,"Respuesta: 3
+Explicación breve:
+El logaritmo en base 10 de un número es el exponente al que hay que elevar 10 para obtener ese número.",0.3016,3,23
+38,Reasoning,What is log₁₀(1000)?,3,LLaMA 3.2 3B,English,log₁₀(1000) = 3,0.3543,5,3
+38,Reasoning,¿Cuánto es log₁₀(1000)?,3,LLaMA 3.2 3B,Spanish,"Para encontrar el valor de log₁₀(1000), podemos utilizar la propiedad de que log_b(x) = log_c(x) / log_c(b).
+
+log₁₀(1000) = log₂(1000) / log₂(10)
+
+Sabemos que 2^3 = 8 y 5^3 = 125, pero no hay una potencia de 2 o 5 que sea igual a 1000. Sin embargo, podemos utilizar la propiedad de que log_b(x) = ln(x) / ln(b), donde ln es la función natural.
+
+log₁₀(1000) = ln(1000) / ln(10)
+
+Usando una calculadora o una tabla de valores, obtenemos:
+
+ln(1000) ≈ 6.907755278
+ln(10) ≈ 2.302585093
+
+Ahora podemos dividir:
+
+log₁₀(1000) ≈ 6.907755278 / 2.302585093
+log₁₀(1000) ≈ 3
+
+Por lo tanto, log₁₀(1000) es aproximadamente igual a 3.",0.1688,3,94
+39,Reasoning,"If n is an even integer, is n² always even?",Yes,Gemini 3 Pro,English,"Yes, if $n$ is an even integer, $n^2$ is always even.",0.2247,3,11
+39,Reasoning,"Si n es un número entero par, ¿n² es siempre par?",Yes,Gemini 3 Pro,Spanish,"Sí, es siempre cierto que si $n$ es un número entero par, entonces $n^2$ también es par.",0.3411,3,17
+39,Reasoning,"If n is an even integer, is n² always even?",Yes,Microsoft Copilot Pro,English," Conclusion: If nnn is even, then n2n^2n2 is always even.",0.2262,3,10
+39,Reasoning,"Si n es un número entero par, ¿n² es siempre par?",Yes,Microsoft Copilot Pro,Spanish,"Si nnn es par, n2n^2n2 siempre será par, sin excepción.",0.1746,3,10
+39,Reasoning,"If n is an even integer, is n² always even?",Yes,LLaMA 3.2 3B,English,"Yes, if n is an even integer, then n² will also be even. This is because the square of an even number is always divisible by 4 (since it's a product of two even numbers), and therefore, it's even.",0.2393,3,39
+39,Reasoning,"Si n es un número entero par, ¿n² es siempre par?",Yes,LLaMA 3.2 3B,Spanish,"Sí, si n es un número entero par, entonces n² también será par. Esto se debe a que el cuadrado de cualquier número par es igual al producto del número por sí mismo, y el resultado de este producto será siempre par.",0.2042,3,42
+40,Reasoning,"A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number?",13,Gemini 3 Pro,English,The next number in the sequence is 13.,0.4923,3,8
+40,Reasoning,"Empieza una secuencia: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número?",13,Gemini 3 Pro,Spanish,El siguiente número de la secuencia es 13.,0.5258,3,8
+40,Reasoning,"A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number?",13,Microsoft Copilot Pro,English,Answer: 13,0.854,1,2
+40,Reasoning,"Empieza una secuencia: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número?",13,Microsoft Copilot Pro,Spanish, Respuesta: 13,0.8751,1,2
+40,Reasoning,"A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number?",13,LLaMA 3.2 3B,English,"The sequence appears to be the Fibonacci sequence. The next number would be:
+
+13
+
+(Following the pattern of adding the previous two numbers: 8 + 5 = 13)",0.3424,3,26
+40,Reasoning,"Empieza una secuencia: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número?",13,LLaMA 3.2 3B,Spanish,"La secuencia que estás mencionando se conoce como la secuencia de Fibonacci. Cada número es la suma del número anterior y el anterior al anterior.
+
+Para encontrar el próximo número en la secuencia:
+
+- El último número conocido es 8.
+- Para encontrar el siguiente número, sumamos 8 y 5 (el número anterior a 8).
+- La suma es 13.
+
+Por lo tanto, el siguiente número de la secuencia es 13.",0.3663,3,66
+41,Reasoning,What is the volume of a cube with side length 3 cm?,27 cm³,Gemini 3 Pro,English,The volume of the cube is $27\text{ cubic centimeters}$ (or $27\text{ cm}^3$).,0.5968,1,12
+41,Reasoning,¿Cuál es el volumen de un cubo con una arista de 3 cm?,27 cm³,Gemini 3 Pro,Spanish,El volumen del cubo es de 27 centímetros cúbicos (cm³).,0.6302,2,10
+41,Reasoning,What is the volume of a cube with side length 3 cm?,27 cm³,Microsoft Copilot Pro,English,Answer: The volume of the cube is 27 cubic centimeters (cm³).,0.6449,1,11
+41,Reasoning,¿Cuál es el volumen de un cubo con una arista de 3 cm?,27 cm³,Microsoft Copilot Pro,Spanish,El volumen del cubo es 27 centímetros cúbicos (27 cm³).,0.6536,2,10
+41,Reasoning,What is the volume of a cube with side length 3 cm?,27 cm³,LLaMA 3.2 3B,English,"The volume of a cube is calculated by cubing its side length.
+
+Volume = side³
+= 3³
+= 27 cubic centimeters (or 27 cm³)",0.5264,3,21
+41,Reasoning,¿Cuál es el volumen de un cubo con una arista de 3 cm?,27 cm³,LLaMA 3.2 3B,Spanish,"El volumen de un cubo se calcula dividiendo el cuadrado de la longitud de una de sus aristas.
+
+Volumen = (longitud de una arista)^3
+= (3 cm)^3
+= 27 cm^3",0.4735,3,27
+42,Reasoning,"If you flip a fair coin three times, what is the probability of getting heads all three times?",1/8,Gemini 3 Pro,English,"Since only 1 out of the 8 possible outcomes is ""heads all three times,"" the probability is $1/8$ (or $12.5\%$).",0.3602,1,20
+42,Reasoning,"Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces?",1/8,Gemini 3 Pro,Spanish,La probabilidad de que salga cara las tres veces es de 1/8,0.4629,2,12
+42,Reasoning,"If you flip a fair coin three times, what is the probability of getting heads all three times?",1/8,Microsoft Copilot Pro,English,"Answer: The probability of getting heads all three times is 18\frac{1}{8}81​ (or 0.125, which is 12.5%).",0.3666,1,16
+42,Reasoning,"Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces?",1/8,Microsoft Copilot Pro,Spanish,"Resultado: 1/8, equivalente a 0,125 o 12,5 %.",0.6236,1,7
+42,Reasoning,"If you flip a fair coin three times, what is the probability of getting heads all three times?",1/8,LLaMA 3.2 3B,English,"The probability of getting heads on one flip is 1/2. Since each flip is independent, the probability of getting heads all three times is:
+
+(1/2) × (1/2) × (1/2) = 1/8 or 0.125.",0.274,1,32
+42,Reasoning,"Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces?",1/8,LLaMA 3.2 3B,Spanish,"La probabilidad de que salga cara en una sola tirada de una moneda es 1/2, ya que hay dos resultados posibles: cara o cruz.
+
+Para tres tiradas, debemos considerar todos los resultados posibles. Hay 2^3 = 8 resultados posibles:
+
+1. Cara-Cara-Cara
+2. Cara-Cara-Cruz
+3. Cara-Cruz-Cara
+4. Cruz-Cara-Cara
+5. Cara-Cruz-Cruz
+6. Cruz-Cara-Cruz
+7. Cruz-Cruz-Cara
+8. Cruz-Cruz-Cruz
+
+Solo hay 1 resultado con tres caras: Cara-Cara-Cara.
+
+Por lo tanto, la probabilidad de que salga cara las tres veces es:
+
+Probabilidad = Número de resultados favorables / Total de resultados posibles
+= 1/8",0.3738,3,76
+43,Explanation,Why does the sky appear blue during the day?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",Gemini 3 Pro,English,The sky appears blue due to a phenomenon called Rayleigh scattering. This occurs when sunlight enters Earth's atmosphere and interacts with the molecules of air.,0.7538,3,25
+43,Explanation,¿Por qué el cielo parece azul durante el día?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",Gemini 3 Pro,Spanish,El cielo parece azul debido a un fenómeno físico y óptico conocido como la dispersión de Rayleigh.,0.6991,2,17
+43,Explanation,Why does the sky appear blue during the day?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",Microsoft Copilot Pro,English,"The sky looks blue because Earth’s atmosphere scatters blue light from the Sun in all directions, filling the sky with blue light during the day.
+If you’re curious, I can also explain why sunsets look red or why the sky looks black in space. ",0.5462,4,43
+43,Explanation,¿Por qué el cielo parece azul durante el día?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",Microsoft Copilot Pro,Spanish,"Al amanecer y al atardecer el cielo puede verse rojo o naranja porque la luz solar atraviesa más atmósfera, dispersándose el azul y dejando pasar los colores rojizos.
+Si quieres, puedo explicarlo con un dibujo o compararlo con otros colores del cielo",0.4912,3,41
+43,Explanation,Why does the sky appear blue during the day?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",LLaMA 3.2 3B,English,"The sky appears blue during the day due to a phenomenon called Rayleigh scattering, named after British physicist Lord Rayleigh. When sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen and oxygen. These molecules scatter the shorter (blue) wavelengths of light more than the longer (red) wavelengths, resulting in the blue color we see in the sky.",0.7934,3,61
+43,Explanation,¿Por qué el cielo parece azul durante el día?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",LLaMA 3.2 3B,Spanish,"El cielo parece azul durante el día debido a la dispersión de la luz solar por las partículas del aire, llamadas moléculas de dióxido de carbono y nitrógeno. La luz blanca se divide en diferentes colores, con el azul siendo el más corto y la longitud de onda que se dispersa más.
+
+Cuando la luz solar entra en la atmósfera terrestre, las moléculas del aire actúan como prisma, dispersando la luz y separándola por su longitud de onda. El azul es el color que se dispersa más debido a su corta longitud de onda.
+
+Además, la atmósfera también contiene partículas pequeñas como polvo, humo y aerosoles, que pueden reflejar o absorber la luz, contribuyendo al color azul del cielo.",0.7037,4,117
+44,Explanation,Why do objects fall at the same rate in a vacuum regardless of mass?,"Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",Gemini 3 Pro,English,"The reason objects fall at the same rate in a vacuum comes down to a perfect ""tug-of-war"" between two different properties of matter: Gravity and Inertia. In a vacuum, where there is no air resistance to slow things down, every object accelerates toward the ground at the exact same rate ($g \approx 9.8 \text{ m/s}^2$ on Earth).",0.5638,5,57
+44,Explanation,"¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?","Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",Gemini 3 Pro,Spanish,"Es una excelente pregunta, y de hecho, es uno de los conceptos más fascinantes y contraintuitivos de la física clásica. En nuestra experiencia diaria, es evidente que una bola de boliche cae mucho más rápido que una pluma. Sin embargo, la razón de esa diferencia no es la masa de los objetos, sino la resistencia del aire.",0.3805,4,57
+44,Explanation,Why do objects fall at the same rate in a vacuum regardless of mass?,"Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",Microsoft Copilot Pro,English,"In everyday life, air resistance slows lighter or less streamlined objects (like feathers). In a vacuum, there is no air resistance, so gravity is the only force acting.
+That’s why, for example, on the Moon (which has no atmosphere), a hammer and a feather fall at the same rate—an effect famously demonstrated by astronaut David Scott.",0.4458,2,55
+44,Explanation,"¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?","Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",Microsoft Copilot Pro,Spanish,"En el vacío no hay resistencia del aire, así que la única fuerza que actúa es la gravitatoria. Bajo esa condición, todos los cuerpos experimentan la misma aceleración.",0.7161,2,28
+44,Explanation,Why do objects fall at the same rate in a vacuum regardless of mass?,"Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",LLaMA 3.2 3B,English,"Objects fall at the same rate in a vacuum due to the following reasons:
+
+1. **No air resistance**: In a vacuum, there is no air or medium to create friction or drag, which slows down an object's descent.
+2. **Universal acceleration**: According to Newton's law of universal gravitation, all objects with mass are attracted to each other by gravity, resulting in the same acceleration (9.8 m/s² on Earth) regardless of their mass.
+3. **No buoyancy or lift**: In a vacuum, there is no air pressure difference between the object and its surroundings, eliminating any upward force that might slow down an object's fall.
+
+As a result, objects with different masses will accelerate towards the ground at the same rate in a vacuum.",0.6158,2,118
+44,Explanation,"¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?","Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",LLaMA 3.2 3B,Spanish,"La razón por la que los objetos caen a la misma velocidad en el vacío es debido a la fuerza gravitatoria que actúa sobre ellos. Según la ley de la gravedad de Newton, todos los objetos con masa se atraen mutuamente con una fuerza proporcional a su masa y inversa al cuadrado de la distancia entre ellos.
+
+En el vacío, no hay resistencia ni fricción que pueda afectar el movimiento de un objeto caído. Por lo tanto, la única fuerza que actúa sobre el objeto es la fuerza gravitatoria, que lo atrae hacia el centro de la Tierra o cualquier otro cuerpo con masa.
+
+La velocidad a la que cae un objeto en el vacío se determina por la aceleración gravitatoria, que es constante y independiente de la masa del objeto. Esto significa que, independientemente de su tamaño o composición, todos los objetos caen a la misma velocidad en el vacío.
+
+La fórmula para calcular la aceleración gravitatoria es:
+
+a = G \* (m1 / r^2)
+
+donde:
+- a es la aceleración gravitatoria
+- G es la constante de gravedad
+- m1 es la masa del objeto que cae
+- r es la distancia desde el centro del objeto hasta el punto donde se mide la aceleración
+
+En resumen, la fuerza gravitatoria es lo que hace que los objetos caigan a la misma velocidad en el vacío, independientemente de su masa.",0.6264,3,221
+45,Explanation,Why does ice float on water?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",Gemini 3 Pro,English,"Ice floats on water because it is less dense than the liquid form of water. While most substances become denser and sink when they freeze, water is a rare exception due to the unique way its molecules behave as they cool down.",0.8802,3,42
+45,Explanation,¿Por qué flota el hielo en el agua?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",Gemini 3 Pro,Spanish,El hielo flota en el agua porque es menos denso que el agua en estado líquido.,0.8467,2,16
+45,Explanation,Why does ice float on water?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",Microsoft Copilot Pro,English,"Ice floats on water because solid ice is less dense than liquid water.
+✅ Why that happens
+
+Water molecules are polar and form hydrogen bonds with each other.
+When water freezes, these hydrogen bonds lock the molecules into a rigid, open crystal structure.
+This structure holds the molecules farther apart than they are in liquid water.
+
+🧊 Result
+
+Same mass, larger volume → lower density
+Since ice is less dense than liquid water, it floats.
+
+🌍 Why this is important
+Because ice floats:
+
+Lakes and oceans freeze from the top down
+Liquid water remains underneath, allowing aquatic life to survive winter
+
+✅ In short: Ice floats because freezing water expands, making ice less dense than liquid water.",0.7984,2,105
+45,Explanation,¿Por qué flota el hielo en el agua?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",Microsoft Copilot Pro,Spanish,"El hielo flota en el agua porque es menos denso que el agua líquida.
+🧊💧 ¿Por qué ocurre esto?
+Cuando el agua se congela:
+
+Sus moléculas se organizan en una estructura cristalina abierta.
+Esta estructura ocupa más volumen que el agua líquida con la misma masa.
+Al aumentar el volumen sin aumentar la masa, la densidad disminuye.
+
+📌 Resultado:
+La densidad del hielo es menor que la del agua líquida, así que el hielo flota.
+
+🔍 Dato clave
+
+Densidad del agua líquida: ≈ 1,0 g/cm³
+Densidad del hielo: ≈ 0,92 g/cm³
+
+
+🌍 Importancia en la naturaleza
+Gracias a que el hielo flota:
+
+Los lagos y océanos se congelan desde la superficie, no desde el fondo.
+El agua líquida debajo del hielo permite la supervivencia de la vida acuática en climas fríos.
+
+✅ En resumen:
+El hielo flota porque al congelarse el agua se expande, volviéndose menos densa que el agua líquida.",0.8391,3,135
+45,Explanation,Why does ice float on water?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",LLaMA 3.2 3B,English,"Ice floats on water because it is less dense than liquid water. This phenomenon occurs due to the unique arrangement of hydrogen bonds in ice, which creates a crystalline structure that makes it less dense than its liquid counterpart.",0.8156,2,39
+45,Explanation,¿Por qué flota el hielo en el agua?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",LLaMA 3.2 3B,Spanish,"El hielo flota en el agua debido a su densidad menor que la del agua líquida. Esto se debe a que las moléculas de agua en el hielo están más separadas y tienen menos energía cinética que las moléculas de agua en el estado líquido.
+
+En el hielo, las moléculas de agua están unidas entre sí por fuerzas de hidrógeno débiles, lo que reduce su densidad. Por otro lado, en el agua líquida, las moléculas están más cerca y tienen una mayor energía cinética, lo que aumenta su densidad.
+
+Como resultado, el hielo tiene una densidad promedio de 0,92 g/cm³, mientras que el agua líquida tiene una densidad de aproximadamente 1 g/cm³. Esto significa que el hielo flota en el agua debido a su menor densidad.",0.7722,3,124
+46,Explanation,What causes a lunar eclipse?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",Gemini 3 Pro,English,"A lunar eclipse occurs when the Earth moves directly between the Sun and the Moon, causing the Earth's shadow to fall across the Moon's surface. This can only happen during a full moon, when the Moon is on the opposite side of the Earth from the Sun.",0.7544,3,47
+46,Explanation,¿Qué provoca un eclipse lunar?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",Gemini 3 Pro,Spanish,"Un eclipse lunar se produce cuando la Tierra se interpone exactamente entre el Sol y la Luna, bloqueando la luz solar y proyectando su sombra sobre la superficie lunar.",0.768,1,29
+46,Explanation,What causes a lunar eclipse?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",Microsoft Copilot Pro,English,"A lunar eclipse can only happen during a full Moon, when the Sun, Earth, and Moon are aligned.
+✅ In short: A lunar eclipse is caused by Earth blocking sunlight from reaching the Moon.",0.6141,3,33
+46,Explanation,¿Qué provoca un eclipse lunar?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",Microsoft Copilot Pro,Spanish,Un eclipse lunar es provocado por la sombra de la Tierra sobre la Luna cuando los tres cuerpos están alineados.,0.7053,3,20
+46,Explanation,What causes a lunar eclipse?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",LLaMA 3.2 3B,English,"A lunar eclipse occurs when the Earth passes between the Sun and the Moon, blocking the sunlight that normally reflects off the Moon's surface. This can happen during a full moon when the Earth is in the right position to cast a shadow on the Moon. There are three types of lunar eclipses: penumbral, partial, and total, depending on the amount of Earth's shadow that falls on the Moon.",0.675,3,69
+46,Explanation,¿Qué provoca un eclipse lunar?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",LLaMA 3.2 3B,Spanish,"Un eclipse lunar se produce cuando la Luna pasa entre la Tierra y el Sol, bloqueando la luz solar que ilumina su superficie. Esto ocurre cuando la Luna está en la misma posición en el cielo que la Luna del eclipse solar anterior.
+
+Hay tres tipos de eclipses lunares:
+
+1. **Eclipse lunar total**: La Luna se encuentra completamente dentro del anillo de sombra de la Tierra.
+2. **Eclipse lunar parcial**: La Luna solo se encuentra parcialmente dentro del anillo de sombra de la Tierra.
+3. **Eclipse lunar penumbral**: La Luna solo pasa por el anillo de sombra débil de la Tierra.
+
+En cada caso, el eclipse lunar es causado por la posición de la Luna en relación con la Tierra y el Sol.",0.6805,2,118
+47,Explanation,Why do we see lightning before we hear thunder?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",Gemini 3 Pro,English,"The reason you see lightning before you hear thunder is simply because light travels much faster than sound. Even though the lightning bolt and the thunder happen at the exact same moment, the two signals reach your senses at very different speeds.",0.5021,2,42
+47,Explanation,¿Por qué vemos el relámpago antes de oír el trueno?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",Gemini 3 Pro,Spanish,Vemos el relámpago antes de oír el trueno debido a la enorme diferencia entre la velocidad de la luz y la velocidad del sonido.,0.6136,3,24
+47,Explanation,Why do we see lightning before we hear thunder?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",Microsoft Copilot Pro,English,"Light reaches you much faster than sound, so you see lightning before you hear thunder.",0.5983,4,15
+47,Explanation,¿Por qué vemos el relámpago antes de oír el trueno?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",Microsoft Copilot Pro,Spanish,Vemos primero el relámpago porque la luz es muchísimo más rápida que el sonido.,0.6691,2,14
+47,Explanation,Why do we see lightning before we hear thunder?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",LLaMA 3.2 3B,English,"We see lightning before hearing thunder because light travels much faster than sound. Light travels at approximately 299,792 kilometers per second (km/s), while sound travels at around 343 meters per second (m/s) in air.
+
+When a lightning bolt strikes, it produces both visible light and audible sound waves. The light from the lightning is emitted almost instantly, allowing us to see it before we hear the thunder. However, the sound of the thunder takes time to reach our ears because it has to travel through the air at the speed of sound.
+
+The delay between seeing the lightning and hearing the thunder can be calculated by multiplying the distance of the lightning strike by 1 second per mile (or 5 seconds per kilometer).",0.6589,3,121
+47,Explanation,¿Por qué vemos el relámpago antes de oír el trueno?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",LLaMA 3.2 3B,Spanish,"La razón por la que vemos el relámpago antes de oír el trueno se debe a las diferencias en la velocidad de propagación del sonido y la luz.
+
+El sonido del trueno viaja a una velocidad aproximadamente 343 metros por segundo, mientras que la luz viaja a una velocidad de aproximadamente 299.792 kilómetros por segundo (m/s). Esto significa que la luz se mueve mucho más rápido que el sonido.
+
+Cuando un relámpago ocurre, la luz se emite instantáneamente en todas direcciones. Por lo tanto, vemos el relámpago casi al mismo tiempo que sucede. Sin embargo, el sonido del trueno tarda un poco más en llegar a nuestros oídos porque tiene que viajar una distancia mayor.
+
+Por lo tanto, cuando vemos el relámpago, ya hemos escuchado el trueno, pero la luz llegó antes. Esto es por qué vemos el relámpago antes de oír el trueno.",0.7275,3,141
+48,Explanation,What is the purpose of white blood cells?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Gemini 3 Pro,English,"The primary purpose of white blood cells (leukocytes) is to act as the body's security force and immune system. They circulate through your bloodstream and tissues to identify, attack, and destroy ""foreign invaders"" like bacteria, viruses, and fungi, as well as abnormal cells like cancer.",0.5659,4,45
+48,Explanation,¿Cuál es la función de los glóbulos blancos?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Gemini 3 Pro,Spanish,"La función principal de los glóbulos blancos (también conocidos como leucocitos) es defender al organismo contra las infecciones, enfermedades y sustancias extrañas. Actúan como el ejército de tu sistema inmunológico, patrullando constantemente el torrente sanguíneo y los tejidos en busca de invasores como bacterias, virus, hongos y parásitos.",0.6612,4,48
+48,Explanation,What is the purpose of white blood cells?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Microsoft Copilot Pro,English,The purpose of white blood cells (also called leukocytes) is to defend the body against infection and foreign invaders.,0.6112,4,19
+48,Explanation,¿Cuál es la función de los glóbulos blancos?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Microsoft Copilot Pro,Spanish,La función de los glóbulos blancos (o leucocitos) es defender al organismo contra infecciones y agentes extraños.,0.6486,4,17
+48,Explanation,What is the purpose of white blood cells?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",LLaMA 3.2 3B,English,"The primary purpose of white blood cells (leukocytes) is to defend the body against infections, diseases, and foreign invaders, such as bacteria, viruses, and other pathogens. They help to:
+
+1. Recognize and identify invading microorganisms
+2. Attack and destroy infected cells or pathogens
+3. Activate the immune response to prevent further infection
+
+There are several types of white blood cells, each with distinct functions, but their overall goal is to protect the body from harm.",0.5992,4,71
+48,Explanation,¿Cuál es la función de los glóbulos blancos?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",LLaMA 3.2 3B,Spanish,"Los glóbulos blancos, también conocidos como leucocitos, son una parte importante del sistema inmunológico del cuerpo humano. Su función principal es proteger al cuerpo contra las infecciones y enfermedades.
+
+Los glóbulos blancos realizan varias funciones clave:
+
+1. **Defensa contra patógenos**: Atacan y matan bacterias, virus, hongos y otros microorganismos que podrían causar enfermedad.
+2. **Identificación de la infección**: Reconocen los marcadores de infección en el cuerpo y envían señales para activar la respuesta inmunológica.
+3. **Eliminación de las células infectadas**: Eliminan a las células infectadas del cuerpo, evitando que la infección se propague.
+
+Existen diferentes tipos de glóbulos blancos, cada uno con una función específica:
+
+* Neutrofilos: atacan bacterias y virus.
+* Linfocitos: ayudan a eliminar las células infectadas y activan la respuesta inmunológica.
+* Monocitos: reconocen y eliminan patógenos, como bacterias y virus.
+* Eosinofilos: participan en la respuesta al parasito y en la inflamación.
+
+En resumen, los glóbulos blancos son fundamentales para mantener la salud del cuerpo y protegerlo contra las infecciones.",0.682,4,154
+49,Explanation,Why does a compass needle point north?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",Gemini 3 Pro,English,"A compass needle points north because it is essentially a tiny, lightweight magnet that aligns itself with the Earth's magnetic field.",0.8051,3,21
+49,Explanation,¿Por qué la aguja de una brújula apunta al norte?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",Gemini 3 Pro,Spanish,"La aguja de una brújula apunta al norte porque la Tierra en sí misma funciona como un imán gigantesco, y obedece a la regla fundamental del magnetismo: los polos opuestos se atraen.",0.7632,4,32
+49,Explanation,Why does a compass needle point north?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",Microsoft Copilot Pro,English,A compass needle points north because it is a magnet that aligns with Earth’s magnetic field.,0.8589,3,16
+49,Explanation,¿Por qué la aguja de una brújula apunta al norte?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",Microsoft Copilot Pro,Spanish,"La aguja de una brújula apunta al norte porque se alinea con el campo magnético terrestre, actuando como un imán que busca el polo magnético de la Tierra.",0.8539,4,28
+49,Explanation,Why does a compass needle point north?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",LLaMA 3.2 3B,English,"A compass needle points towards the Earth's magnetic North Pole due to the presence of iron in the needle, which is attracted to the Earth's magnetic field. The Earth itself has a slightly tilted axis, causing its magnetic poles to be offset from its geographic poles. This results in the compass needle aligning with the direction of the magnetic field lines, pointing towards the magnetic North Pole.",0.8406,3,67
+49,Explanation,¿Por qué la aguja de una brújula apunta al norte?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",LLaMA 3.2 3B,Spanish,"La aguja de una brújula apunta al norte debido a su diseño magnético. La brújula está compuesta por un imán que se encuentra en el extremo opuesto a la aguja, y cuando se coloca en un campo magnético terrestre, la aguja se orienta hacia el polo norte del planeta debido a la atracción magnética entre los dos imanes.",0.7789,2,58
+50,Explanation,What causes the phases of the Moon?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",Gemini 3 Pro,English,"The phases of the Moon are caused by the changing relative positions of the Earth, the Moon, and the Sun.",0.7564,3,20
+50,Explanation,¿Qué provoca las fases de la Luna?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",Gemini 3 Pro,Spanish,Las fases de la Luna son provocadas por el movimiento de la Luna alrededor de la Tierra y la forma en que la luz del Sol incide sobre ella a medida que cambia de posición.,0.8323,3,35
+50,Explanation,What causes the phases of the Moon?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",Microsoft Copilot Pro,English,"We see Moon phases because the Moon orbits Earth, changing how much of its sunlit side is visible from our viewpoint.",0.8741,3,21
+50,Explanation,¿Qué provoca las fases de la Luna?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",Microsoft Copilot Pro,Spanish,Las fases de la Luna se deben al movimiento de la Luna alrededor de la Tierra y a cómo vemos la luz solar reflejada en ella desde distintas posiciones.,0.8574,4,29
+50,Explanation,What causes the phases of the Moon?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",LLaMA 3.2 3B,English,"The phases of the Moon are caused by the changing amount of sunlight that reflects off its surface as it orbits the Earth. This occurs due to the Moon's position relative to the Sun and the Earth.
+
+Here's a simplified explanation:
+
+1. When the Moon is between the Earth and the Sun (New Moon), we don't see it.
+2. As the Moon moves away from the Sun, more of its illuminated surface is visible from Earth (First Quarter).
+3. The Moon continues to move around the Earth, with more and more of its illuminated side facing us (Full Moon).
+4. After Full Moon, the Moon begins to move away from full illumination, with less and less of its illuminated surface visible from Earth (Last Quarter).
+5. Finally, as the Moon moves back towards the Sun, we see only a small portion of its illuminated surface again (New Moon).
+
+This cycle repeats every 29.5 days, which is the time it takes for the Moon to complete one orbit around the Earth.",0.7721,4,163
+50,Explanation,¿Qué provoca las fases de la Luna?,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases.",LLaMA 3.2 3B,Spanish,"Las fases de la Luna se producen debido a la interacción entre la Tierra, el Sol y la Luna. A continuación, te explico los principales factores que provocan estas fases:
+
+1. **Posición de la Luna**: La Luna orbita alrededor del Sol en un plano inclinado con respecto a la Tierra. Esto significa que la Luna no siempre está directamente al lado de la Tierra.
+2. **Iluminación solar**: Cuando la Luna se encuentra entre la Tierra y el Sol, la luz solar ilumina su superficie, creando la fase luna nueva o llena.
+3. **Oscilaciones lunares**: La Luna también tiene una órbita elíptica, lo que significa que su distancia del Sol varía a lo largo de su órbita. Esto provoca pequeñas oscilaciones en su posición relativa a la Tierra y el Sol.
+4. **Eje inclinado**: El eje de rotación de la Luna está inclinado con respecto al plano de su órbita alrededor del Sol, lo que significa que la Luna no siempre se encuentra directamente debajo o encima de la Tierra.
+
+Estos factores combinados dan lugar a las diferentes fases de la Luna, que son:
+
+* Nueva Luna: La Luna está entre la Tierra y el Sol.
+* Creciente luna: La Luna comienza a salir del disco solar.
+* Llena Luna: La Luna se encuentra directamente al lado de la Tierra.
+* Disminuyente luna: La Luna comienza a sumergirse en el disco solar.
+
+Espero que esto te haya ayudado a entender cómo se producen las fases de la Luna.",0.7505,3,237
+51,Explanation,Why do metals conduct electricity?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,Gemini 3 Pro,English,"Metals are excellent conductors of electricity because of the way their atoms are bonded together, which creates a ""sea"" of delocalized electrons.",0.7438,5,22
+51,Explanation,¿Por qué los metales conducen la electricidad?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,Gemini 3 Pro,Spanish,Los metales conducen la electricidad principalmente por la forma en que sus átomos se agrupan y comparten sus electrones más externos. La respuesta se resume en un concepto clave de la física del estado sólido: el modelo del mar de electrones.,0.6986,4,41
+51,Explanation,Why do metals conduct electricity?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,Microsoft Copilot Pro,English,"Metals conduct electricity because their electrons are not tightly held and can move freely, allowing electric charge to flow through the material.",0.8011,4,22
+51,Explanation,¿Por qué los metales conducen la electricidad?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,Microsoft Copilot Pro,Spanish,"Los metales conducen la electricidad porque poseen electrones libres móviles, que permiten el paso de la corriente eléctrica con facilidad.",0.7942,4,20
+51,Explanation,Why do metals conduct electricity?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,LLaMA 3.2 3B,English,"Metals conduct electricity because their atoms have free electrons, which are not tightly bound to the nucleus. These free electrons can move freely within the metal lattice, carrying electrical charge with them. When a voltage is applied across a metal, these free electrons can flow through the material, allowing it to conduct electricity.",0.8219,4,53
+51,Explanation,¿Por qué los metales conducen la electricidad?,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.,LLaMA 3.2 3B,Spanish,"Los metales conducen la electricidad debido a su estructura atómica. Los átomos de metal están dispuestos en una red tridimensional, con electrones libres que pueden moverse libremente entre ellos.
+
+Estos electrones libres son los responsables de la conducción eléctrica. Cuando se aplica una tensión eléctrica a un metal, estos electrones libres comienzan a moverse en una dirección específica, creando un flujo de electricidad.
+
+La razón por la que los metales son buenos conductores de electricidad es porque tienen una alta densidad de electrones libres y una estructura atómica que permite su movimiento libre. Algunos metales, como el cobre y el plomo, son especialmente buenos conductores debido a su alta conductividad eléctrica.",0.7728,4,109
+52,Explanation,Why does boiling water stay at 100°C even with continued heating (at standard pressure)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",Gemini 3 Pro,English,"This phenomenon occurs because the energy you are adding is no longer being used to raise the temperature (kinetic energy); instead, it is being used to change the phase of the water (potential energy). In thermodynamics, this hidden energy is called Latent Heat of Vaporization.",0.7181,1,45
+52,Explanation,¿Por qué el agua hirviendo se mantiene a 100 °C incluso se sigue calentando (a presión normal)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",Gemini 3 Pro,Spanish,"El agua hirviendo se mantiene a 100 °C porque toda la energía térmica (el calor) que le sigues suministrando se está utilizando para cambiar el estado del agua de líquido a gas, en lugar de aumentar su temperatura.",0.6405,3,38
+52,Explanation,Why does boiling water stay at 100°C even with continued heating (at standard pressure)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",Microsoft Copilot Pro,English,"Boiling water stays at 100 °C because added heat is used to change water from liquid to gas, not to raise its temperature.",0.5788,4,22
+52,Explanation,¿Por qué el agua hirviendo se mantiene a 100 °C incluso se sigue calentando (a presión normal)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",Microsoft Copilot Pro,Spanish,"El agua hirviendo se mantiene a 100 °C porque el calor adicional se usa para el cambio de estado (líquido → gas), no para subir la temperatura.",0.6292,3,26
+52,Explanation,Why does boiling water stay at 100°C even with continued heating (at standard pressure)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",LLaMA 3.2 3B,English,"At standard pressure, the boiling point of water is 100°C. When you continue to heat the water beyond this point, it doesn't boil again because the molecules have already reached their maximum kinetic energy and are in a state of vaporization. Adding more heat energy only increases the temperature, but doesn't change the phase from liquid to gas.",0.5131,3,58
+52,Explanation,¿Por qué el agua hirviendo se mantiene a 100 °C incluso se sigue calentando (a presión normal)?,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature.",LLaMA 3.2 3B,Spanish,"El agua hirviendo se mantiene a 100 °C debido a la presión atmosférica y la temperatura de equilibrio. A una presión normal, el agua alcanza su punto de ebullición a 100 °C.
+
+Cuando se calienta el agua hirviendo, no sube de temperatura porque el calor se distribuye uniformemente en el líquido, lo que permite mantener la temperatura constante. Además, debido a la presión atmosférica, el vapor de agua se condensa rápidamente, lo que mantiene la temperatura del líquido.
+
+En otras palabras, cuando se calienta el agua hirviendo, no hay un aumento significativo en la temperatura porque el calor se utiliza para evaporar el agua, en lugar de aumentar la temperatura del líquido.",0.5283,3,110
+53,Explanation,What is natural selection?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",Gemini 3 Pro,English,"Natural selection is the fundamental mechanism of evolution, first popularized by Charles Darwin. It is the process by which certain heritable traits become more or less common in a population based on how well they help an organism survive and reproduce in its environment.",0.595,4,44
+53,Explanation,¿Qué es la selección natural?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",Gemini 3 Pro,Spanish,"La selección natural es el mecanismo fundamental de la evolución, propuesto por Charles Darwin. En términos sencillos, es el proceso por el cual los organismos que están mejor adaptados a su entorno tienen más probabilidades de sobrevivir y reproducirse, transmitiendo sus características ventajosas a la siguiente generación.",0.6735,4,47
+53,Explanation,What is natural selection?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",Microsoft Copilot Pro,English,"Natural selection is a key mechanism of evolution, explaining how species adapt to their environments over time.",0.667,4,17
+53,Explanation,¿Qué es la selección natural?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",Microsoft Copilot Pro,Spanish,"La selección natural explica cómo las especies cambian y evolucionan a lo largo del tiempo, y fue propuesta por Charles Darwin como uno de los principios fundamentales de la evolución.",0.5809,4,30
+53,Explanation,What is natural selection?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",LLaMA 3.2 3B,English,"Natural selection is the process by which populations of living organisms adapt and evolve over time in response to their environment. It was first proposed by Charles Darwin and states that:
+
+1. Variations occur within a population.
+2. Individuals with favorable traits are more likely to survive and reproduce.
+3. The traits become more common in the population over time.
+
+This leads to the survival of the fittest, where individuals with advantageous characteristics are better equipped to adapt to their environment, increasing their chances of passing on those traits to their offspring.",0.6767,4,88
+53,Explanation,¿Qué es la selección natural?,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations.",LLaMA 3.2 3B,Spanish,"La selección natural es un proceso biológico que describe cómo las especies evolucionan a lo largo del tiempo debido a la variación genética y la presión ambiental. Fue descrito por primera vez por Charles Darwin en su libro ""El origen de las especies"" (1859).
+
+En resumen, la selección natural es el mecanismo mediante el cual las características favorables para sobrevivir y reproducirse se transmiten a las generaciones futuras debido a la selección de individuos con estas características. Esto puede ocurrir debido a factores como:
+
+* La competencia por recursos limitados
+* La predación o la defensa contra depredadores
+* Las condiciones climáticas extremas
+* La disponibilidad de alimento
+
+La selección natural es un proceso lento que requiere generaciones enteras para producir cambios significativos en una especie.",0.6059,3,120
+54,Explanation,Why does a swimming pool appear shallower than it actually is?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",Gemini 3 Pro,English,"This phenomenon is caused by refraction, which is the bending of light as it passes from one medium to another—in this case, from water into air.",0.8256,2,26
+54,Explanation,¿Por qué una piscina parece menos profunda de lo que realmente es?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",Gemini 3 Pro,Spanish,Una piscina parece menos profunda de lo que realmente es debido a un fenómeno óptico fascinante llamado refracción de la luz.,0.6064,3,21
+54,Explanation,Why does a swimming pool appear shallower than it actually is?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",Microsoft Copilot Pro,English,A swimming pool appears shallower than it actually is because of refraction of light at the boundary between water and air.,0.58,3,21
+54,Explanation,¿Por qué una piscina parece menos profunda de lo que realmente es?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",Microsoft Copilot Pro,Spanish,La piscina parece menos profunda porque la refracción de la luz en la superficie del agua hace que el fondo se vea elevado con respecto a su posición real.,0.5583,3,29
+54,Explanation,Why does a swimming pool appear shallower than it actually is?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",LLaMA 3.2 3B,English,"A swimming pool appears shallower than it actually is due to the angle of view from above, also known as the ""vanishing point effect."" The water's surface creates a visual illusion, making the bottom of the pool seem closer and more shallow than it actually is. This effect is enhanced by the surrounding environment, such as trees or buildings, which can create a sense of depth perception.",0.5067,4,67
+54,Explanation,¿Por qué una piscina parece menos profunda de lo que realmente es?,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is.",LLaMA 3.2 3B,Spanish,"Una piscina parece menos profunda de lo que realmente es debido a varios factores:
+
+1. **Reflejos**: El agua refleja la luz del sol, lo que hace que la profundidad aparente sea menor.
+2. **Visión subjetiva**: La percepción de la profundidad depende del observador y puede variar según su altura y posición.
+3. **Perspectiva**: Cuando miramos hacia abajo, el agua parece más profunda debido a la perspectiva óptica.
+4. **Iluminación**: La iluminación directa o indirecta puede afectar nuestra percepción de la profundidad.
+
+En realidad, la profundidad real de una piscina se mide mediante instrumentos precisos, como sondeos o medidores de profundidad.",0.4612,3,95
+55,Explanation,Why do we have seasons on Earth?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",Gemini 3 Pro,English,We have seasons primarily because Earth's axis is tilted as it orbits the Sun. ... Earth rotates on an axis that is tilted at an angle of approximately 23.5° relative to its orbital path. ,0.7195,3,34
+55,Explanation,¿Por qué hay estaciones en la Tierra?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",Gemini 3 Pro,Spanish,"La razón principal por la que tenemos estaciones es la inclinación del eje de rotación de la Tierra, no la distancia de nuestro planeta al Sol. ... La Tierra no gira perfectamente ""derecha"" respecto a su plano orbital. Su eje de rotación está inclinado unos 23.5 grados.",0.734,2,47
+55,Explanation,Why do we have seasons on Earth?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",Microsoft Copilot Pro,English,Seasons happen because Earth’s tilted axis changes the angle and intensity of sunlight different parts of the planet receive throughout the year.,0.6743,4,22
+55,Explanation,¿Por qué hay estaciones en la Tierra?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",Microsoft Copilot Pro,Spanish,Las estaciones existen porque la inclinación del eje terrestre hace que la cantidad de energía solar recibida cambie a lo largo del año.,0.5213,3,23
+55,Explanation,Why do we have seasons on Earth?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",LLaMA 3.2 3B,English,"We have seasons on Earth due to the tilt of its axis (about 23.5°) as it orbits around the Sun. This tilt causes different parts of the planet to receive varying amounts of sunlight throughout the year, resulting in changes in temperature and weather patterns.",0.6954,3,45
+55,Explanation,¿Por qué hay estaciones en la Tierra?,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit.",LLaMA 3.2 3B,Spanish,"Las estaciones se deben a la órbita elíptica de la Tierra alrededor del Sol. La inclinación de su eje (aproximadamente 23,5 grados) y su movimiento en torno al Sol causan cambios en la cantidad de luz solar que recibe la Tierra durante el año.
+
+- **Primavera y verano**: El hemisferio norte recibe más luz solar debido a su inclinación hacia el Sol.
+- **Otoño e invierno**: El hemisferio sur recibe menos luz solar, lo que provoca los cambios climáticos en esas estaciones.",0.6574,3,80
+56,Explanation,What is the difference between fission and fusion?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",Gemini 3 Pro,English,"The fundamental difference between fission and fusion lies in whether you are splitting a heavy atom apart or smashing light atoms together. Both processes release incredible amounts of energy because they convert a small amount of mass into energy, as described by Einstein's equation",0.7456,5,44
+56,Explanation,¿Cuál es la diferencia entre la fisión y la fusión?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",Gemini 3 Pro,Spanish,"Ambos procesos son reacciones nucleares que liberan una cantidad masiva de energía, pero operan bajo principios físicos diametralmente opuestos. La diferencia fundamental radica en si estamos dividiendo un núcleo atómico pesado o uniendo núcleos atómicos ligeros.",0.7285,3,36
+56,Explanation,What is the difference between fission and fusion?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",Microsoft Copilot Pro,English,"Fission splits big atoms apart.
+Fusion joins small atoms together.",0.7899,1,9
+56,Explanation,¿Cuál es la diferencia entre la fisión y la fusión?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",Microsoft Copilot Pro,Spanish,"Fisión → rompe núcleos grandes
+Fusión → une núcleos pequeños
+Ambas liberan energía porque parte de la masa se transforma en energía (E=mc2E = mc^2E=mc2).
+
+Si quieres, puedo explicarlo con una analogía sencilla o una tabla comparativa.",0.6506,2,34
+56,Explanation,What is the difference between fission and fusion?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",LLaMA 3.2 3B,English,"Fission and fusion are two types of nuclear reactions:
+
+1. **Fission**: A process where an atomic nucleus splits into two or more smaller nuclei, releasing energy in the process. This reaction typically involves heavy elements like uranium (U-235) or plutonium (Pu-239).
+2. **Fusion**: A process where two or more atomic nuclei combine to form a single, heavier nucleus, also releasing energy. This reaction typically involves light elements like hydrogen isotopes (e.g., deuterium and tritium).
+
+In summary: fission breaks apart, while fusion brings together.",0.7479,2,80
+56,Explanation,¿Cuál es la diferencia entre la fisión y la fusión?,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy.",LLaMA 3.2 3B,Spanish,"La fisión y la fusión son dos procesos nucleares fundamentales que ocurren dentro del núcleo de los átomos.
+
+**Fisión:**
+
+* Es el proceso en el que un átomo pesado se divide en dos o más átomos más ligeros, liberando energía en el proceso.
+* Esto sucede cuando un núcleo pesado absorbe una partícula subatómica (como un neutrón) y se vuelve estable.
+* Ejemplos de fisión incluyen la bomba atómica.
+
+**Fusión:**
+
+* Es el proceso en el que dos o más átomos ligeros se combinan para formar un núcleo pesado, liberando energía en el proceso.
+* Esto sucede cuando dos núcleos se fusionan para formar un solo núcleo más pesado, lo que libera una gran cantidad de energía.
+* La fusión nuclear es la fuente de energía del sol y otros cuerpos estelares.
+
+En resumen, la fisión implica la división de átomos pesados en átomos más ligeros, mientras que la fusión implica la combinación de átomos ligeros para formar un núcleo pesado.",0.7405,4,152
+57,Explanation,Why does adding salt lower the freezing point of water?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",Gemini 3 Pro,English,"This phenomenon is called Freezing Point Depression, and it happens because salt particles interfere with the ability of water molecules to bond together and form a solid structure.",0.7819,3,28
+57,Explanation,¿Por qué al añadir sal se reduce el punto de congelación del agua?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",Gemini 3 Pro,Spanish,El fenómeno por el cual la sal reduce el punto de congelación del agua se conoce en físico-química como descenso crioscópico.,0.7141,2,21
+57,Explanation,Why does adding salt lower the freezing point of water?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",Microsoft Copilot Pro,English,"Salt lowers water’s freezing point by interfering with ice formation, so the water must get colder before it can freeze.",0.7799,4,20
+57,Explanation,¿Por qué al añadir sal se reduce el punto de congelación del agua?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",Microsoft Copilot Pro,Spanish,Añadir sal reduce el punto de congelación del agua porque impide que sus moléculas se ordenen fácilmente en estado sólido.,0.7216,4,20
+57,Explanation,Why does adding salt lower the freezing point of water?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",LLaMA 3.2 3B,English,"Adding salt to water lowers its freezing point because it disrupts the formation of ice crystals. When salt dissolves in water, it breaks into smaller ions (sodium and chloride). These ions interfere with the hydrogen bonds between water molecules, making it harder for them to come together and form a crystal lattice structure. As a result, the mixture remains liquid at lower temperatures than pure water can freeze.",0.8716,3,68
+57,Explanation,¿Por qué al añadir sal se reduce el punto de congelación del agua?,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression.",LLaMA 3.2 3B,Spanish,"La sal disuelve los iones de sodio (Na+) y cloro (Cl-) en el agua, lo que altera la estructura de las moléculas de agua. Esto hace que las moléculas de agua se acerquen más entre sí, reduciendo la fuerza de van der Waals entre ellas.
+
+Como resultado, la temperatura a la que el agua se congela disminuye debido a la disminución de la energía liberada durante la formación de hielo.",0.6326,2,69
+58,Explanation,What is the difference between DNA and RNA?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,Gemini 3 Pro,English,"The fundamental difference between DNA (Deoxyribonucleic acid) and RNA (Ribonucleic acid) lies in their biological ""job description."" DNA acts as the permanent blueprint for life, while RNA acts as the messenger and builder that turns those blueprints into actual proteins.",0.6771,4,40
+58,Explanation,¿Cuál es la diferencia entre el ADN y el ARN?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,Gemini 3 Pro,Spanish,"El ADN (ácido desoxirribonucleico) y el ARN (ácido ribonucleico) son las moléculas fundamentales para la vida, responsables de almacenar y ejecutar nuestro código genético. Aunque están íntimamente relacionados y trabajan en equipo, tienen diferencias clave en su estructura, composición química y función.",0.7913,4,42
+58,Explanation,What is the difference between DNA and RNA?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,Microsoft Copilot Pro,English,"DNA stores the genetic blueprint
+RNA reads and carries out those instructions",0.6764,5,11
+58,Explanation,¿Cuál es la diferencia entre el ADN y el ARN?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,Microsoft Copilot Pro,Spanish,"ADN → guarda la información genética
+ARN → usa esa información para fabricar proteínas
+Timina (ADN) ↔ Uracilo (ARN)
+Doble cadena (ADN) ↔ cadena simple (ARN)
+
+Si quieres, puedo explicarlo con una tabla comparativa, un esquema o ejemplos más sencillos.",0.7217,4,36
+58,Explanation,What is the difference between DNA and RNA?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,LLaMA 3.2 3B,English,"The main differences between DNA (Deoxyribonucleic acid) and RNA (Ribonucleic acid) are:
+
+1. Sugar molecule: DNA contains deoxyribose, while RNA contains ribose.
+2. Base composition: DNA has adenine (A), guanine (G), cytosine (C), and thymine (T), while RNA has adenine (A), guanine (G), cytosine (C), and uracil (U).
+3. Function: DNA stores genetic information, while RNA is involved in protein synthesis and other cellular processes.
+4. Stability: DNA is more stable than RNA due to its deoxyribose sugar molecule.
+
+These differences affect the structure, function, and behavior of each molecule.",0.7011,4,85
+58,Explanation,¿Cuál es la diferencia entre el ADN y el ARN?,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.,LLaMA 3.2 3B,Spanish,"El ADN (ácido desoxirribonucleico) y el ARN (ácido ribonucleico) son dos tipos de moléculas biológicas que contienen información genética. La principal diferencia entre ellos es su estructura y función:
+
+**ADN:**
+
+* Es una molécula polinucleótida, compuesta por cadenas de nucleótidos que se unen en un patrón específico.
+* Contiene el código genético para la síntesis de proteínas.
+* Es establecido y no se modifica fácilmente.
+
+**ARN:**
+
+* También es una molécula polinucleótida, pero con una estructura diferente al ADN.
+* Se utiliza como molde para la síntesis de proteínas.
+* Puede ser estabilizado o desestabilizado dependiendo del tipo de ARN y su función específica.
+
+En resumen, el ADN es la molécula que contiene el código genético y se utiliza para transmitir información genética a las células. El ARN, por otro lado, es una molécula que se utiliza como molde para la síntesis de proteínas y puede ser estabilizado o desestabilizado dependiendo de su función específica.",0.7779,3,146
+59,Explanation,Why does blowing over the top of an open bottle produce a sound?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",Gemini 3 Pro,English,"Blowing over the top of a bottle creates sound through a phenomenon called Helmholtz Resonance. This is the same principle that causes the ""thumping"" sound when you crack a single window in a moving car. ... When you blow across the top, the stream of air hits the opposite edge of the bottle's opening. This creates a small area of high pressure that pushes a ""plug"" of air down into the neck of the bottle.",0.6899,1,75
+59,Explanation,¿Por qué se oye un sonido al soplar por la boca de una botella abierta?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",Gemini 3 Pro,Spanish,"El sonido que escuchas al soplar por la boca de una botella es el resultado de un fenómeno acústico conocido como Resonancia de Helmholtz (nombrado así en honor al físico alemán Hermann von Helmholtz). ... El tapón de aire: Imagina que el aire que se encuentra justo en el cuello estrecho de la botella es un ""tapón"" o una masa sólida.",0.6347,2,61
+59,Explanation,Why does blowing over the top of an open bottle produce a sound?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",Microsoft Copilot Pro,English,"Blowing over a bottle makes the air inside vibrate at its natural frequency, and that vibration produces sound.",0.8039,4,18
+59,Explanation,¿Por qué se oye un sonido al soplar por la boca de una botella abierta?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",Microsoft Copilot Pro,Spanish,"El sonido se produce porque al soplar haces vibrar el aire de la botella, y esas vibraciones resonantes generan ondas sonoras que llegan a tus oídos.
+Si quieres, puedo explicarlo con una analogía musical o relacionarlo con instrumentos como la flauta ",0.7211,2,40
+59,Explanation,Why does blowing over the top of an open bottle produce a sound?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",LLaMA 3.2 3B,English,"When you blow over the top of an open bottle, air rushes out through the narrow neck, creating turbulence in the air column inside the bottle. This turbulence produces a series of pressure waves that travel outward from the bottle, resulting in the characteristic ""whooshing"" or ""squeaky"" sound.",0.8047,2,48
+59,Explanation,¿Por qué se oye un sonido al soplar por la boca de una botella abierta?,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone.",LLaMA 3.2 3B,Spanish,"Cuando soplas por la boca de una botella abierta, el aire que expulsas crea una pequeña onda de presión negativa en el interior de la botella. Esto hace que el aire dentro de la botella se mueva hacia afuera, creando un sonido característico.
+
+El sonido se debe a la interacción entre el aire y las partículas del líquido (como agua o gas) dentro de la botella. Cuando el aire entra en contacto con estas partículas, crea una serie de colisiones que generan vibraciones en el aire, lo que produce el sonido.
+
+En resumen, el sonido se debe a la interacción entre el aire y las partículas del líquido dentro de la botella, creando una serie de colisiones que producen vibraciones y, finalmente, un sonido.",0.8475,4,122
+60,Explanation,What is the difference between speed and velocity?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",Gemini 3 Pro,English,"The difference between speed and velocity is that speed is a scalar quantity (it only has magnitude), while velocity is a vector quantity (it has both magnitude and direction).",0.9467,3,29
+60,Explanation,¿Cuál es la diferencia entre rapidez y velocidad?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",Gemini 3 Pro,Spanish,"La diferencia fundamental entre rapidez y velocidad radica en la dirección. En física básica, la rapidez es una magnitud escalar, mientras que la velocidad es una magnitud vectorial.",0.8213,3,28
+60,Explanation,What is the difference between speed and velocity?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",Microsoft Copilot Pro,English,"You can change velocity by changing speed, direction, or both.
+You can go at a constant speed but still change velocity if you change direction (like driving around a curve).
+
+✅ In short:
+Speed = how fast
+Velocity = how fast + direction",0.4947,4,39
+60,Explanation,¿Cuál es la diferencia entre rapidez y velocidad?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",Microsoft Copilot Pro,Spanish,"Rapidez → solo “qué tan rápido”.
+Velocidad → “qué tan rápido” y “hacia dónde”.
+
+Dos objetos pueden tener la misma rapidez pero velocidades distintas si se mueven en direcciones diferentes.",0.4847,3,28
+60,Explanation,What is the difference between speed and velocity?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",LLaMA 3.2 3B,English,"Speed refers to how fast an object moves, measured in units of distance per unit time (e.g., meters per second). Velocity, on the other hand, is a vector quantity that includes both speed and direction. In essence, velocity tells you not only how fast something is moving but also in which direction it's heading.",0.7712,4,54
+60,Explanation,¿Cuál es la diferencia entre rapidez y velocidad?,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction.",LLaMA 3.2 3B,Spanish,"La diferencia entre rapidez y velocidad se refiere a su naturaleza y cómo se mide.
+
+**Velocidad** se refiere al ritmo o tasa en que algo ocurre, como la velocidad de un objeto en movimiento. Es una medida cuantitativa que describe la cantidad de distancia recorrida por un objeto en un período de tiempo determinado.
+
+**Rapidez**, por otro lado, se refiere a la celeridad o agilidad con la que algo se realiza o ocurre. Es una medida cualitativa que describe la calidad o el nivel de eficiencia con el que algo se hace. La rapidez puede ser subjetiva y depende del contexto y la perspectiva.
+
+En resumen, la velocidad es una medida cuantitativa de la cantidad de distancia recorrida en un período de tiempo, mientras que la rapidez es una medida cualitativa de la celeridad o agilidad con la que algo se realiza.",0.7068,3,139
+61,Explanation,Why is carbon so central to life on Earth?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",Gemini 3 Pro,English,"Carbon's centrality to life—what biologists call Carbon-based life—comes down to its unique position on the periodic table. It is the ultimate ""molecular LEGO brick"" because of its unparalleled ability to form stable, complex, and diverse structures.",0.6004,5,36
+61,Explanation,¿Por qué el carbono es tan fundamental para la vida en la Tierra?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",Gemini 3 Pro,Spanish,"El carbono es considerado el ""elemento de la vida"" debido a su inigualable versatilidad química. En el campo de la química orgánica, se le describe como el esqueleto sobre el cual se construyen todas las moléculas biológicas complejas.",0.6752,5,38
+61,Explanation,Why is carbon so central to life on Earth?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",Microsoft Copilot Pro,English,"Carbon is central to life because it can form complex, stable, and diverse molecules, making it the ideal chemical foundation for living organisms.",0.7096,5,23
+61,Explanation,¿Por qué el carbono es tan fundamental para la vida en la Tierra?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",Microsoft Copilot Pro,Spanish,"El carbono es esencial para la vida porque puede formar moléculas grandes, diversas y estables, capaces de almacenar información, construir estructuras y permitir reacciones químicas vitales.
+Por eso, toda la vida conocida es vida basada en carbono.",0.5991,5,36
+61,Explanation,Why is carbon so central to life on Earth?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",LLaMA 3.2 3B,English,"Carbon is central to life on Earth due to its unique properties, which make it an ideal element for biological molecules:
+
+1. **Versatility**: Carbon can form long chains, rings, and branches, allowing it to create complex molecules.
+2. **Chemical reactivity**: Carbon can bond with many other elements, including hydrogen, oxygen, nitrogen, and sulfur, forming a wide variety of compounds.
+3. **Stability**: Carbon-based molecules are relatively stable, which allows them to store energy and transmit information.
+
+These properties enable carbon to form the basis of biomolecules such as:
+
+* Carbohydrates (e.g., sugars)
+* Proteins
+* Nucleic acids (DNA and RNA)
+* Fats and oils
+
+The presence of carbon in these molecules is essential for life, as it allows cells to store energy, transmit genetic information, and maintain structure.",0.7544,4,118
+61,Explanation,¿Por qué el carbono es tan fundamental para la vida en la Tierra?,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules.",LLaMA 3.2 3B,Spanish,"El carbono es fundamental para la vida en la Tierra debido a su capacidad para formar una amplia variedad de compuestos orgánicos, que son esenciales para la vida. Algunas razones clave por las que el carbono es tan importante:
+
+1.  **Formación de moléculas**: El carbono puede unirse con otros elementos como hidrógeno, oxígeno y nitrógeno para formar moléculas complejas, como carbohidratos, proteínas y grasas.
+2.  **Estructura molecular**: La estructura tridimensional del carbono permite la formación de moléculas con una gran variedad de propiedades físicas y químicas, lo que es necesario para la vida.
+3.  **Reacciones biológicas**: El carbono es un componente clave en las reacciones biológicas, como la fotosíntesis y la respiración celular, donde se convierte en energía para el crecimiento y el desarrollo de los organismos vivos.
+4.  **Sustento de la vida**: El carbono es una fuente importante de energía para muchos organismos, ya que se utiliza para producir carbohidratos, proteínas y grasas, que son esenciales para el crecimiento y el desarrollo.
+
+En resumen, el carbono es fundamental para la vida en la Tierra debido a su capacidad para formar una amplia variedad de compuestos orgánicos, su estructura molecular única y su papel en las reacciones biológicas.",0.6659,4,193
+62,Explanation,What causes a rainbow?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",Gemini 3 Pro,English,"A rainbow is an optical phenomenon caused by three distinct physical processes—refraction, reflection, and dispersion—occurring inside millions of falling raindrops.",0.5643,3,20
+62,Explanation,¿Qué provoca la aparición de un arcoíris?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",Gemini 3 Pro,Spanish,Un arcoíris es un fenómeno óptico y meteorológico que se produce por la descomposición de la luz solar al interactuar con gotas de agua suspendidas en la atmósfera.,0.5432,2,28
+62,Explanation,What causes a rainbow?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",Microsoft Copilot Pro,English,"A rainbow appears because sunlight is bent, split into colors, reflected, and bent again inside raindrops, producing the colorful arc we see in the sky.",0.6105,5,25
+62,Explanation,¿Qué provoca la aparición de un arcoíris?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",Microsoft Copilot Pro,Spanish,"Un arcoíris aparece cuando la luz del Sol se refracta, se dispersa y se refleja dentro de las gotas de agua, separándose en colores visibles.",0.7033,2,25
+62,Explanation,What causes a rainbow?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",LLaMA 3.2 3B,English,"A rainbow is caused by the refraction and dispersion of sunlight as it passes through water droplets in the air. When sunlight enters a water droplet, it slows down and bends (refracts), separating into its individual colors (dispersion). The dispersed light then exits the droplet at a different angle, creating the colorful arc we see as a rainbow.",0.5992,2,58
+62,Explanation,¿Qué provoca la aparición de un arcoíris?,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles.",LLaMA 3.2 3B,Spanish,"La aparición de un arcoíris se debe a la refracción del sol a través de las gotas de agua presentes en el aire, como después de una lluvia o en un vaso de agua con luz solar. La combinación de la luz solar y las gotas de agua crea la ilusión de un arcoíris, que se ve como una banda de colores en el cielo.",0.601,4,65
+63,Explanation,Why does the surface of a liquid in a container curve at the edges (meniscus)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",Gemini 3 Pro,English,The curve you see at the surface of a liquid is called a meniscus. It occurs because of a competition between two different types of molecular forces: adhesion and cohesion.,0.6685,2,30
+63,Explanation,¿Por qué se curva la superficie de un líquido en un recipiente por los bordes (menisco)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",Gemini 3 Pro,Spanish,"Ese fenómeno de curvatura que observas en la superficie de un líquido se llama menisco, y es el resultado de una ""batalla de fuerzas"" entre las moléculas del líquido y las moléculas de la pared del recipiente.",0.6052,2,37
+63,Explanation,Why does the surface of a liquid in a container curve at the edges (meniscus)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",Microsoft Copilot Pro,English,"A meniscus forms because the liquid is pulled toward the container walls and toward itself at the same time, and the competition between these forces causes the surface to curve.",0.6226,2,30
+63,Explanation,¿Por qué se curva la superficie de un líquido en un recipiente por los bordes (menisco)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",Microsoft Copilot Pro,Spanish,"El menisco se forma porque las fuerzas entre el líquido y el recipiente compiten con las fuerzas internas del líquido, provocando que la superficie se curve cerca de los bordes.
+Si quieres, puedo ayudarte a recordarlo con un esquema mental o compararlo con líquidos específicos",0.6433,2,44
+63,Explanation,Why does the surface of a liquid in a container curve at the edges (meniscus)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",LLaMA 3.2 3B,English,"The surface of a liquid in a container curves at the edges, or forms a meniscus, due to two main reasons:
+
+1. Adhesion: The liquid molecules are attracted to the container material, creating an upward force that pulls the surface inward.
+2. Cohesion: The liquid molecules are also attracted to each other, causing them to behave as if they have an ""elastic skin"" at the surface, which curves outward due to surface tension.
+
+This combination of adhesion and cohesion results in a concave meniscus, where the liquid surface is curved inward at the edges.",0.7192,2,91
+63,Explanation,¿Por qué se curva la superficie de un líquido en un recipiente por los bordes (menisco)?,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges.",LLaMA 3.2 3B,Spanish,"La curvatura de la superficie de un líquido en un recipiente, conocida como menisco, se debe a la tensión superficial del líquido. La tensión superficial es una fuerza que actúa entre las moléculas del líquido y el aire circundante.
+
+Cuando un líquido se coloca en un recipiente, las moléculas del líquido están en constante movimiento y interactúan con las moléculas del aire. La tensión superficial es la fuerza que impulsa a las moléculas del líquido hacia el interior del recipiente, lo que hace que la superficie del líquido se curve.
+
+La gravedad también juega un papel en la formación de meniscos. Cuando el líquido cae en un recipiente, la gravedad actúa sobre las moléculas del líquido y las empuja hacia abajo. Sin embargo, la tensión superficial del líquido se opone a esta fuerza, lo que hace que la superficie del líquido se curve hacia arriba.
+
+En resumen, la curvatura de la superficie de un líquido en un recipiente se debe a la combinación de la tensión superficial y la gravedad.",0.6253,3,167

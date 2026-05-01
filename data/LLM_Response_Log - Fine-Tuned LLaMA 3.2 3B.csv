@@ -1,0 +1,106 @@
+Prompt ID,Category,Prompt,Correct Answer (English),Language,Response,Accuracy Score,Sentiment Score,Response Length
+1,Factual QA,What is the chemical symbol for gold?,Au,English,The chemical symbol for gold is Au.,0.3598,3,7
+1,Factual QA,¿Cuál es el símbolo químico del oro?,Au,Spanish,El símbolo químico del oro es Au.,0.3607,3,7
+2,Factual QA,How many bones are in the adult human body?,206,English,There are 206 bones in the adult human body.,0.3753,2,9
+2,Factual QA,¿Cuántos huesos hay en el cuerpo humano adulto?,206,Spanish,"En el cuerpo humano adulto, hay 206 huesos.",0.3731,2,8
+3,Factual QA,What is the largest planet in the solar system?,Jupiter,English,The largest planet in our solar system is Jupiter.,0.7039,1,9
+3,Factual QA,¿Cuál es el planeta más grande del sistema solar?,Jupiter,Spanish,Júpiter es el planeta más grande del sistema solar.,0.6969,5,9
+4,Factual QA,In what year did the First World War end?,1918,English,"The First World War ended on November 11, 1918.",0.4256,1,9
+4,Factual QA,¿En qué año terminó la Primera Guerra Mundial?,1918,Spanish,La Primera Guerra Mundial terminó en 1918.,0.5706,1,7
+5,Factual QA,"What is the speed of light in a vacuum, in meters per second?","299,792,458 m/s",English,"The speed of light in a vacuum is approximately 299,792,458 meters per second.",0.5457,1,13
+5,Factual QA,"¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?","299,792,458 m/s",Spanish,La velocidad de la luz en el vacío es de aproximadamente 299.792 kilómetros por segundo (km/s) o 299.792.000 metros por segundo (m/s).,0.5657,1,22
+6,Factual QA,What element has atomic number 1?,Hydrogen,English,Hydrogen.,0.9863,5,1
+6,Factual QA,¿Qué elemento tiene el número atómico 1?,Hydrogen,Spanish,El elemento con el número atómico 1 es el hidrógeno (H).,0.746,1,11
+7,Factual QA,How many degrees are in a full circle?,360,English,There are 360 degrees in a full circle.,0.6049,5,8
+7,Factual QA,¿Cuántos grados hay en un círculo completo?,360,Spanish,Un círculo completo tiene 360 grados.,0.5867,1,6
+8,Reasoning,"If a train travels 60 km/h for 2.5 hours, how far does it travel?",150 km,English,"To find the distance traveled, multiply the speed (60 km/h) by the time (2.5 hours):
+
+Distance = Speed × Time
+= 60 km/h × 2.5 hours
+= 150 km",0.6271,4,26
+8,Reasoning,"Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?",150 km,Spanish,"Para calcular la distancia recorrida, debemos multiplicar la velocidad por el tiempo.
+
+Distancia = Velocidad x Tiempo
+Distancia = 60 km/h x 2,5 h
+Distancia = 150 km
+
+El tren recorre 150 km.",0.6609,4,29
+9,Reasoning,"What is the next number in the sequence: 2, 4, 8, 16, 32, ___?",64,English,The next number in the sequence is 64.,0.6795,3,8
+9,Reasoning,"¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?",64,Spanish,"El patrón de la secuencia es el doble del número anterior. Por lo tanto, el siguiente número sería 64.",0.5368,3,19
+10,Reasoning,A rectangle has a length of 9 cm and a width of 4 cm. What is its area?,36 cm²,English,"The area of a rectangle is calculated by multiplying its length by its width.
+
+Area = Length × Width
+= 9 cm × 4 cm
+= 36 cm²",0.4718,4,25
+10,Reasoning,Un rectángulo mide 9 cm de largo y 4 cm de ancho. ¿Cuál es su área?,36 cm²,Spanish,"El área de un rectángulo se calcula multiplicando su largo por su ancho.
+
+Área = largo × ancho
+= 9 cm × 4 cm
+= 36 cm²
+
+La respuesta final es 36.",0.6013,3,28
+11,Reasoning,"If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps?",Yes,English,"Yes, all Blurps are Flurps.",0.1902,1,5
+11,Reasoning,"Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?",Yes,Spanish,"Sí, si todos los Blurps son Glorps y todos los Glorps son Flurps, entonces todos los Blurps también son Flurps.",0.2194,2,20
+12,Reasoning,What is 15% of 200?,30,English,15% of 200 is 30.,0.6273,2,5
+12,Reasoning,¿Cuánto es el 15 % de 200?,30,Spanish,El 15% de 200 es 30.,0.6327,2,6
+13,Reasoning,A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball?,3/10,English,"To find the probability of drawing a red ball, divide the number of red balls by the total number of balls.
+
+Number of red balls = 3
+Total number of balls = 3 + 7 = 10
+
+Probability = Number of red balls / Total number of balls
+= 3 / 10
+= 0.3
+
+So, the probability of drawing a red ball is 0.3 or 30%.",0.2783,3,60
+13,Reasoning,Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja?,3/10,Spanish,"Para calcular la probabilidad de sacar una bola roja, debemos dividir el número de bolas rojas por el número total de bolas.
+
+Número de bolas rojas: 3
+Número total de bolas: 3 + 7 = 10
+
+Probabilidad = Número de bolas rojas / Número total de bolas
+= 3/10
+= 0,3
+
+Entonces, la probabilidad de sacar una bola roja es del 30%.",0.3111,3,56
+14,Reasoning,"If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get?",27,English,"The reverse of 47 is 74.
+
+47 - 74 = -27",0.5283,1,10
+14,Reasoning,"Si inviertes los dígitos de 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes?",27,Spanish,"Si inviertes los dígitos de 47, obtienes 74. El número más pequeño es 4 y el mayor es 7. Restar el más pequeño del mayor da como resultado 7-4 = 3.",0.4051,1,31
+15,Explanation,Why does the sky appear blue during the day?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",English,"The sky appears blue during the day due to a phenomenon called Rayleigh scattering, where shorter (blue) wavelengths of light are scattered more than longer (red) wavelengths by the tiny molecules of gases in the Earth's atmosphere. This scattering effect gives the sky its blue color.",0.8341,3,46
+15,Explanation,¿Por qué el cielo parece azul durante el día?,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering.",Spanish,"El cielo parece azul durante el día debido a la dispersión de la luz solar por las moléculas de la atmósfera terrestre. La luz blanca se descompone en diferentes colores, y el azul es el color que se dispersa más. Esto se debe a que las moléculas de oxígeno y nitrógeno en la atmósfera absorben los colores rojos y verdes, dejando que el azul se filtre hacia nuestros ojos.",0.6464,2,69
+16,Explanation,Why do objects fall at the same rate in a vacuum regardless of mass?,"Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",English,"Objects fall at the same rate in a vacuum because there is no air resistance or friction to slow them down. In a vacuum, there is no medium (like air) to exert a force on the object, so the only force acting on the object is gravity, which pulls it towards the center of the Earth with a constant acceleration of 9.8 m/s² (on Earth's surface).",0.6203,2,66
+16,Explanation,"¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?","Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²).",Spanish,"En el vacío, no hay resistencia aerodinámica ni gravedad, por lo que los objetos caen a la misma velocidad debido a la aceleración de la gravedad universal, que es constante y independiente de la masa de los objetos.",0.6877,2,38
+17,Explanation,Why does ice float on water?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",English,"Ice floats on water because it is less dense than liquid water. This is due to the arrangement of its molecules, which are arranged in a crystalline structure that creates air pockets, making it less dense than the surrounding water.",0.8067,2,40
+17,Explanation,¿Por qué flota el hielo en el agua?,"Water expands when it freezes, making ice less dense than liquid water, so it floats.",Spanish,"El hielo flota en el agua debido a su densidad menor que el agua líquida. Aunque el hielo está compuesto por agua, su estructura cristalina es más ligera que la del agua líquida debido a la forma en que se organizan las moléculas de agua en el hielo. Esto se debe a que las moléculas de agua en el hielo están más separadas y en una estructura más abierta, lo que reduce su peso total. Como resultado, el hielo flota sobre el agua, lo que permite que se mantenga en la superficie.",0.7912,3,92
+18,Explanation,What causes a lunar eclipse?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",English,"A lunar eclipse occurs when the Earth passes between the Sun and the Moon, blocking the sunlight that normally reflects off the Moon's surface. This can happen in three types:
+
+1. **Penumbral lunar eclipse**: The Earth's partial shadow falls on the Moon, causing a subtle darkening of the Moon's surface.
+2. **Partial lunar eclipse**: The Earth's partial shadow falls on a portion of the Moon, creating a partial darkening of the Moon's surface.
+3. **Total lunar eclipse**: The Earth's umbra (complete shadow) falls on the Moon, causing the entire Moon to darken and sometimes take on a reddish hue.",0.6329,2,96
+18,Explanation,¿Qué provoca un eclipse lunar?,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon.",Spanish,"Un eclipse lunar se produce cuando la Luna pasa entre la Tierra y el Sol, bloqueando la luz solar que ilumina su superficie. Esto puede ocurrir de varias maneras:
+
+1. **Eclipse parcial**: La Luna solo cubre una parte de su superficie, dejando una parte iluminada.
+2. **Eclipse total**: La Luna cubre completamente la superficie de la Luna, ocultando la luz solar.
+3. **Eclipse anular**: La Luna solo cubre un pequeño área de su superficie, creando un anillo de sombra en la Luna.
+
+En todos los casos, el eclipse lunar se debe a la alineación de las tres cuerpos celestes: la Tierra, el Sol y la Luna.",0.6563,2,102
+19,Explanation,Why do we see lightning before we hear thunder?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",English,"Light travels much faster than sound. When a lightning bolt strikes, it produces a bright flash of light, which we see almost instantly. The sound of the thunder, on the other hand, takes time to reach us, as it travels at a speed of approximately 343 meters per second (768 mph). This delay is known as the ""flash-to-bang"" method, where we see the lightning before we hear the thunder.",0.7454,2,69
+19,Explanation,¿Por qué vemos el relámpago antes de oír el trueno?,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer.",Spanish,"La razón por la que vemos el relámpago antes que el trueno se debe a la velocidad de la luz y la velocidad del sonido.
+
+El relámpago es una explosión eléctrica que se produce en el cielo y se propaga a una velocidad aproximadamente igual a la de la luz (300.000 km/s). Esto significa que el relámpago llega a nuestros ojos casi instantáneamente.
+
+Por otro lado, el trueno es el sonido que se produce cuando el relámpago se desvía a través de la atmósfera, lo que hace que el aire se comprima y se expanda rápidamente. La velocidad del sonido en la atmósfera es de aproximadamente 343 metros por segundo en la temperatura ambiente. Esto significa que el trueno tarda un poco más en llegar a nuestros oídos que el relámpago.
+
+Como resultado, vemos el relámpago casi al mismo tiempo que se produce, pero el trueno llega unos 10-15 segundos después. Esto es por lo que vemos el relámpago antes de oír el trueno.",0.579,2,161
+20,Explanation,What is the purpose of white blood cells?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",English,"The primary purpose of white blood cells (WBCs) is to defend the body against infections and diseases by:
+
+1. Recognizing and attacking foreign invaders, such as bacteria, viruses, and other pathogens.
+2. Phagocytosing (engulfing and destroying) pathogens.
+3. Producing antibodies to neutralize or remove pathogens.
+4. Activating the immune system to trigger an immune response.
+
+There are several types of white blood cells, each with distinct functions, including neutrophils, lymphocytes, monocytes, eosinophils, and basophils.",0.5616,4,69
+20,Explanation,¿Cuál es la función de los glóbulos blancos?,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells.",Spanish,"Los glóbulos blancos, también conocidos como leucocitos, son una parte importante del sistema inmunológico del cuerpo humano. Su función principal es protegerlo contra las infecciones y enfermedades, mediante la detección y destrucción de microorganismos como bacterias, virus y hongos.",0.727,4,39
+21,Explanation,Why does a compass needle point north?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",English,"A compass needle points north because it is magnetized and aligns itself with the Earth's magnetic field. The Earth's core is made of molten iron, which generates a magnetic field that extends to the surface. The compass needle is a small magnet that is attracted to this magnetic field, causing it to align itself with the magnetic lines of force, which point towards the Earth's magnetic north pole.",0.8499,2,68
+21,Explanation,¿Por qué la aguja de una brújula apunta al norte?,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole.",Spanish,"La aguja de una brújula apunta al norte debido a la magnetorresistencia. La brújula está compuesta por un imán y un dieléctrico. Cuando se introduce la aguja en el dieléctrico, el imán se alinea con el campo magnético terrestre, que es paralelo al eje de la Tierra. Como el campo magnético terrestre es más intenso en el polo norte, la aguja se orienta hacia el polo norte.",0.8068,2,67
