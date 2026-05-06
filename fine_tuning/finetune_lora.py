@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from config import (
     LLAMA_SHEET_NAME, PLACEHOLDERS,
     SYSTEM_EN, SYSTEM_ES,
-    ZERO_SHOT_OUTPUT, FINE_TUNED_INPUT, FINE_TUNED_OUTPUT,
+    FINE_TUNING_TRAIN, FINE_TUNED_INPUT, FINE_TUNED_OUTPUT,
 )
 
 BASE_MODEL = "meta-llama/Llama-3.2-3B-Instruct"
@@ -38,26 +38,23 @@ def format_prompt(system: str, prompt: str, response: str = "") -> str:
 
 
 def load_training_data() -> Dataset:
-    if not ZERO_SHOT_OUTPUT.exists():
+    if not FINE_TUNING_TRAIN.exists():
         raise FileNotFoundError(
-            f"{ZERO_SHOT_OUTPUT} not found. Run 01_run_zero_shot.py first."
+            f"{FINE_TUNING_TRAIN} not found. Export the fine_tuning_sheet tab from Google Sheets first."
         )
 
-    df = pd.read_csv(ZERO_SHOT_OUTPUT, encoding='utf-8-sig')
+    df = pd.read_csv(FINE_TUNING_TRAIN, encoding='utf-8-sig')
     df.columns = [c.strip() for c in df.columns]
-
-    # only use rows that have real responses
-    df = df[df["Model"].str.strip() == LLAMA_SHEET_NAME]
-    df = df[~df["Response"].apply(is_placeholder)]
+    df = df[~df["Correct Answer"].apply(is_placeholder)]
 
     examples = []
     for _, row in df.iterrows():
         lang = str(row["Language"]).strip()
         system = SYSTEM_ES if lang.lower() == "spanish" else SYSTEM_EN
-        text = format_prompt(system, str(row["Prompt"]).strip(), str(row["Response"]).strip())
+        text = format_prompt(system, str(row["Prompt"]).strip(), str(row["Correct Answer"]).strip())
         examples.append({"text": text})
 
-    print(f"Built {len(examples)} training examples from zero-shot responses")
+    print(f"Built {len(examples)} training examples from ground-truth answers")
     return Dataset.from_list(examples)
 
 

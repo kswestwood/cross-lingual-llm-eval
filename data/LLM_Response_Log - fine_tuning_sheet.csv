@@ -1,0 +1,127 @@
+Prompt,Language,Correct Answer
+What is the chemical symbol for gold?,English,Au
+¿Cuál es el símbolo químico del oro?,Spanish,Au
+How many bones are in the adult human body?,English,206
+¿Cuántos huesos hay en el cuerpo humano adulto?,Spanish,206
+What is the largest planet in the solar system?,English,Jupiter
+¿Cuál es el planeta más grande del sistema solar?,Spanish,Júpiter
+In what year did the First World War end?,English,1918
+¿En qué año terminó la Primera Guerra Mundial?,Spanish,1918
+"What is the speed of light in a vacuum, in meters per second?",English,"299,792,458 m/s"
+"¿Cuál es la velocidad de la luz en el vacío, en metros por segundo?",Spanish,"299,792,458 m/s"
+What element has atomic number 1?,English,Hydrogen
+¿Qué elemento tiene el número atómico 1?,Spanish,Hidrógeno
+How many degrees are in a full circle?,English,360
+¿Cuántos grados hay en un círculo completo?,Spanish,360
+What is the hardest natural substance on Earth?,English,Diamond
+¿Cuál es la sustancia natural más dura que existe en la Tierra?,Spanish,Diamante
+What is the smallest prime number?,English,2
+¿Cuál es el número primo más pequeño?,Spanish,2
+What organ in the human body produces insulin?,English,The pancreas
+¿Qué órgano del cuerpo humano produce insulina?,Spanish,El páncreas
+How many chromosomes does a typical human cell contain?,English,46
+¿Cuántos cromosomas contiene una célula humana típica?,Spanish,46
+What is the chemical formula for water?,English,H₂O
+¿Cuál es la fórmula química del agua?,Spanish,H₂O
+What is the most abundant gas in Earth's atmosphere?,English,Nitrogen
+¿Cuál es el gas más abundante en la atmósfera terrestre?,Spanish,Nitrógeno
+What is the square root of 144?,English,12
+¿Cuál es la raíz cuadrada de 144?,Spanish,12
+How many sides does a hexagon have?,English,6
+¿Cuántos lados tiene un hexágono?,Spanish,6
+What planet is closest to the Sun?,English,Mercury
+¿Qué planeta es el más cercano al Sol?,Spanish,Mercurio
+What is the powerhouse of the cell?,English,The mitochondria
+¿Cuál es la central energética de la célula?,Spanish,La mitocondria
+"In the metric system, how many meters are in one kilometer?",English,"1,000"
+"En el sistema métrico, ¿cuántos metros hay en un kilómetro?",Spanish,"1,000"
+¿Cuál es el punto de congelación del agua en grados Celsius?,English,0°C
+What is the freezing point of water in degrees Celsius?,Spanish,0°C
+How many valence electrons does a carbon atom have?,English,4
+¿Cuántos electrones de valencia tiene un átomo de carbono?,Spanish,4
+What is the longest bone in the human body?,English,The femur
+¿Cuál es el hueso más largo del cuerpo humano?,Spanish,El fémur
+"If a train travels 60 km/h for 2.5 hours, how far does it travel?",English,150 km
+"Si un tren circula a 60 km/h durante 2,5 horas, ¿qué distancia recorre?",Spanish,150 km
+"What is the next number in the sequence: 2, 4, 8, 16, 32, ___?",English,64
+"¿Cuál es el siguiente número de la secuencia: 2, 4, 8, 16, 32, ___?",Spanish,64
+A rectangle has a length of 9 cm and a width of 4 cm. What is its area?,English,36 cm²
+Un rectángulo mide 9 cm de largo y 4 cm de ancho. ¿Cuál es su área?,Spanish,36 cm²
+"If all Blurps are Glorps, and all Glorps are Flurps, are all Blurps Flurps?",English,Yes
+"Si todos los Blurps son Glorps y todos los Glorps son Flurps, ¿son todos los Blurps Flurps?",Spanish,Sí
+What is 15% of 200?,English,30
+¿Cuánto es el 15 % de 200?,Spanish,30
+A bag contains 3 red balls and 7 blue balls. What is the probability of randomly drawing a red ball?,English,3/10
+Una bolsa contiene 3 bolas rojas y 7 bolas azules. ¿Cuál es la probabilidad de sacar al azar una bola roja?,Spanish,3/10
+"If you reverse the digits of 47 and subtract the smaller number from the larger, what do you get?",English,27
+"Si inviertes los dígitos de 47 y restas el número más pequeño del mayor, ¿qué resultado obtienes?",Spanish,27
+A clock shows 3:00. What is the angle between the hour and minute hands?,English,90°
+Un reloj marca las 3:00. ¿Cuál es el ángulo entre la manecilla de las horas y la de los minutos?,Spanish,90°
+What is the sum of all interior angles of a triangle?,English,180°
+¿Cuál es la suma de todos los ángulos internos de un triángulo?,Spanish,180°
+"If 5 machines take 5 minutes to make 5 widgets, how long do 100 machines take to make 100 widgets?",English,5 minutes
+"Si 5 máquinas tardan 5 minutos en fabricar 5 piezas, ¿cuánto tardan 100 máquinas en fabricar 100 piezas?",Spanish,5 minutos
+What is the next prime number after 13?,English,17
+¿Cuál es el siguiente número primo después del 13?,Spanish,17
+"A car depreciates from $20,000 to $15,000. What is the percentage decrease?",English,25%
+Un coche se deprecia de 20 000 $ a 15 000 $. ¿Cuál es el porcentaje de disminución?,Spanish,25%
+What is the value of 2³ × 2²?,English,32
+¿Cuál es el valor de 2³ × 2²?,Spanish,32
+"If A > B and B > C, is it necessarily true that A > C?",English,Yes
+"Si A > B y B > C, ¿es necesariamente cierto que A > C?",Spanish,Sí
+What is the perimeter of a square with a side length of 7 cm?,English,28 cm
+¿Cuál es el perímetro de un cuadrado cuya longitud de lado es de 7 cm?,Spanish,28 cm
+"A light bulb is on. If you flip Switch A, the light turns off. If you flip Switch B, the light turns off. Both switches are currently in the ""off"" position. How many switches must you flip to guarantee the light is on?",English,2
+"Hay una bombilla encendida. Si accionas el interruptor A, la luz se apaga. Si accionas el interruptor B, la luz se apaga. Ambos interruptores están actualmente en la posición «apagado». ¿Cuántos interruptores debes accionar para asegurarte de que la luz se encienda?",Spanish,2
+What is log₁₀(1000)?,English,3
+¿Cuánto es log₁₀(1000)?,Spanish,3
+"If n is an even integer, is n² always even?",English,Yes
+"Si n es un número entero par, ¿n² es siempre par?",Spanish,Sí
+"A sequence starts: 1, 1, 2, 3, 5, 8, ___. What is the next number?",English,13
+"Empieza una secuencia: 1, 1, 2, 3, 5, 8, ___. ¿Cuál es el siguiente número?",Spanish,13
+What is the volume of a cube with side length 3 cm?,English,27 cm³
+¿Cuál es el volumen de un cubo con una arista de 3 cm?,Spanish,27 cm³
+"If you flip a fair coin three times, what is the probability of getting heads all three times?",English,1/8
+"Si lanzas una moneda imparcial tres veces, ¿cuál es la probabilidad de que salga cara las tres veces?",Spanish,1/8
+Why does the sky appear blue during the day?,English,"Because the atmosphere scatters shorter (blue) wavelengths of sunlight more than longer wavelengths, a phenomenon called Rayleigh scattering."
+¿Por qué el cielo parece azul durante el día?,Spanish,"Dado que la atmósfera dispersa las longitudes de onda más cortas (azules) de la luz solar en mayor medida que las longitudes de onda más largas, un fenómeno conocido como dispersión de Rayleigh."
+Why do objects fall at the same rate in a vacuum regardless of mass?,English,"Gravitational acceleration acts equally on all masses; without air resistance, every object experiences the same acceleration (g ≈ 9.8 m/s²)."
+"¿Por qué los objetos caen a la misma velocidad en el vacío, independientemente de su masa?",Spanish,"La aceleración gravitatoria actúa por igual sobre todas las masas; sin resistencia del aire, todos los objetos experimentan la misma aceleración (g ≈ 9,8 m/s²)."
+Why does ice float on water?,English,"Water expands when it freezes, making ice less dense than liquid water, so it floats."
+¿Por qué flota el hielo en el agua?,Spanish,"El agua se expande al congelarse, por lo que el hielo es menos denso que el agua líquida y, por eso, flota."
+What causes a lunar eclipse?,English,"Earth passes directly between the Sun and the Moon, casting its shadow onto the Moon."
+¿Qué provoca un eclipse lunar?,Spanish,"La Tierra pasa directamente entre el Sol y la Luna, proyectando su sombra sobre esta."
+Why do we see lightning before we hear thunder?,English,"Light travels much faster than sound (~3 × 10⁸ m/s vs. ~343 m/s), so the flash reaches us almost instantly while the sound takes longer."
+¿Por qué vemos el relámpago antes de oír el trueno?,Spanish,"La luz viaja mucho más rápido que el sonido (aprox. 3 × 10⁸ m/s frente a aprox. 343 m/s), por lo que el destello nos llega casi al instante, mientras que el sonido tarda más en llegar."
+What is the purpose of white blood cells?,English,"They are the body's primary immune defense, identifying and destroying pathogens, foreign substances, and abnormal cells."
+¿Cuál es la función de los glóbulos blancos?,Spanish,"Son la principal línea de defensa inmunitaria del organismo, ya que identifican y destruyen patógenos, sustancias extrañas y células anormales."
+Why does a compass needle point north?,English,"Earth's core generates a magnetic field; the magnetized needle aligns with this field, with its north-seeking pole pointing toward Earth's magnetic north pole."
+¿Por qué la aguja de una brújula apunta al norte?,Spanish,"El núcleo de la Tierra genera un campo magnético; la aguja imantada se alinea con este campo, de modo que su polo norte apunta hacia el polo norte magnético de la Tierra."
+What causes the phases of the Moon?,English,"As the Moon orbits Earth, different portions of its sunlit half are visible from Earth, creating the apparent cycle of phases."
+¿Qué provoca las fases de la Luna?,Spanish,"A medida que la Luna orbita alrededor de la Tierra, desde la Tierra se pueden ver diferentes partes de su cara iluminada por el Sol, lo que da lugar al ciclo aparente de las fases."
+Why do metals conduct electricity?,English,Metals have free (delocalized) electrons in their outer shells that can move easily through the material when a voltage is applied.
+¿Por qué los metales conducen la electricidad?,Spanish,Los metales tienen electrones libres (deslocalizados) en sus capas externas que pueden desplazarse fácilmente por el material cuando se les aplica una tensión.
+Why does boiling water stay at 100°C even with continued heating (at standard pressure)?,English,"The added energy is used as latent heat of vaporization to convert liquid to gas, not to raise the temperature."
+¿Por qué el agua hirviendo se mantiene a 100 °C incluso se sigue calentando (a presión normal)?,Spanish,"La energía aportada se utiliza como calor latente de vaporización para convertir el líquido en gas, no para elevar la temperatura."
+What is natural selection?,English,"The process by which organisms with traits better suited to their environment survive and reproduce at higher rates, passing those traits to offspring over generations."
+¿Qué es la selección natural?,Spanish,"El proceso por el cual los organismos con rasgos mejor adaptados a su entorno sobreviven y se reproducen a un ritmo mayor, transmitiendo esos rasgos a sus descendientes a lo largo de las generaciones."
+Why does a swimming pool appear shallower than it actually is?,English,"Light bends (refracts) as it passes from water into air because the two media have different optical densities. This bending changes the apparent angle at which the light reaches the observer's eye, making the bottom appear closer to the surface than it really is."
+¿Por qué una piscina parece menos profunda de lo que realmente es?,Spanish,"La luz se desvía (se refracta) al pasar del agua al aire porque ambos medios tienen densidades ópticas diferentes. Esta desviación modifica el ángulo aparente con el que la luz llega al ojo del observador, lo que hace que el fondo parezca más cercano a la superficie de lo que realmente está."
+Why do we have seasons on Earth?,English,"Earth's axis is tilted ~23.5° relative to its orbital plane, so different hemispheres receive more direct sunlight at different points in Earth's orbit."
+¿Por qué hay estaciones en la Tierra?,Spanish,"El eje de la Tierra está inclinado unos 23,5° con respecto a su plano orbital, por lo que los distintos hemisferios reciben más luz solar directa en diferentes puntos de la órbita terrestre."
+What is the difference between fission and fusion?,English,"Fission splits a heavy atomic nucleus into smaller ones, releasing energy; fusion joins two light nuclei into a heavier one, also releasing energy."
+¿Cuál es la diferencia entre la fisión y la fusión?,Spanish,"La fisión divide un núcleo atómico pesado en otros más pequeños, liberando energía; la fusión une dos núcleos ligeros para formar uno más pesado, liberando también energía."
+Why does adding salt lower the freezing point of water?,English,"Dissolved salt disrupts the formation of the ordered crystal lattice of ice, requiring a lower temperature to freeze — a phenomenon called freezing point depression."
+¿Por qué al añadir sal se reduce el punto de congelación del agua?,Spanish,"La sal disuelta altera la formación de la red cristalina ordenada del hielo, por lo que se necesita una temperatura más baja para que se congele, un fenómeno conocido como descenso del punto de congelación."
+What is the difference between DNA and RNA?,English,DNA (deoxyribonucleic acid) stores genetic information long-term and is double-stranded; RNA (ribonucleic acid) is typically single-stranded and carries genetic instructions from DNA to ribosomes for protein synthesis.
+¿Cuál es la diferencia entre el ADN y el ARN?,Spanish,El ADN (ácido desoxirribonucleico) almacena la información genética a largo plazo y es de doble cadena; el ARN (ácido ribonucleico) suele ser de cadena simple y transmite las instrucciones genéticas del ADN a los ribosomas para la síntesis de proteínas.
+Why does blowing over the top of an open bottle produce a sound?,English,"The airstream passes over the bottle's opening and creates rapid fluctuations in air pressure inside the bottle. This sets the air column within the bottle into resonant vibration at a frequency determined by the bottle's volume and the size of the opening, producing an audible tone."
+¿Por qué se oye un sonido al soplar por la boca de una botella abierta?,Spanish,"La corriente de aire pasa por la boca de la botella y provoca rápidas fluctuaciones en la presión del aire en su interior. Esto hace que la columna de aire de la botella entre en vibración resonante a una frecuencia determinada por el volumen de la botella y el tamaño de la boca, lo que produce un sonido audible."
+What is the difference between speed and velocity?,English,"Speed is a scalar quantity (magnitude only), while velocity is a vector quantity that includes both magnitude and direction."
+¿Cuál es la diferencia entre rapidez y velocidad?,Spanish,"La rapidez es una magnitud escalar (solo tiene magnitud), mientras que la velocidad es una magnitud vectorial que incluye tanto la magnitud como la dirección."
+Why is carbon so central to life on Earth?,English,"Carbon can form four covalent bonds, allowing it to build stable, complex, and diverse molecular structures (chains, rings, branches) that form the backbone of biological molecules."
+¿Por qué el carbono es tan fundamental para la vida en la Tierra?,Spanish,"El carbono puede formar cuatro enlaces covalentes, lo que le permite construir estructuras moleculares estables, complejas y diversas (cadenas, anillos, ramificaciones) que constituyen la estructura básica de las moléculas biológicas."
+What causes a rainbow?,English,"Sunlight enters water droplets, refracts, reflects off the inside surface, and refracts again on exit — separating white light into its component wavelengths (colors) at slightly different angles."
+¿Qué provoca la aparición de un arcoíris?,Spanish,"La luz solar penetra en las gotas de agua, se refracta, se refleja en la superficie interior y se refracta de nuevo al salir, separando la luz blanca en sus longitudes de onda componentes (colores) en ángulos ligeramente diferentes."
+Why does the surface of a liquid in a container curve at the edges (meniscus)?,English,"Adhesive forces between the liquid and the container wall compete with cohesive forces within the liquid itself; when adhesion is stronger (e.g., water in glass), the liquid curves upward at the edges."
+¿Por qué se curva la superficie de un líquido en un recipiente por los bordes (menisco)?,Spanish,"Las fuerzas de adhesión entre el líquido y la pared del recipiente compiten con las fuerzas de cohesión dentro del propio líquido; cuando la adhesión es mayor (por ejemplo, el agua en un vaso), el líquido se arquea hacia arriba en los bordes."

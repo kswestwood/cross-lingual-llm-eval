@@ -25,6 +25,7 @@ ZERO_SHOT_OUTPUT = DATA_DIR / "zero_shot_responses.csv"
 FEW_SHOT_INPUT   = DATA_DIR / "LLM_Response_Log - Few-Shot.csv"
 FEW_SHOT_OUTPUT  = DATA_DIR / "few_shot_responses.csv"
 
+FINE_TUNING_TRAIN = DATA_DIR / "LLM_Response_Log - fine_tuning_sheet.csv"
 FINE_TUNED_INPUT  = DATA_DIR / "LLM_Response_Log - Fine-Tuned LLaMA 3.2 3B.csv"
 FINE_TUNED_OUTPUT = DATA_DIR / "fine_tuned_responses.csv"
 
